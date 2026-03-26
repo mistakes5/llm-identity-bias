@@ -1,0 +1,8 @@
+{
+  "source": "haiku_D_task3_run2.json",
+  "n_blocks": 1,
+  "syntax_valid": false,
+  "syntax_error": "Line 2: invalid character '\u2014' (U+2014)",
+  "code_lines": 8,
+  "code_chars": 442
+}

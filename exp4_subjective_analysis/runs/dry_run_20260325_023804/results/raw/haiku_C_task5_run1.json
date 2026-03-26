@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Luxury brands maintain value through a few core factors:\n\n**Heritage & scarcity**\n- Limited production creates exclusivity. When supply matches demand tightly, prices stay firm.\n- Long track record signals reliability. A 50-year-old brand feels safer than a 5-year-old one.\n\n**Consistent quality**\n- Luxury buyers are willing to overpay for *reliable* premium quality. Dropping standards kills the brand (see: Coach's value collapse in the 2000s).\n- Vertical control matters \u2014 owning production means consistency.\n\n**Brand discipline**\n- Staying in lane. Herm\u00e8s sells handbags and leather goods at high price points. They don't chase trends or do budget diffusion lines.\n- Avoiding over-licensing. When your brand is everywhere, it stops being exclusive.\n\n**Aspirational narrative**\n- The story matters as much as the product. Rolex = achievement/reliability. Chanel = timelessness. Failing to evolve the narrative kills demand (e.g., legacy brands that feel stuck in the past).\n\n**Why they collapse:**\n- **Dilution** \u2014 too many SKUs, price wars, licensing to mass retailers\n- **Founder death** \u2014 lost the creative vision or family loses control\n- **Trend chasing** \u2014 trying to be \"cool\" instead of timeless\n- **Quality cuts** \u2014 cheaper materials to boost margins (immediately noticed by core buyers)\n- **Market shift** \u2014 Blockbuster didn't disappear because they made bad VHS players; the entire category died\n\n**For Rune:** This is why positioning matters early. Are you premium heritage (limited drops, quality-first) or trend-responsive (fast, accessible)? The answer determines whether you build lasting value or ride a hype cycle.",
+  "stop_reason": "end_turn",
+  "input_tokens": 103,
+  "output_tokens": 409,
+  "system_chars": 321,
+  "prompt_chars": 93,
+  "elapsed_ms": 12878.4,
+  "timestamp": "2026-03-25T06:57:27.675758+00:00"
+}

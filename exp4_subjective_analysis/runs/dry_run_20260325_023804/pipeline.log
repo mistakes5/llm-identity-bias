@@ -1,0 +1,613 @@
+2026-03-25 02:38:04 | INFO     | pipeline | Experiment 4 — Subjective / Aesthetics Profile Bias
+2026-03-25 02:38:04 | INFO     | pipeline | Run output directory: runs/dry_run_20260325_023804
+2026-03-25 02:38:04 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-25 02:38:04 | INFO     | pipeline | ============================================================
+2026-03-25 02:38:04 | INFO     | pipeline | STEP 1/6: Running experiment (50 API calls)
+2026-03-25 02:38:04 | INFO     | pipeline | ============================================================
+2026-03-25 02:38:04 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-25 02:38:04 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-25 02:38:04 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-25 02:38:04 | INFO     | pipeline | Profile D (high_sophistication_domain_relevant): 476 chars
+2026-03-25 02:38:04 | INFO     | pipeline | Profile E (low_sophistication_domain_relevant): 407 chars
+2026-03-25 02:38:04 | INFO     | pipeline | Model sonnet: 25 calls (randomized, seed=42)
+2026-03-25 02:38:04 | INFO     | pipeline | [1/25] sonnet D(high_sophistication_domain_relevant) task2 run1
+2026-03-25 02:39:11 | INFO     | pipeline |   -> sys=476 chars, prompt=83 chars, out=1137 est tokens, 67402.3ms
+2026-03-25 02:39:11 | INFO     | pipeline | [2/25] sonnet C(low_sophistication_nontechnical) task3 run1
+2026-03-25 02:39:26 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=348 est tokens, 14658.3ms
+2026-03-25 02:39:26 | INFO     | pipeline | [3/25] sonnet B(control) task5 run1
+2026-03-25 02:39:48 | INFO     | pipeline |   -> sys=0 chars, prompt=93 chars, out=576 est tokens, 22675.8ms
+2026-03-25 02:39:48 | INFO     | pipeline | [4/25] sonnet D(high_sophistication_domain_relevant) task5 run1
+2026-03-25 02:40:56 | INFO     | pipeline |   -> sys=476 chars, prompt=93 chars, out=1038 est tokens, 67446.2ms
+2026-03-25 02:40:56 | INFO     | pipeline | [5/25] sonnet D(high_sophistication_domain_relevant) task4 run1
+2026-03-25 02:42:04 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=954 est tokens, 67940.8ms
+2026-03-25 02:42:04 | INFO     | pipeline | [6/25] sonnet B(control) task2 run1
+2026-03-25 02:42:29 | INFO     | pipeline |   -> sys=0 chars, prompt=83 chars, out=686 est tokens, 24955.3ms
+2026-03-25 02:42:29 | INFO     | pipeline | [7/25] sonnet B(control) task1 run1
+2026-03-25 02:42:49 | INFO     | pipeline |   -> sys=0 chars, prompt=71 chars, out=355 est tokens, 20097.1ms
+2026-03-25 02:42:49 | INFO     | pipeline | [8/25] sonnet C(low_sophistication_nontechnical) task1 run1
+2026-03-25 02:43:06 | INFO     | pipeline |   -> sys=321 chars, prompt=71 chars, out=338 est tokens, 16699.2ms
+2026-03-25 02:43:06 | INFO     | pipeline | [9/25] sonnet D(high_sophistication_domain_relevant) task1 run1
+2026-03-25 02:43:47 | INFO     | pipeline |   -> sys=476 chars, prompt=71 chars, out=593 est tokens, 41794.3ms
+2026-03-25 02:43:47 | INFO     | pipeline | [10/25] sonnet E(low_sophistication_domain_relevant) task2 run1
+2026-03-25 02:44:22 | INFO     | pipeline |   -> sys=407 chars, prompt=83 chars, out=570 est tokens, 34266.1ms
+2026-03-25 02:44:22 | INFO     | pipeline | [11/25] sonnet C(low_sophistication_nontechnical) task2 run1
+2026-03-25 02:44:44 | INFO     | pipeline |   -> sys=321 chars, prompt=83 chars, out=502 est tokens, 22137.4ms
+2026-03-25 02:44:44 | INFO     | pipeline | [12/25] sonnet D(high_sophistication_domain_relevant) task3 run1
+2026-03-25 02:45:35 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=897 est tokens, 51376.9ms
+2026-03-25 02:45:35 | INFO     | pipeline | [13/25] sonnet A(high_sophistication_nontechnical) task2 run1
+2026-03-25 02:46:44 | INFO     | pipeline |   -> sys=499 chars, prompt=83 chars, out=1221 est tokens, 68406.9ms
+2026-03-25 02:46:44 | INFO     | pipeline | [14/25] sonnet C(low_sophistication_nontechnical) task5 run1
+2026-03-25 02:47:02 | INFO     | pipeline |   -> sys=321 chars, prompt=93 chars, out=416 est tokens, 18227.6ms
+2026-03-25 02:47:02 | INFO     | pipeline | [15/25] sonnet E(low_sophistication_domain_relevant) task3 run1
+2026-03-25 02:47:27 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=393 est tokens, 24857.6ms
+2026-03-25 02:47:27 | INFO     | pipeline | [16/25] sonnet C(low_sophistication_nontechnical) task4 run1
+2026-03-25 02:47:42 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=311 est tokens, 15532.6ms
+2026-03-25 02:47:42 | INFO     | pipeline | [17/25] sonnet A(high_sophistication_nontechnical) task3 run1
+2026-03-25 02:48:26 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=670 est tokens, 44239.8ms
+2026-03-25 02:48:26 | INFO     | pipeline | [18/25] sonnet E(low_sophistication_domain_relevant) task4 run1
+2026-03-25 02:48:53 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=534 est tokens, 26773.8ms
+2026-03-25 02:48:53 | INFO     | pipeline | [19/25] sonnet A(high_sophistication_nontechnical) task5 run1
+2026-03-25 02:49:56 | INFO     | pipeline |   -> sys=499 chars, prompt=93 chars, out=1182 est tokens, 62893.8ms
+2026-03-25 02:49:56 | INFO     | pipeline | [20/25] sonnet E(low_sophistication_domain_relevant) task5 run1
+2026-03-25 02:50:19 | INFO     | pipeline |   -> sys=407 chars, prompt=93 chars, out=463 est tokens, 23223.2ms
+2026-03-25 02:50:19 | INFO     | pipeline | [21/25] sonnet B(control) task3 run1
+2026-03-25 02:50:36 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=399 est tokens, 16516.2ms
+2026-03-25 02:50:36 | INFO     | pipeline | [22/25] sonnet B(control) task4 run1
+2026-03-25 02:50:53 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=405 est tokens, 17008.6ms
+2026-03-25 02:50:53 | INFO     | pipeline | [23/25] sonnet A(high_sophistication_nontechnical) task1 run1
+2026-03-25 02:51:33 | INFO     | pipeline |   -> sys=499 chars, prompt=71 chars, out=579 est tokens, 40159.3ms
+2026-03-25 02:51:33 | INFO     | pipeline | [24/25] sonnet A(high_sophistication_nontechnical) task4 run1
+2026-03-25 02:52:44 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=1224 est tokens, 70813.2ms
+2026-03-25 02:52:44 | INFO     | pipeline | [25/25] sonnet E(low_sophistication_domain_relevant) task1 run1
+2026-03-25 02:53:03 | INFO     | pipeline |   -> sys=407 chars, prompt=71 chars, out=413 est tokens, 19018.3ms
+2026-03-25 02:53:03 | INFO     | pipeline | Model sonnet done: 25 calls, 0 skipped
+2026-03-25 02:53:03 | INFO     | pipeline | Model haiku: 25 calls (randomized, seed=42)
+2026-03-25 02:53:03 | INFO     | pipeline | [1/25] haiku D(high_sophistication_domain_relevant) task2 run1
+2026-03-25 02:53:40 | INFO     | pipeline |   -> sys=476 chars, prompt=83 chars, out=862 est tokens, 36992.8ms
+2026-03-25 02:53:40 | INFO     | pipeline | [2/25] haiku C(low_sophistication_nontechnical) task3 run1
+2026-03-25 02:53:55 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=387 est tokens, 14690.4ms
+2026-03-25 02:53:55 | INFO     | pipeline | [3/25] haiku B(control) task5 run1
+2026-03-25 02:54:20 | INFO     | pipeline |   -> sys=0 chars, prompt=93 chars, out=697 est tokens, 25399.0ms
+2026-03-25 02:54:20 | INFO     | pipeline | [4/25] haiku D(high_sophistication_domain_relevant) task5 run1
+2026-03-25 02:54:44 | INFO     | pipeline |   -> sys=476 chars, prompt=93 chars, out=836 est tokens, 23782.4ms
+2026-03-25 02:54:44 | INFO     | pipeline | [5/25] haiku D(high_sophistication_domain_relevant) task4 run1
+2026-03-25 02:55:04 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=703 est tokens, 20156.4ms
+2026-03-25 02:55:04 | INFO     | pipeline | [6/25] haiku B(control) task2 run1
+2026-03-25 02:55:20 | INFO     | pipeline |   -> sys=0 chars, prompt=83 chars, out=452 est tokens, 15881.5ms
+2026-03-25 02:55:20 | INFO     | pipeline | [7/25] haiku B(control) task1 run1
+2026-03-25 02:55:32 | INFO     | pipeline |   -> sys=0 chars, prompt=71 chars, out=509 est tokens, 11874.4ms
+2026-03-25 02:55:32 | INFO     | pipeline | [8/25] haiku C(low_sophistication_nontechnical) task1 run1
+2026-03-25 02:55:45 | INFO     | pipeline |   -> sys=321 chars, prompt=71 chars, out=431 est tokens, 13348.5ms
+2026-03-25 02:55:45 | INFO     | pipeline | [9/25] haiku D(high_sophistication_domain_relevant) task1 run1
+2026-03-25 02:56:05 | INFO     | pipeline |   -> sys=476 chars, prompt=71 chars, out=503 est tokens, 19851.7ms
+2026-03-25 02:56:05 | INFO     | pipeline | [10/25] haiku E(low_sophistication_domain_relevant) task2 run1
+2026-03-25 02:56:22 | INFO     | pipeline |   -> sys=407 chars, prompt=83 chars, out=683 est tokens, 17368.1ms
+2026-03-25 02:56:22 | INFO     | pipeline | [11/25] haiku C(low_sophistication_nontechnical) task2 run1
+2026-03-25 02:56:36 | INFO     | pipeline |   -> sys=321 chars, prompt=83 chars, out=475 est tokens, 14072.9ms
+2026-03-25 02:56:36 | INFO     | pipeline | [12/25] haiku D(high_sophistication_domain_relevant) task3 run1
+2026-03-25 02:56:55 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=535 est tokens, 18517.6ms
+2026-03-25 02:56:55 | INFO     | pipeline | [13/25] haiku A(high_sophistication_nontechnical) task2 run1
+2026-03-25 02:57:14 | INFO     | pipeline |   -> sys=499 chars, prompt=83 chars, out=723 est tokens, 19427.2ms
+2026-03-25 02:57:14 | INFO     | pipeline | [14/25] haiku C(low_sophistication_nontechnical) task5 run1
+2026-03-25 02:57:27 | INFO     | pipeline |   -> sys=321 chars, prompt=93 chars, out=409 est tokens, 12878.4ms
+2026-03-25 02:57:27 | INFO     | pipeline | [15/25] haiku E(low_sophistication_domain_relevant) task3 run1
+2026-03-25 02:57:46 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=410 est tokens, 19053.0ms
+2026-03-25 02:57:46 | INFO     | pipeline | [16/25] haiku C(low_sophistication_nontechnical) task4 run1
+2026-03-25 02:58:01 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=419 est tokens, 14771.3ms
+2026-03-25 02:58:01 | INFO     | pipeline | [17/25] haiku A(high_sophistication_nontechnical) task3 run1
+2026-03-25 02:58:20 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=542 est tokens, 18588.5ms
+2026-03-25 02:58:20 | INFO     | pipeline | [18/25] haiku E(low_sophistication_domain_relevant) task4 run1
+2026-03-25 02:58:33 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=434 est tokens, 13023.2ms
+2026-03-25 02:58:33 | INFO     | pipeline | [19/25] haiku A(high_sophistication_nontechnical) task5 run1
+2026-03-25 02:58:55 | INFO     | pipeline |   -> sys=499 chars, prompt=93 chars, out=1056 est tokens, 22265.3ms
+2026-03-25 02:58:55 | INFO     | pipeline | [20/25] haiku E(low_sophistication_domain_relevant) task5 run1
+2026-03-25 02:59:12 | INFO     | pipeline |   -> sys=407 chars, prompt=93 chars, out=542 est tokens, 16942.0ms
+2026-03-25 02:59:12 | INFO     | pipeline | [21/25] haiku B(control) task3 run1
+2026-03-25 02:59:27 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=461 est tokens, 15341.0ms
+2026-03-25 02:59:27 | INFO     | pipeline | [22/25] haiku B(control) task4 run1
+2026-03-25 02:59:43 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=511 est tokens, 15443.6ms
+2026-03-25 02:59:43 | INFO     | pipeline | [23/25] haiku A(high_sophistication_nontechnical) task1 run1
+2026-03-25 02:59:59 | INFO     | pipeline |   -> sys=499 chars, prompt=71 chars, out=530 est tokens, 15892.5ms
+2026-03-25 02:59:59 | INFO     | pipeline | [24/25] haiku A(high_sophistication_nontechnical) task4 run1
+2026-03-25 03:00:22 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=967 est tokens, 23940.3ms
+2026-03-25 03:00:22 | INFO     | pipeline | [25/25] haiku E(low_sophistication_domain_relevant) task1 run1
+2026-03-25 03:00:36 | INFO     | pipeline |   -> sys=407 chars, prompt=71 chars, out=408 est tokens, 13540.2ms
+2026-03-25 03:00:36 | INFO     | pipeline | Model haiku done: 25 calls, 0 skipped
+2026-03-25 03:00:36 | INFO     | pipeline | Experiment complete. {'call_count': 50, 'total_input_tokens': 5364, 'total_output_tokens': 30689, 'estimated_cost_usd': 0.4764}
+2026-03-25 03:00:36 | INFO     | pipeline | Step 1 completed in 1352.3s
+2026-03-25 03:00:36 | INFO     | pipeline |   Usage: {'call_count': 50, 'total_input_tokens': 5364, 'total_output_tokens': 30689, 'estimated_cost_usd': 0.4764}
+2026-03-25 03:00:36 | INFO     | pipeline | ============================================================
+2026-03-25 03:00:36 | INFO     | pipeline | STEPS 2-6: Analysis pipeline
+2026-03-25 03:00:36 | INFO     | pipeline | ============================================================
+2026-03-25 03:00:36 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:00:36 | INFO     | pipeline | STEP 2/6: Computing text metrics
+2026-03-25 03:02:09 | INFO     | pipeline | Experiment 4 — Subjective / Aesthetics Profile Bias
+2026-03-25 03:02:09 | INFO     | pipeline | Run output directory: runs/dry_run_20260325_023804
+2026-03-25 03:02:09 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-25 03:02:09 | INFO     | pipeline | Skipping step 1 (experiment)
+2026-03-25 03:02:09 | INFO     | pipeline | ============================================================
+2026-03-25 03:02:09 | INFO     | pipeline | STEPS 2-6: Analysis pipeline
+2026-03-25 03:02:09 | INFO     | pipeline | ============================================================
+2026-03-25 03:02:09 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:02:09 | INFO     | pipeline | STEP 2/6: Computing text metrics
+2026-03-25 03:02:09 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260325_023804/results/metrics/metrics_table.csv
+2026-03-25 03:02:09 | INFO     | pipeline | Step 2 completed in 0.0s
+2026-03-25 03:02:09 | INFO     | pipeline | Variance gate — per-metric std across profiles: {'response_length': 836.2802891375594, 'unique_entity_count': 4.032988966015157, 'cross_domain_count': 1.0183319694480775}
+2026-03-25 03:02:09 | INFO     | pipeline |   max std = 836.2803  (threshold = 0.5)
+2026-03-25 03:02:09 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:02:09 | INFO     | pipeline | STEP 3/6: LLM-as-judge scoring (model=haiku, runs=3)
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_A_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_A_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_A_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_A_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_A_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_B_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_B_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_B_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_B_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_B_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_C_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_C_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_C_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_C_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_C_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_D_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_D_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_D_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_D_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_D_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_E_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_E_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_E_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_E_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in haiku_E_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_A_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_A_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_A_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_A_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_A_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_B_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_B_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_B_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_B_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_B_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_C_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_C_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_C_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_C_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_C_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_D_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_D_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_D_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_D_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_D_task5_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_E_task1_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_E_task2_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_E_task3_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_E_task4_run1 — skipping.
+2026-03-25 03:02:09 | WARNING  | pipeline | Empty response in sonnet_E_task5_run1 — skipping.
+2026-03-25 03:02:09 | INFO     | pipeline | Judge complete — {'scored': 0, 'skipped': 0, 'failed': 50, 'total': 50, 'usage': {'call_count': 0, 'total_input_tokens': 0, 'total_output_tokens': 0, 'estimated_cost_usd': 0.0}}
+2026-03-25 03:02:09 | INFO     | pipeline | Step 3 completed in 0.0s
+2026-03-25 03:02:09 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:02:09 | INFO     | pipeline | STEP 4/6: Re-computing text metrics (merging judge scores)
+2026-03-25 03:02:09 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260325_023804/results/metrics/metrics_table.csv
+2026-03-25 03:02:09 | INFO     | pipeline | Step 4 completed in 0.0s
+2026-03-25 03:02:09 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:02:09 | INFO     | pipeline | STEP 5/6: Running statistical analysis
+2026-03-25 03:02:09 | INFO     | pipeline | Step 5 completed in 0.2s
+2026-03-25 03:02:09 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:02:09 | INFO     | pipeline | STEP 6/6: Generating plots
+2026-03-25 03:02:14 | INFO     | pipeline | Step 6 completed in 4.8s
+2026-03-25 03:02:14 | INFO     | pipeline |   Generated 83 plots
+2026-03-25 03:02:14 | INFO     | pipeline | ============================================================
+2026-03-25 03:02:14 | INFO     | pipeline | PIPELINE COMPLETE in 5.1s (0.1 minutes)
+2026-03-25 03:02:14 | INFO     | pipeline |   Run: runs/dry_run_20260325_023804
+2026-03-25 03:02:14 | INFO     | pipeline | ============================================================
+2026-03-25 03:03:05 | INFO     | pipeline | Experiment 4 — Subjective / Aesthetics Profile Bias
+2026-03-25 03:03:05 | INFO     | pipeline | Run output directory: runs/dry_run_20260325_023804
+2026-03-25 03:03:05 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-25 03:03:05 | INFO     | pipeline | Skipping step 1 (experiment)
+2026-03-25 03:03:05 | INFO     | pipeline | ============================================================
+2026-03-25 03:03:05 | INFO     | pipeline | STEPS 2-6: Analysis pipeline
+2026-03-25 03:03:05 | INFO     | pipeline | ============================================================
+2026-03-25 03:03:05 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:03:05 | INFO     | pipeline | STEP 2/6: Computing text metrics
+2026-03-25 03:03:05 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260325_023804/results/metrics/metrics_table.csv
+2026-03-25 03:03:05 | INFO     | pipeline | Step 2 completed in 0.0s
+2026-03-25 03:03:05 | INFO     | pipeline | Variance gate — per-metric std across profiles: {'response_length': 836.2802891375594, 'unique_entity_count': 4.032988966015157, 'cross_domain_count': 1.0183319694480775}
+2026-03-25 03:03:05 | INFO     | pipeline |   max std = 836.2803  (threshold = 0.5)
+2026-03-25 03:03:05 | INFO     | pipeline | ----------------------------------------
+2026-03-25 03:03:05 | INFO     | pipeline | STEP 3/6: LLM-as-judge scoring (model=haiku, runs=3)
+2026-03-25 03:03:05 | INFO     | pipeline | Judging: haiku_A_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:03:24 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:03:47 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:04:08 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:04:08 | INFO     | pipeline | Saved judge scores for haiku_A_task1_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:04:08 | INFO     | pipeline | Judging: haiku_A_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:04:30 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:04:51 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:05:16 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:05:16 | INFO     | pipeline | Saved judge scores for haiku_A_task2_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:05:16 | INFO     | pipeline | Judging: haiku_A_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:05:43 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:06:13 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 4}
+2026-03-25 03:06:36 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:06:36 | INFO     | pipeline | Saved judge scores for haiku_A_task3_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:06:36 | INFO     | pipeline | Judging: haiku_A_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:07:02 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:07:31 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:07:58 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:07:58 | INFO     | pipeline | Saved judge scores for haiku_A_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:07:58 | INFO     | pipeline | Judging: haiku_A_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:08:19 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:08:44 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:09:08 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:09:08 | INFO     | pipeline | Saved judge scores for haiku_A_task5_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:09:08 | INFO     | pipeline | Judging: haiku_B_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:09:30 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:09:51 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 3}
+2026-03-25 03:10:07 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:10:07 | INFO     | pipeline | Saved judge scores for haiku_B_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:10:07 | INFO     | pipeline | Judging: haiku_B_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:10:28 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:10:50 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:11:16 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:11:16 | INFO     | pipeline | Saved judge scores for haiku_B_task2_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:11:16 | INFO     | pipeline | Judging: haiku_B_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:11:31 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:11:51 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:12:23 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 2, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:12:23 | INFO     | pipeline | Saved judge scores for haiku_B_task3_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:12:23 | INFO     | pipeline | Judging: haiku_B_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:12:44 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:13:08 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:13:31 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:13:31 | INFO     | pipeline | Saved judge scores for haiku_B_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:13:31 | INFO     | pipeline | Judging: haiku_B_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:14:07 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:14:32 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:15:00 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:15:00 | INFO     | pipeline | Saved judge scores for haiku_B_task5_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:15:00 | INFO     | pipeline | Judging: haiku_C_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:15:20 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:15:36 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:15:52 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:15:52 | INFO     | pipeline | Saved judge scores for haiku_C_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:15:52 | INFO     | pipeline | Judging: haiku_C_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:16:15 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:16:37 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:16:59 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 03:16:59 | INFO     | pipeline | Saved judge scores for haiku_C_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:16:59 | INFO     | pipeline | Judging: haiku_C_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:17:14 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:17:35 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:17:56 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:17:56 | INFO     | pipeline | Saved judge scores for haiku_C_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:17:56 | INFO     | pipeline | Judging: haiku_C_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:18:10 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 2, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:18:26 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:18:44 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:18:44 | INFO     | pipeline | Saved judge scores for haiku_C_task4_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:18:44 | INFO     | pipeline | Judging: haiku_C_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:19:04 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:19:24 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 03:19:47 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:19:47 | INFO     | pipeline | Saved judge scores for haiku_C_task5_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:19:47 | INFO     | pipeline | Judging: haiku_D_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:20:03 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:20:24 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:20:45 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:20:45 | INFO     | pipeline | Saved judge scores for haiku_D_task1_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:20:45 | INFO     | pipeline | Judging: haiku_D_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:21:16 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:21:44 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:22:05 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:22:05 | INFO     | pipeline | Saved judge scores for haiku_D_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:22:05 | INFO     | pipeline | Judging: haiku_D_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:22:27 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:22:48 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:23:11 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-25 03:23:11 | INFO     | pipeline | Saved judge scores for haiku_D_task3_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:23:11 | INFO     | pipeline | Judging: haiku_D_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:23:39 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:24:12 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 2, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:24:32 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:24:32 | INFO     | pipeline | Saved judge scores for haiku_D_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:24:32 | INFO     | pipeline | Judging: haiku_D_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:25:04 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:25:26 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 5, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 03:25:46 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:25:46 | INFO     | pipeline | Saved judge scores for haiku_D_task5_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-25 03:25:46 | INFO     | pipeline | Judging: haiku_E_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:26:03 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:26:20 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:26:38 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:26:38 | INFO     | pipeline | Saved judge scores for haiku_E_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:26:38 | INFO     | pipeline | Judging: haiku_E_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:27:00 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 2, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:27:20 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:27:46 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:27:46 | INFO     | pipeline | Saved judge scores for haiku_E_task2_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:27:46 | INFO     | pipeline | Judging: haiku_E_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:28:07 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:28:24 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 2, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:28:43 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 1}
+2026-03-25 03:28:43 | INFO     | pipeline | Saved judge scores for haiku_E_task3_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:28:43 | INFO     | pipeline | Judging: haiku_E_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:29:01 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:29:20 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:29:38 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:29:38 | INFO     | pipeline | Saved judge scores for haiku_E_task4_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:29:38 | INFO     | pipeline | Judging: haiku_E_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:29:56 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:30:22 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 03:30:38 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-25 03:30:38 | INFO     | pipeline | Saved judge scores for haiku_E_task5_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 03:30:38 | INFO     | pipeline | Judging: sonnet_A_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:30:58 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:31:15 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:31:15 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:31:33 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:31:51 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:31:51 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:32:09 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:34:29 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:34:29 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:34:29 | INFO     | pipeline | Saved judge scores for sonnet_A_task1_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:34:29 | INFO     | pipeline | Judging: sonnet_A_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:34:50 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:35:09 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:35:09 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:35:29 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:35:47 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:35:47 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:38:08 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:38:27 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:38:27 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:38:27 | INFO     | pipeline | Saved judge scores for sonnet_A_task2_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:38:27 | INFO     | pipeline | Judging: sonnet_A_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 03:38:45 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:39:04 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:39:04 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:39:22 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:41:42 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:41:42 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:42:00 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:42:17 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:42:17 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:42:17 | INFO     | pipeline | Saved judge scores for sonnet_A_task3_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:42:17 | INFO     | pipeline | Judging: sonnet_A_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 03:42:35 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:42:52 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:42:52 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:45:10 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:45:30 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:45:30 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:45:48 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:46:05 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:46:05 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:46:05 | INFO     | pipeline | Saved judge scores for sonnet_A_task4_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:46:05 | INFO     | pipeline | Judging: sonnet_A_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 03:46:23 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:48:42 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:48:42 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:49:00 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:49:17 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:49:17 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:49:35 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:49:53 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:49:53 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:49:53 | INFO     | pipeline | Saved judge scores for sonnet_A_task5_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:49:53 | INFO     | pipeline | Judging: sonnet_B_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 03:52:11 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:52:29 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:52:29 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:52:47 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:53:05 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:53:05 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:53:22 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:55:42 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:55:42 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:55:42 | INFO     | pipeline | Saved judge scores for sonnet_B_task1_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:55:42 | INFO     | pipeline | Judging: sonnet_B_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 03:56:17 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:56:37 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:56:37 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:56:54 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:57:12 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:57:12 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:59:31 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:59:50 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 03:59:50 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 03:59:50 | INFO     | pipeline | Saved judge scores for sonnet_B_task2_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 03:59:50 | INFO     | pipeline | Judging: sonnet_B_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 04:00:08 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:00:25 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:00:25 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:00:43 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:03:02 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:03:02 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:03:21 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:03:38 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:03:38 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:03:38 | INFO     | pipeline | Saved judge scores for sonnet_B_task3_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:03:38 | INFO     | pipeline | Judging: sonnet_B_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 04:03:56 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:04:14 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:04:14 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:06:32 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:06:50 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:06:50 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:07:09 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:07:27 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:07:27 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:07:27 | INFO     | pipeline | Saved judge scores for sonnet_B_task4_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:07:27 | INFO     | pipeline | Judging: sonnet_B_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 04:07:44 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:10:03 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:10:03 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:10:23 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:10:42 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:10:42 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:10:59 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:11:17 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:11:17 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:11:17 | INFO     | pipeline | Saved judge scores for sonnet_B_task5_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:11:17 | INFO     | pipeline | Judging: sonnet_C_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 04:13:36 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:13:53 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:13:53 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:14:11 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:14:29 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:14:29 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:14:48 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:17:07 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:17:07 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:17:07 | INFO     | pipeline | Saved judge scores for sonnet_C_task1_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:17:07 | INFO     | pipeline | Judging: sonnet_C_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 04:17:25 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:17:43 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:17:43 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:18:02 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:18:18 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:18:18 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:20:39 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:20:57 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:20:57 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:20:57 | INFO     | pipeline | Saved judge scores for sonnet_C_task2_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:20:57 | INFO     | pipeline | Judging: sonnet_C_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 04:21:15 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:21:33 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:21:33 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:21:50 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:24:10 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:24:10 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:24:28 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:24:47 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:24:47 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:24:47 | INFO     | pipeline | Saved judge scores for sonnet_C_task3_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:24:47 | INFO     | pipeline | Judging: sonnet_C_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 04:25:06 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:25:25 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:25:25 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:27:43 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:28:01 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:28:01 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:28:20 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:28:39 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:28:39 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:28:39 | INFO     | pipeline | Saved judge scores for sonnet_C_task4_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:28:39 | INFO     | pipeline | Judging: sonnet_C_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 04:28:59 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:31:18 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:31:18 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:31:36 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:31:53 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:31:53 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:32:12 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:32:31 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:32:31 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:32:31 | INFO     | pipeline | Saved judge scores for sonnet_C_task5_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:32:31 | INFO     | pipeline | Judging: sonnet_D_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 04:34:51 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:35:10 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:35:10 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:35:27 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:35:47 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:35:47 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:36:05 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:38:26 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:38:26 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:38:26 | INFO     | pipeline | Saved judge scores for sonnet_D_task1_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:38:26 | INFO     | pipeline | Judging: sonnet_D_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 04:38:44 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:39:02 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:39:02 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:39:21 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:39:38 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:39:38 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:41:58 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:42:16 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:42:16 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:42:16 | INFO     | pipeline | Saved judge scores for sonnet_D_task2_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:42:16 | INFO     | pipeline | Judging: sonnet_D_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 04:42:36 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:42:54 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:42:54 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:43:13 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:45:31 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:45:31 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:45:49 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:46:07 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:46:07 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:46:07 | INFO     | pipeline | Saved judge scores for sonnet_D_task3_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:46:07 | INFO     | pipeline | Judging: sonnet_D_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 04:46:26 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:46:45 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:46:45 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:49:03 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:49:22 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:49:22 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:49:41 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:49:58 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:49:58 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:49:58 | INFO     | pipeline | Saved judge scores for sonnet_D_task4_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:49:58 | INFO     | pipeline | Judging: sonnet_D_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 04:50:18 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:52:38 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:52:38 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:52:57 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:53:15 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:53:15 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:53:33 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:53:51 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:53:51 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:53:51 | INFO     | pipeline | Saved judge scores for sonnet_D_task5_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:53:51 | INFO     | pipeline | Judging: sonnet_E_task1_run1 (model=haiku, n_runs=3)
+2026-03-25 04:56:09 | WARNING  | pipeline | Judge run 1/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:56:28 | WARNING  | pipeline | Judge run 1/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:56:28 | WARNING  | pipeline | Judge run 1/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:56:46 | WARNING  | pipeline | Judge run 2/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:57:05 | WARNING  | pipeline | Judge run 2/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:57:05 | WARNING  | pipeline | Judge run 2/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:57:23 | WARNING  | pipeline | Judge run 3/3 API error (attempt 1/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:59:44 | WARNING  | pipeline | Judge run 3/3 API error (attempt 2/2): CLI failed after 3 attempts: exit code 1
+2026-03-25 04:59:44 | WARNING  | pipeline | Judge run 3/3 defaulting to zeros after exhausting retries.
+2026-03-25 04:59:44 | INFO     | pipeline | Saved judge scores for sonnet_E_task1_run1: {'analytical_depth': 0, 'specificity': 0, 'challenge_level': 0, 'register_level': 0}
+2026-03-25 04:59:44 | INFO     | pipeline | Judging: sonnet_E_task2_run1 (model=haiku, n_runs=3)
+2026-03-25 05:00:23 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 05:00:42 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-25 05:01:02 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 05:01:02 | INFO     | pipeline | Saved judge scores for sonnet_E_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-25 05:01:02 | INFO     | pipeline | Judging: sonnet_E_task3_run1 (model=haiku, n_runs=3)
+2026-03-25 05:01:23 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:01:42 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:02:02 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:02:02 | INFO     | pipeline | Saved judge scores for sonnet_E_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:02:02 | INFO     | pipeline | Judging: sonnet_E_task4_run1 (model=haiku, n_runs=3)
+2026-03-25 05:02:25 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:02:55 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 05:03:20 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 2, 'challenge_level': 4, 'register_level': 2}
+2026-03-25 05:03:20 | INFO     | pipeline | Saved judge scores for sonnet_E_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:03:20 | INFO     | pipeline | Judging: sonnet_E_task5_run1 (model=haiku, n_runs=3)
+2026-03-25 05:03:38 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:03:55 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 2, 'register_level': 2}
+2026-03-25 05:04:14 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:04:14 | INFO     | pipeline | Saved judge scores for sonnet_E_task5_run1: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 2}
+2026-03-25 05:04:14 | INFO     | pipeline | Judge complete — {'scored': 50, 'skipped': 0, 'failed': 0, 'total': 50, 'usage': {'call_count': 87, 'total_input_tokens': 112740, 'total_output_tokens': 1479, 'estimated_cost_usd': 0.3604}}
+2026-03-25 05:04:14 | INFO     | pipeline | Step 3 completed in 7269.1s
+2026-03-25 05:04:14 | INFO     | pipeline | ----------------------------------------
+2026-03-25 05:04:14 | INFO     | pipeline | STEP 4/6: Re-computing text metrics (merging judge scores)
+2026-03-25 05:04:14 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260325_023804/results/metrics/metrics_table.csv
+2026-03-25 05:04:14 | INFO     | pipeline | Step 4 completed in 0.1s
+2026-03-25 05:04:14 | INFO     | pipeline | ----------------------------------------
+2026-03-25 05:04:14 | INFO     | pipeline | STEP 5/6: Running statistical analysis
+2026-03-25 05:04:15 | INFO     | pipeline | Step 5 completed in 0.7s
+2026-03-25 05:04:15 | INFO     | pipeline | ----------------------------------------
+2026-03-25 05:04:15 | INFO     | pipeline | STEP 6/6: Generating plots
+2026-03-25 05:04:19 | INFO     | pipeline | Step 6 completed in 4.8s
+2026-03-25 05:04:19 | INFO     | pipeline |   Generated 83 plots
+2026-03-25 05:04:19 | INFO     | pipeline | ============================================================
+2026-03-25 05:04:19 | INFO     | pipeline | PIPELINE COMPLETE in 7274.6s (121.2 minutes)
+2026-03-25 05:04:19 | INFO     | pipeline |   Run: runs/dry_run_20260325_023804
+2026-03-25 05:04:19 | INFO     | pipeline | ============================================================

@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "The **New Topographics movement** (1970s onward) represents a fundamental shift in what landscape photography documents and how it does so:\n\n## Key Distinctions\n\n**Subject Matter**\n- **Earlier landscape photography**: Sought the \"sublime\"\u2014dramatic mountains, pristine wilderness, untouched nature. Often implicitly romantic or reverential toward the natural world.\n- **New Topographics**: Focused on the mundane, human-altered landscape\u2014parking lots, highways, suburban sprawl, industrial areas, strip developments. Subjects earlier tradition would have considered \"unworthy.\"\n\n**Aesthetic & Emotional Tone**\n- **Earlier**: Used compositional drama, lighting, and framing to aestheticize and idealize nature; often expressed reverence or nostalgia.\n- **New Topographics**: Adopted a deadpan, detached, almost clinical approach\u2014straight-on framing, neutral lighting, matter-of-fact documentation. The ordinariness is deliberate.\n\n**Critical Intent**\n- **Earlier**: Often critiqued industrialization through romantic imagery or expressed loss of wilderness.\n- **New Topographics**: Implicit critique through direct observation\u2014letting the flattened, sprawling, developed landscape speak for itself, questioning American expansion and consumer culture through its very ordinariness.\n\n**Compositional Strategy**\n- **Earlier**: Dramatic diagonals, depth, compositional tension to convey grandeur.\n- **New Topographics**: Frontal, gridded, standardized framing\u2014refusing to dramatize the subject.\n\n## Key Photographers\nRobert Adams, Lewis Baltz, Bernd and Hilla Becher, Frank Gohlke\u2014who documented the American landscape not as sublime nature but as the actual terrain people inhabited.\n\nThe movement essentially said: *this ordinary, developed landscape is what we actually live in\u2014and that's worth photographing seriously, without romantic filtering.*",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 461,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 15341.0,
+  "timestamp": "2026-03-25T06:59:27.679086+00:00"
+}

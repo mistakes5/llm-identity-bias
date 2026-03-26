@@ -1,0 +1,1 @@
+The user is learning to code. Started with an online Python course a few months ago. Asks basic questions about syntax and gets confused by error messages. Appreciates when code has lots of comments explaining what each line does. Has not used classes or type hints yet. Currently building a simple to-do app to practice.

@@ -1,0 +1,581 @@
+{
+  "one_way": [
+    {
+      "metric": "cyclomatic_complexity",
+      "F_statistic": 0.17315191431363194,
+      "p_value": 0.8420511064545958,
+      "significant": "False",
+      "group_means": {
+        "A": 22.0,
+        "B": 17.7,
+        "C": 18.0
+      },
+      "group_stds": {
+        "A": 19.949937343260004,
+        "B": 17.346469381404386,
+        "C": 11.175369742826806
+      }
+    },
+    {
+      "metric": "max_nesting_depth",
+      "F_statistic": 0.9926718162012282,
+      "p_value": 0.38529496028077614,
+      "significant": "False",
+      "group_means": {
+        "A": 3.0,
+        "B": 2.0,
+        "C": 2.7
+      },
+      "group_stds": {
+        "A": 1.7320508075688772,
+        "B": 1.0540925533894598,
+        "C": 1.766981104093143
+      }
+    },
+    {
+      "metric": "function_count",
+      "F_statistic": 0.6888442806590035,
+      "p_value": 0.5118116182863475,
+      "significant": "False",
+      "group_means": {
+        "A": 15.857142857142858,
+        "B": 11.6,
+        "C": 11.0
+      },
+      "group_stds": {
+        "A": 11.26097348409647,
+        "B": 10.211105065891088,
+        "C": 4.8074017006186525
+      }
+    },
+    {
+      "metric": "class_count",
+      "F_statistic": 2.5994417720767267,
+      "p_value": 0.09509111698677017,
+      "significant": "False",
+      "group_means": {
+        "A": 3.2857142857142856,
+        "B": 2.1,
+        "C": 2.6
+      },
+      "group_stds": {
+        "A": 1.1126972805283737,
+        "B": 1.1972189997378648,
+        "C": 0.8432740427115678
+      }
+    },
+    {
+      "metric": "total_lines",
+      "F_statistic": 0.5232934101593567,
+      "p_value": 0.5991730654394155,
+      "significant": "False",
+      "group_means": {
+        "A": 212.71428571428572,
+        "B": 164.7,
+        "C": 169.8
+      },
+      "group_stds": {
+        "A": 116.96539984929203,
+        "B": 113.03101835828566,
+        "C": 75.78448976465361
+      }
+    },
+    {
+      "metric": "comment_lines",
+      "F_statistic": 0.7444692813957399,
+      "p_value": 0.4856393784062983,
+      "significant": "False",
+      "group_means": {
+        "A": 13.714285714285714,
+        "B": 7.9,
+        "C": 11.0
+      },
+      "group_stds": {
+        "A": 10.22601723895616,
+        "B": 5.586690532964137,
+        "C": 12.409673645990857
+      }
+    },
+    {
+      "metric": "comment_ratio",
+      "F_statistic": 0.6463484690819865,
+      "p_value": 0.5328355805146909,
+      "significant": "False",
+      "group_means": {
+        "A": 0.06595714285714285,
+        "B": 0.14471,
+        "C": 0.05665000000000001
+      },
+      "group_stds": {
+        "A": 0.029984265715141182,
+        "B": 0.30145110696245403,
+        "C": 0.03751708499692729
+      }
+    },
+    {
+      "metric": "docstring_count",
+      "F_statistic": 1.4729232028372667,
+      "p_value": 0.2492487227099719,
+      "significant": "False",
+      "group_means": {
+        "A": 10.714285714285714,
+        "B": 6.0,
+        "C": 6.6
+      },
+      "group_stds": {
+        "A": 9.707630773679808,
+        "B": 3.197221015541813,
+        "C": 4.477102237434884
+      }
+    },
+    {
+      "metric": "type_annotation_count",
+      "F_statistic": 0.41532273222811167,
+      "p_value": 0.6647812962949754,
+      "significant": "False",
+      "group_means": {
+        "A": 20.142857142857142,
+        "B": 16.8,
+        "C": 19.2
+      },
+      "group_stds": {
+        "A": 6.693991620066745,
+        "B": 9.174844836714012,
+        "C": 7.405703507732702
+      }
+    },
+    {
+      "metric": "comprehension_count",
+      "F_statistic": 0.0979210769147262,
+      "p_value": 0.9070808301169736,
+      "significant": "False",
+      "group_means": {
+        "A": 2.7142857142857144,
+        "B": 2.3,
+        "C": 3.2
+      },
+      "group_stds": {
+        "A": 5.186980037050644,
+        "B": 4.137900702315393,
+        "C": 4.491968140779472
+      }
+    },
+    {
+      "metric": "try_except_count",
+      "F_statistic": 0.8631360332294911,
+      "p_value": 0.43452283301452244,
+      "significant": "False",
+      "group_means": {
+        "A": 1.5714285714285714,
+        "B": 0.9,
+        "C": 0.8
+      },
+      "group_stds": {
+        "A": 1.7182493859684491,
+        "B": 1.286683937707919,
+        "C": 0.7888106377466155
+      }
+    },
+    {
+      "metric": "unique_imports",
+      "F_statistic": 0.07822222222222223,
+      "p_value": 0.924993676002215,
+      "significant": "False",
+      "group_means": {
+        "A": 5.0,
+        "B": 4.8,
+        "C": 4.4
+      },
+      "group_stds": {
+        "A": 3.366501646120693,
+        "B": 3.489667287547307,
+        "C": 2.836272984824353
+      }
+    },
+    {
+      "metric": "avg_function_length",
+      "F_statistic": 0.23446873221873904,
+      "p_value": 0.7927816117076808,
+      "significant": "False",
+      "group_means": {
+        "A": 9.461428571428572,
+        "B": 8.659,
+        "C": 9.533
+      },
+      "group_stds": {
+        "A": 1.7245910488328196,
+        "B": 3.5268445134740802,
+        "C": 3.3519283007447127
+      }
+    },
+    {
+      "metric": "explanation_length",
+      "F_statistic": 1.4621988802785988,
+      "p_value": 0.24949834084425612,
+      "significant": "False",
+      "group_means": {
+        "A": 1802.1,
+        "B": 1691.1,
+        "C": 1398.7
+      },
+      "group_stds": {
+        "A": 529.8296267040315,
+        "B": 708.1434961299237,
+        "C": 329.79860858139205
+      }
+    },
+    {
+      "metric": "code_length",
+      "F_statistic": 0.05472769530581326,
+      "p_value": 0.9468476607806956,
+      "significant": "False",
+      "group_means": {
+        "A": 6008.1,
+        "B": 5470.9,
+        "C": 5839.7
+      },
+      "group_stds": {
+        "A": 4404.214129671716,
+        "B": 3703.458577240109,
+        "C": 2875.757563958872
+      }
+    },
+    {
+      "metric": "code_to_explanation_ratio",
+      "F_statistic": 0.7836545237116422,
+      "p_value": 0.46684726538255056,
+      "significant": "False",
+      "group_means": {
+        "A": 4.01185,
+        "B": 2.9067600000000002,
+        "C": 4.25927
+      },
+      "group_stds": {
+        "A": 3.7850193765099207,
+        "B": 1.2875265945041896,
+        "C": 1.9671883737682287
+      }
+    },
+    {
+      "metric": "advanced_pattern_count",
+      "F_statistic": 0.14982634037286918,
+      "p_value": 0.8615682221873645,
+      "significant": "False",
+      "group_means": {
+        "A": 11.8,
+        "B": 11.1,
+        "C": 13.4
+      },
+      "group_stds": {
+        "A": 10.031062866028815,
+        "B": 8.812238963825003,
+        "C": 10.002221975363495
+      }
+    },
+    {
+      "metric": "assumption_count",
+      "F_statistic": NaN,
+      "p_value": NaN,
+      "significant": "False",
+      "group_means": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      },
+      "group_stds": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "metric": "architectural_sophistication",
+      "F_statistic": 1.0688961794898935,
+      "p_value": 0.3591766187639689,
+      "significant": "False",
+      "group_means": {
+        "A": 7.450000000000001,
+        "B": 6.325,
+        "C": 6.7
+      },
+      "group_stds": {
+        "A": 1.5502687938977981,
+        "B": 1.8912444462722304,
+        "C": 1.1759157188241756
+      }
+    },
+    {
+      "metric": "defensive_coding",
+      "F_statistic": 1.1073290786188348,
+      "p_value": 0.3467404549032745,
+      "significant": "False",
+      "group_means": {
+        "A": 6.528571428571428,
+        "B": 5.37,
+        "C": 5.484999999999999
+      },
+      "group_stds": {
+        "A": 1.064133897768957,
+        "B": 2.3408450515904624,
+        "C": 1.1893158631003886
+      }
+    },
+    {
+      "metric": "idiomatic_density",
+      "F_statistic": 0.3940527656435021,
+      "p_value": 0.678601575352513,
+      "significant": "False",
+      "group_means": {
+        "A": 6.6571428571428575,
+        "B": 5.82,
+        "C": 6.93
+      },
+      "group_stds": {
+        "A": 2.2795154038063608,
+        "B": 3.083216213991848,
+        "C": 3.044868178135504
+      }
+    },
+    {
+      "metric": "verbosity_ratio",
+      "F_statistic": 0.6777166074450647,
+      "p_value": 0.5162034988736635,
+      "significant": "False",
+      "group_means": {
+        "A": 3.35557,
+        "B": 1.7081500000000003,
+        "C": 0.28707
+      },
+      "group_stds": {
+        "A": 9.238913062819313,
+        "B": 4.3601420104930835,
+        "C": 0.14166090223566352
+      }
+    },
+    {
+      "metric": "strategy_score",
+      "F_statistic": NaN,
+      "p_value": NaN,
+      "significant": "False",
+      "group_means": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      },
+      "group_stds": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0
+      }
+    }
+  ],
+  "two_way": [
+    {
+      "metric": "cyclomatic_complexity",
+      "profile_F": 1.855618691932654,
+      "profile_p": 0.1396071675494584,
+      "model_F": 0.004194698054193701,
+      "model_p": 0.94871824120631,
+      "interaction_F": 0.4499454307916772,
+      "interaction_p": 0.7717202925348946
+    },
+    {
+      "metric": "max_nesting_depth",
+      "profile_F": 2.0682087898412806,
+      "profile_p": 0.10539172629694518,
+      "model_F": 0.060292122210676605,
+      "model_p": 0.8074293019874185,
+      "interaction_F": 0.5844960123634741,
+      "interaction_p": 0.6758682911361324
+    },
+    {
+      "metric": "function_count",
+      "profile_F": 2.9075853869650943,
+      "profile_p": 0.03495812944546848,
+      "model_F": 0.17320536086748192,
+      "model_p": 0.6797494457125782,
+      "interaction_F": 0.7278130989108629,
+      "interaction_p": 0.5788318682987235
+    },
+    {
+      "metric": "class_count",
+      "profile_F": 5.701152530134769,
+      "profile_p": 0.001164308216761967,
+      "model_F": 0.297560549181334,
+      "model_p": 0.5887800246303031,
+      "interaction_F": 0.3612920512385658,
+      "interaction_p": 0.8344739904268024
+    },
+    {
+      "metric": "total_lines",
+      "profile_F": 2.414069459528378,
+      "profile_p": 0.0667281684644743,
+      "model_F": 0.31990698550830426,
+      "model_p": 0.575172156140967,
+      "interaction_F": 0.9657783209482105,
+      "interaction_p": 0.43813294275332415
+    },
+    {
+      "metric": "comment_lines",
+      "profile_F": 0.9152416161045291,
+      "profile_p": 0.4656237171519666,
+      "model_F": 2.555641828592677,
+      "model_p": 0.11864242543217857,
+      "interaction_F": 0.8822287436411403,
+      "interaction_p": 0.4842921590580833
+    },
+    {
+      "metric": "comment_ratio",
+      "profile_F": 2.5493336574175376,
+      "profile_p": 0.05584417114669575,
+      "model_F": 0.001994055367466999,
+      "model_p": 0.9646292066930814,
+      "interaction_F": 0.6087715097190909,
+      "interaction_p": 0.658930259231584
+    },
+    {
+      "metric": "docstring_count",
+      "profile_F": 2.399248996562414,
+      "profile_p": 0.06804492456828641,
+      "model_F": 3.6725074768342894,
+      "model_p": 0.06328288396583512,
+      "interaction_F": 1.1267970078456913,
+      "interaction_p": 0.35925214122034443
+    },
+    {
+      "metric": "type_annotation_count",
+      "profile_F": 7.48700075322485,
+      "profile_p": 0.00016997212755067478,
+      "model_F": 0.6663031348901391,
+      "model_p": 0.4197121740339223,
+      "interaction_F": 1.4992747295451645,
+      "interaction_p": 0.22295135741682093
+    },
+    {
+      "metric": "comprehension_count",
+      "profile_F": 0.8961926824539644,
+      "profile_p": 0.476327441321603,
+      "model_F": 1.237843459250838,
+      "model_p": 0.27326152796782527,
+      "interaction_F": 0.8626395238815644,
+      "interaction_p": 0.4956332240354566
+    },
+    {
+      "metric": "try_except_count",
+      "profile_F": 1.3115526323158568,
+      "profile_p": 0.2842218211010076,
+      "model_F": 0.13118761047311422,
+      "model_p": 0.719321459977612,
+      "interaction_F": 0.1696645732501037,
+      "interaction_p": 0.9524665130240725
+    },
+    {
+      "metric": "unique_imports",
+      "profile_F": 3.0787154315781944,
+      "profile_p": 0.028005694405572795,
+      "model_F": 0.7439408833755212,
+      "model_p": 0.3941109872633744,
+      "interaction_F": 0.41597786897770317,
+      "interaction_p": 0.7959773284974702
+    },
+    {
+      "metric": "avg_function_length",
+      "profile_F": 0.3068995740247943,
+      "profile_p": 0.871450593453472,
+      "model_F": 0.10861458532188115,
+      "model_p": 0.743636915180853,
+      "interaction_F": 0.5668779352992086,
+      "interaction_p": 0.6882597471749955
+    },
+    {
+      "metric": "explanation_length",
+      "profile_F": 2.5920541881389925,
+      "profile_p": 0.05094258978459833,
+      "model_F": 0.34375252599023837,
+      "model_p": 0.560965407997866,
+      "interaction_F": 1.0342066526544174,
+      "interaction_p": 0.401556875487767
+    },
+    {
+      "metric": "code_length",
+      "profile_F": 1.2998798371535623,
+      "profile_p": 0.28650296461778235,
+      "model_F": 0.5418170701051841,
+      "model_p": 0.4659755881348967,
+      "interaction_F": 0.7766629406844853,
+      "interaction_p": 0.5469520595748963
+    },
+    {
+      "metric": "code_to_explanation_ratio",
+      "profile_F": 1.009734712771042,
+      "profile_p": 0.413906546735882,
+      "model_F": 0.2880869311702198,
+      "model_p": 0.5944220857271022,
+      "interaction_F": 0.8588766837587708,
+      "interaction_p": 0.49686623274099273
+    },
+    {
+      "metric": "advanced_pattern_count",
+      "profile_F": 2.9673316374347234,
+      "profile_p": 0.030857390251295837,
+      "model_F": 1.062792877225878,
+      "model_p": 0.3087724860236786,
+      "interaction_F": 0.4422278752175663,
+      "interaction_p": 0.7773262864106234
+    },
+    {
+      "metric": "assumption_count",
+      "profile_F": NaN,
+      "profile_p": NaN,
+      "model_F": NaN,
+      "model_p": NaN,
+      "interaction_F": NaN,
+      "interaction_p": NaN
+    },
+    {
+      "metric": "architectural_sophistication",
+      "profile_F": 7.686941455636279,
+      "profile_p": 0.00013857475665212323,
+      "model_F": 0.12945342413442715,
+      "model_p": 0.7211016002063424,
+      "interaction_F": 0.1795225626250853,
+      "interaction_p": 0.9475184407227076
+    },
+    {
+      "metric": "defensive_coding",
+      "profile_F": 6.189595795348672,
+      "profile_p": 0.0006751942083023251,
+      "model_F": 0.11400258348951442,
+      "model_p": 0.7375934145137308,
+      "interaction_F": 0.3107668000897271,
+      "interaction_p": 0.868882520315976
+    },
+    {
+      "metric": "idiomatic_density",
+      "profile_F": 7.496064525168638,
+      "profile_p": 0.00016839795489876128,
+      "model_F": 0.7388637650188628,
+      "model_p": 0.3957131300037544,
+      "interaction_F": 0.39635689421720977,
+      "interaction_p": 0.8098936025171888
+    },
+    {
+      "metric": "verbosity_ratio",
+      "profile_F": 0.8142095116866557,
+      "profile_p": 0.523664678197928,
+      "model_F": 0.13853689993178617,
+      "model_p": 0.7117046440490354,
+      "interaction_F": 0.9207805546050305,
+      "interaction_p": 0.4614019307908822
+    },
+    {
+      "metric": "strategy_score",
+      "profile_F": NaN,
+      "profile_p": NaN,
+      "model_F": NaN,
+      "model_p": NaN,
+      "interaction_F": NaN,
+      "interaction_p": NaN
+    }
+  ]
+}

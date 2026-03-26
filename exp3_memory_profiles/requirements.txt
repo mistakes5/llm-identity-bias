@@ -1,0 +1,7 @@
+anthropic>=0.76.0
+numpy
+scipy
+matplotlib
+ruptures
+statsmodels
+seaborn

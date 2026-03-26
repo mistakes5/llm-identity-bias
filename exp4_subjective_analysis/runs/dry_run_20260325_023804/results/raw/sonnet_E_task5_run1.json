@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "E",
+  "profile_type": "low_sophistication_domain_relevant",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user is casually interested in art and design. Enjoys visiting museums and galleries occasionally but doesn't know much about art history or movements. Appreciates when things are explained in simple, relatable terms without jargon. Prefers to hear what's interesting or beautiful about something rather than technical analysis. Currently trying to develop their own taste and figure out what they like.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Great question, and honestly it comes down to a few really human things more than business strategy:\n\n**They sell a feeling, not just a product**\n\nThe brands that last \u2014 Herm\u00e8s, Rolex, Chanel \u2014 make you feel like you're buying into something with a *story*. Herm\u00e8s started making horse saddles in 1837. That history isn't just marketing fluff; it makes the object feel like it carries weight. Brands that collapse usually skip the story and just slap a high price tag on something.\n\n**Scarcity is everything**\n\nHerm\u00e8s famously makes you *wait* for a Birkin bag \u2014 sometimes years. That waiting list isn't just logistics, it's deliberate. The moment a luxury brand gets too easy to buy, it stops feeling special. Coach and Burberry both nearly destroyed themselves in the 2000s by flooding outlet malls with discounted goods. Burberry clawed back; many don't.\n\n**Craft that's actually visible**\n\nThe surviving brands tend to have something you can *see and touch* that justifies the price \u2014 stitching, materials, weight. When luxury becomes purely logo-driven with no underlying quality, people eventually notice. The logo stops meaning anything.\n\n**They don't chase trends**\n\nThis is counterintuitive, but the lasting ones are almost stubbornly themselves. Rolex hasn't radically redesigned the Submariner in 70 years. That consistency becomes the brand's identity \u2014 it signals permanence, which is exactly what someone spending serious money wants to feel.\n\n**The collapse pattern**\n\nMost collapses follow the same arc: brand gets hot \u2192 goes public or gets bought by a conglomerate \u2192 pressure to grow \u2192 licenses the name everywhere \u2192 becomes ordinary \u2192 dies. Basically, they eat their own mystique.\n\nThe interesting tension is that being truly rare and exclusive means *not* maximizing revenue in the short term. Most companies can't resist doing that.",
+  "stop_reason": "end_turn",
+  "input_tokens": 125,
+  "output_tokens": 463,
+  "system_chars": 407,
+  "prompt_chars": 93,
+  "elapsed_ms": 23223.2,
+  "timestamp": "2026-03-25T06:50:19.858079+00:00"
+}

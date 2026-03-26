@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task1",
+  "task_name": "Rate Limiter",
+  "run_id": 2,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Implement a rate limiter in Python that allows N requests per time window. It should support checking if a request is allowed and tracking request timestamps.",
+  "response_text": "**Recommendation by scenario:**\n\n- **API Gateway/Production** \u2192 `SlidingWindowLogRateLimiter` (accuracy matters, you'll validate requests anyway)\n- **Lightweight/Internal APIs** \u2192 `FixedWindowRateLimiter` (simple, fast, minimal overhead)\n- **Real-time Systems** \u2192 `SlidingWindowCounterRateLimiter` (smooth boundaries, balanced approach)\n\n**For distributed systems** (multiple servers), you'd need to store state in Redis or a database instead of in-memory. Would you like me to add a Redis-backed version?",
+  "stop_reason": "end_turn",
+  "input_tokens": 43,
+  "output_tokens": 126,
+  "system_chars": 0,
+  "prompt_chars": 175,
+  "elapsed_ms": 40227.5,
+  "timestamp": "2026-03-24T20:18:49.915673+00:00"
+}

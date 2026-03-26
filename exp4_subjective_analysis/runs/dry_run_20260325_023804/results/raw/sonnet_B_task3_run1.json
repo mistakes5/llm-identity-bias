@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "**New Topographics** (emerged ~1975, named after the influential exhibition *New Topographics: Photographs of a Man-Altered Landscape*) broke from earlier landscape photography in several key ways:\n\n## What came before\nEarlier landscape photography \u2014 think Ansel Adams, Carleton Watkins \u2014 celebrated the **sublime**: vast, pristine, awe-inspiring wilderness. It was explicitly romantic, beautiful, and morally charged (nature as sacred).\n\n## What New Topographics rejected\n- **Romanticism** \u2014 no dramatic light, no heroic compositions, no grandeur\n- **Authorial voice** \u2014 photographers like Robert Adams, Lewis Baltz, Stephen Shore, Joe Deal adopted a deliberately **flat, deadpan aesthetic**\n- **Subject hierarchy** \u2014 wilderness was no longer privileged over parking lots, tract housing, industrial lots, or gas stations\n\n## Defining characteristics\n- **Banal, man-altered subjects** \u2014 suburbs, warehouses, mundane infrastructure\n- **Neutral, taxonomic style** \u2014 frontal framing, even light, no obvious emotional register\n- **Influenced by Conceptual Art and the Dusseldorf School** (Becher & Becher's typological grids were in the same exhibition)\n- **Implicit critique without advocacy** \u2014 the work doesn't moralize; the quiet documentation *is* the statement\n\n## The tension\nEarlier landscape photography said *\"look how magnificent this is.\"* New Topographics said *\"look at what we've actually made\"* \u2014 and refused to tell you how to feel about it. The restraint itself became the critical gesture.\n\nIt was a fundamental shift from landscape as **celebration** to landscape as **evidence**.",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 399,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 16516.2,
+  "timestamp": "2026-03-25T06:50:36.374944+00:00"
+}

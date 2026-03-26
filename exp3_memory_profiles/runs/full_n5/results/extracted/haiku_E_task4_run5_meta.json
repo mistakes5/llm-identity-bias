@@ -1,0 +1,8 @@
+{
+  "source": "haiku_E_task4_run5.json",
+  "n_blocks": 2,
+  "syntax_valid": false,
+  "syntax_error": "Line 233: expected an indented block after function definition on line 231",
+  "code_lines": 233,
+  "code_chars": 8614
+}

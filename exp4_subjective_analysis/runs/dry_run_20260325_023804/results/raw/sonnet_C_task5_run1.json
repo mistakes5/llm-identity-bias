@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "A few key reasons:\n\n**What keeps them alive:**\n- **Scarcity discipline** \u2014 Herm\u00e8s limits Birkin supply even when demand spikes. The moment you can easily buy it, the magic dies.\n- **Craft story** \u2014 brands tied to genuine artisanship (hand-stitched, single-artisan, heritage factory) have a defensible \"why.\" Logos without craft are just expensive streetwear.\n- **Price integrity** \u2014 they never discount. One major sale event can permanently anchor customer expectations.\n- **Founder mystique or institutional identity** \u2014 Chanel has \"what would Coco do?\" as a North Star. Brands without that drift.\n\n**What kills them:**\n- **Licensing greed** \u2014 Pierre Cardin slapped his name on everything from frying pans to car interiors. Killed the brand.\n- **Mass accessibility** \u2014 Coach in the mid-2000s went too wide, ended up in outlet malls. Spent a decade clawing prestige back.\n- **Bad acquisitions** \u2014 private equity often squeezes margins and volume-pushes, which is the opposite of luxury logic.\n- **Logo fatigue** \u2014 LV and Gucci both went through periods where the monogram was everywhere, devaluing it. Both recovered by doubling down on craftsmanship narratives.\n\n**The core tension:**\nLuxury brands are selling *exclusivity*, but they're also public/private companies that need *growth*. Those two things are fundamentally at odds. The ones that survive long-term manage that tension carefully \u2014 growing slowly, raising prices instead of volume, and protecting who the customer *feels* they are when they buy it.\n\nHerm\u00e8s, Patek Philippe, and Brunello Cucinelli are textbook survivors. They've all essentially said \"we'd rather lose a sale than cheapen the brand.\"",
+  "stop_reason": "end_turn",
+  "input_tokens": 103,
+  "output_tokens": 416,
+  "system_chars": 321,
+  "prompt_chars": 93,
+  "elapsed_ms": 18227.6,
+  "timestamp": "2026-03-25T06:47:02.329780+00:00"
+}

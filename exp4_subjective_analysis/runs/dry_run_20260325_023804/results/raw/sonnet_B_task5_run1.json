@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "A few core dynamics separate enduring luxury from fading prestige:\n\n## Supply Discipline\nEnduring brands **constrain supply ruthlessly**. Herm\u00e8s famously limits Birkin production \u2014 scarcity drives desire. Brands that chase revenue by expanding distribution (Coach, Burberry in the 2010s) dilute the exclusivity signal and trigger a collapse in perceived value.\n\n## Craftsmanship as Mythology\nDurable brands build **stories around process** \u2014 the 72-hour leather cure, the 4th-generation artisan, the factory tour. This mythology makes the product feel irreplaceable. When brands offshore or automate without narrative control, the mythology breaks.\n\n## Logo vs. Taste Signal\nLogos are *short-term status signals*. The brands that last (Loro Piana, Brunello Cucinelli) target customers who want to signal *taste* to peers who already know \u2014 not logos for outsiders. Logo-dependent brands (Gucci's logomania cycles, LV monogram) are volatile because they're fashion, not luxury.\n\n## Price Anchoring + Inflation as Feature\nChanel raises handbag prices 5\u201310% annually. This isn't just margin \u2014 it's a **proof-of-store-of-value** signal to buyers. The price history becomes part of the product. Brands that discount erode this permanently.\n\n## Generational Control\nMost enduring brands maintain **tight ownership** (Herm\u00e8s: Herm\u00e8s family, ~66% control; Rolex: foundation-owned). Public markets pressure short-term revenue, which conflicts with scarcity discipline. LVMH's genius was acquiring brands and shielding them from public market logic under Arnault's personal vision.\n\n## The Collapse Pattern\nThe typical failure sequence:\n1. Brand hits peak cultural moment \u2192 demand spikes\n2. Management expands to capture revenue (more SKUs, wider distribution, licensing)\n3. Aspirational middle-class buyers flood in\n4. Core wealthy customers exit (no longer exclusive)\n5. Middle-class buyers exit next (brand no longer signals what it used to)\n6. Brand is left with no real customer\n\nCoach, Pierre Cardin, and Versace (pre-Donatella stabilization) all followed variations of this arc.\n\n**The core insight**: luxury value is *belief*, not product. Brands that manage belief \u2014 through scarcity, mythology, and price discipline \u2014 compound. Brands that manage *revenue* instead always eventually liquidate the belief.",
+  "stop_reason": "end_turn",
+  "input_tokens": 23,
+  "output_tokens": 576,
+  "system_chars": 0,
+  "prompt_chars": 93,
+  "elapsed_ms": 22675.8,
+  "timestamp": "2026-03-25T06:39:48.963292+00:00"
+}

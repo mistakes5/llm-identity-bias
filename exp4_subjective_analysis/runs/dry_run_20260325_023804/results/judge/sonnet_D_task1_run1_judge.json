@@ -1,0 +1,29 @@
+{
+  "analytical_depth": 0,
+  "specificity": 0,
+  "challenge_level": 0,
+  "register_level": 0,
+  "raw_scores": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "source_file": "sonnet_D_task1_run1.json",
+  "judge_model": "haiku",
+  "n_runs": 3
+}

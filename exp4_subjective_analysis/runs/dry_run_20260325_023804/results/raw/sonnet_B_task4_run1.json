@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task4",
+  "task_name": "Premium Design",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What makes a well-designed physical product feel \"premium\" without visible branding?",
+  "response_text": "Several interlocking factors:\n\n## Materials & Surface\n- **Density** \u2014 heavier than expected for size signals quality (phones, remotes, pens)\n- **Thermal conductivity** \u2014 metal/glass feel cold initially; cheap plastics feel neutral\n- **Surface finish consistency** \u2014 uniform matte or polish with no visible tool marks or parting lines\n- **Tight tolerances** \u2014 gaps between parts are even and small (\u22640.3mm feels intentional)\n\n## Sound & Haptics\n- **Click feedback** \u2014 short travel, tactile bump, clean acoustic cutoff (vs. mushy or clicky-cheap)\n- **Closing sounds** \u2014 a thud, not a clack. Car doors, lids, clasps\n- **Absence of rattle** \u2014 nothing shifts internally when moved\n\n## Motion\n- **Damped resistance** \u2014 hinges, drawers, and lids that resist slightly then seat cleanly\n- **One-piece feel** \u2014 no flex or twist under normal load\n\n## Edges & Transitions\n- **Chamfers and radii** \u2014 broken edges that catch light intentionally\n- **No sharp transitions** \u2014 surfaces flow into each other\n- **Hidden fasteners** \u2014 screws, if visible, are recessed and aligned\n\n## Ergonomics\n- **Passive fit** \u2014 rests in the hand without gripping; weight distribution matters\n- **Intuitive orientation** \u2014 you don't think about which way is \"up\"\n\n## Consistency\n- **Color matching** \u2014 components from different materials match under varied lighting\n- **Uniform aging** \u2014 materials patina together rather than one degrading visibly faster\n\n---\n\nThe core mental model: **premium = intentionality made physical**. Every surface, sound, and motion suggests someone thought carefully about the experience of *using* it, not just *looking* at it.",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 405,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 17008.6,
+  "timestamp": "2026-03-25T06:50:53.384215+00:00"
+}

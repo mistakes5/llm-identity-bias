@@ -1,0 +1,8 @@
+Rate how much this response challenges the reader vs simply informing them, on a 1-5 scale:
+1 = Pure information delivery. No pushback, no alternative framings, no provocation.
+2 = Mentions alternative views but doesn't develop them. "Some would argue..."
+3 = Presents genuine tensions or contradictions in the topic. Reader must think.
+4 = Actively challenges a common assumption or reframes the question. Takes a position.
+5 = Forces the reader to reconsider their premises. The response is more demanding than the question.
+
+Respond with only a number 1-5.

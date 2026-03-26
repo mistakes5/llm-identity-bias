@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "E",
+  "profile_type": "low_sophistication_domain_relevant",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user is casually interested in art and design. Enjoys visiting museums and galleries occasionally but doesn't know much about art history or movements. Appreciates when things are explained in simple, relatable terms without jargon. Prefers to hear what's interesting or beautiful about something rather than technical analysis. Currently trying to develop their own taste and figure out what they like.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "The difference often comes down to **whether a brand stays true to something real**, versus chasing trends or expanding until it loses what made it special.\n\nHere's what separates the ones that endure:\n\n**Brands that hold value:**\n\n- **A clear, unchanging idea** \u2014 Think Herm\u00e8s with leather goods or Chanel with the little black dress. They're not trying to be everything; they're obsessed with doing one thing incredibly well. This makes them both exclusive and easy to believe in.\n\n- **Quality you can actually feel** \u2014 Luxury that lasts 20 years *because it genuinely will* \u2014 hand-stitched seams, materials that improve with age. This is the opposite of planned obsolescence. It's almost like craftsmanship becomes part of the design.\n\n- **Restraint in growth** \u2014 Brands like Herm\u00e8s famously produce *less* than they could sell. It feels counterintuitive, but scarcity is part of what maintains desire. The moment you can find something everywhere, it stops feeling precious.\n\n- **Cultural relevance without desperation** \u2014 They evolve slowly and thoughtfully, not by chasing TikTok trends. They stay in conversation because people *choose* them, not because they're screaming about being relevant.\n\n**Brands that collapse:**\n\n- **Losing the original story** \u2014 When leadership changes and new people try to \"modernize\" the brand into something it was never meant to be.\n\n- **Overextension** \u2014 A luxury brand that suddenly has perfume, sunglasses, phone cases, and 40 clothing lines. It dilutes what made it special.\n\n- **Chasing volume over prestige** \u2014 Flooding the market to grow revenue destroys the exclusivity that justified the price.\n\n- **Feeling dated** \u2014 Some designs age *beautifully*; others look stuck in the year they were created. This often reflects whether the design was timeless (based on proportion, materials, function) or just trendy.\n\n**The honest truth:** The brands that survive decades often feel like they're *not trying* to stay relevant. They just keep doing their thing with integrity, and that paradoxically makes them more interesting as culture changes around them.\n\nWhat luxury brands do you find yourself drawn to, or curious about?",
+  "stop_reason": "end_turn",
+  "input_tokens": 125,
+  "output_tokens": 542,
+  "system_chars": 407,
+  "prompt_chars": 93,
+  "elapsed_ms": 16942.0,
+  "timestamp": "2026-03-25T06:59:12.337271+00:00"
+}

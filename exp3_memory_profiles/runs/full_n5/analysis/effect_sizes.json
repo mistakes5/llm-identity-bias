@@ -1,0 +1,502 @@
+[
+  {
+    "metric": "cyclomatic_complexity",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0014,
+        "abs_d": 0.0014,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2399,
+        "abs_d": 0.2399,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.2162,
+        "abs_d": 0.2162,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "max_nesting_depth",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2335,
+        "abs_d": 0.2335,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1989,
+        "abs_d": 0.1989,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.0615,
+        "abs_d": 0.0615,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "function_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0723,
+        "abs_d": 0.0723,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2718,
+        "abs_d": 0.2718,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.1569,
+        "abs_d": 0.1569,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "class_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.3284,
+        "abs_d": 0.3284,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2412,
+        "abs_d": 0.2412,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.1052,
+        "abs_d": 0.1052,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "total_lines",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2332,
+        "abs_d": 0.2332,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2844,
+        "abs_d": 0.2844,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.008,
+        "abs_d": 0.008,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "comment_lines",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.1721,
+        "abs_d": 0.1721,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.4006,
+        "abs_d": 0.4006,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.2332,
+        "abs_d": 0.2332,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "comment_ratio",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.2746,
+        "abs_d": 0.2746,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1321,
+        "abs_d": 0.1321,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.3715,
+        "abs_d": 0.3715,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "docstring_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0652,
+        "abs_d": 0.0652,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.1103,
+        "abs_d": 0.1103,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.1727,
+        "abs_d": 0.1727,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "type_annotation_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.1799,
+        "abs_d": 0.1799,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2162,
+        "abs_d": 0.2162,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0209,
+        "abs_d": 0.0209,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "comprehension_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0779,
+        "abs_d": 0.0779,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0654,
+        "abs_d": 0.0654,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.0131,
+        "abs_d": 0.0131,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "try_except_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.0803,
+        "abs_d": 0.0803,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.3548,
+        "abs_d": 0.3548,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.2777,
+        "abs_d": 0.2777,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "unique_imports",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.3365,
+        "abs_d": 0.3365,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1982,
+        "abs_d": 0.1982,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.1653,
+        "abs_d": 0.1653,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "avg_function_length",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.3068,
+        "abs_d": 0.3068,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.0666,
+        "abs_d": 0.0666,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.3545,
+        "abs_d": 0.3545,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "parse_error",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "has_clarifying_questions",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "explanation_length",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.5283,
+        "abs_d": 0.5283,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.5455,
+        "abs_d": 0.5455,
+        "interpretation": "medium"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.1515,
+        "abs_d": 0.1515,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "code_length",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2328,
+        "abs_d": 0.2328,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.32,
+        "abs_d": 0.32,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0457,
+        "abs_d": 0.0457,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "code_to_explanation_ratio",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0181,
+        "abs_d": 0.0181,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.0796,
+        "abs_d": 0.0796,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.0824,
+        "abs_d": 0.0824,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "advanced_pattern_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2307,
+        "abs_d": 0.2307,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1225,
+        "abs_d": 0.1225,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.112,
+        "abs_d": 0.112,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "assumption_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "architectural_sophistication",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2703,
+        "abs_d": 0.2703,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1509,
+        "abs_d": 0.1509,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.1523,
+        "abs_d": 0.1523,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "defensive_coding",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.1098,
+        "abs_d": 0.1098,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.1952,
+        "abs_d": 0.1952,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.2881,
+        "abs_d": 0.2881,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "idiomatic_density",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.2268,
+        "abs_d": 0.2268,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.1326,
+        "abs_d": 0.1326,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.1041,
+        "abs_d": 0.1041,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "verbosity_ratio",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.019,
+        "abs_d": 0.019,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0205,
+        "abs_d": 0.0205,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0413,
+        "abs_d": 0.0413,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "strategy_score",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.1675,
+        "abs_d": 0.1675,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.2011,
+        "abs_d": 0.2011,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0213,
+        "abs_d": 0.0213,
+        "interpretation": "negligible"
+      }
+    }
+  }
+]

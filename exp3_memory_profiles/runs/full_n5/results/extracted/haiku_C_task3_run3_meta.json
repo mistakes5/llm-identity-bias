@@ -1,0 +1,8 @@
+{
+  "source": "haiku_C_task3_run3.json",
+  "n_blocks": 1,
+  "syntax_valid": false,
+  "syntax_error": "Line 1: invalid syntax",
+  "code_lines": 1,
+  "code_chars": 22
+}

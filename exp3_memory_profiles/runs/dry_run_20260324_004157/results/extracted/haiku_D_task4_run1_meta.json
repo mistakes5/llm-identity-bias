@@ -1,0 +1,8 @@
+{
+  "source": "haiku_D_task4_run1.json",
+  "n_blocks": 3,
+  "syntax_valid": false,
+  "syntax_error": "Line 150: expected an indented block after 'with' statement on line 148",
+  "code_lines": 151,
+  "code_chars": 5286
+}

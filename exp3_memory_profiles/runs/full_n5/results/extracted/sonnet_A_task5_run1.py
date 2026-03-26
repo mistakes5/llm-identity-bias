@@ -1,0 +1,3 @@
+def _is_cache_fresh(entry: _CacheEntry) -> bool:
+    # Your implementation here
+    ...

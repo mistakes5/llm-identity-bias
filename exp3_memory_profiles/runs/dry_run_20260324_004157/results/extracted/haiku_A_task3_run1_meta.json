@@ -1,0 +1,8 @@
+{
+  "source": "haiku_A_task3_run1.json",
+  "n_blocks": 1,
+  "syntax_valid": false,
+  "syntax_error": "Line 22: invalid character '\u2605' (U+2605)",
+  "code_lines": 35,
+  "code_chars": 1488
+}

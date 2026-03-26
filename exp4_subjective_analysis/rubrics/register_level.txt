@@ -1,0 +1,8 @@
+Rate the intellectual register of this response on a 1-5 scale:
+1 = Casual/conversational. Simple vocabulary. Explains everything from scratch.
+2 = Accessible but informed. Some domain vocabulary with implicit definitions.
+3 = Professional/educated. Assumes familiarity with the field. Domain vocabulary used without explanation.
+4 = Academic/specialist. References theoretical frameworks by name. Assumes shared intellectual context.
+5 = Expert discourse. Dense, precise, assumes deep familiarity. Would feel at home in a graduate seminar or professional journal.
+
+Respond with only a number 1-5.

@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "D",
+  "profile_type": "high_sophistication_technical",
+  "task_id": "task4",
+  "task_name": "Event System",
+  "run_id": 3,
+  "temperature": 0.3,
+  "system_prompt": "The user is an experienced data engineer working with distributed systems. Builds production ETL pipelines in Scala and manages Kubernetes clusters. Discusses system design with precision \u2014 references CAP theorem tradeoffs, event sourcing patterns, and backpressure strategies. Prefers minimal documentation and expects concise, expert-level responses. Reviews PRs critically and has strong opinions on error handling.",
+  "user_prompt": "Implement a publish-subscribe event system in Python that supports subscribing to events, publishing events with data, unsubscribing, and wildcard subscriptions.",
+  "response_text": "The interactive question UI isn't available here \u2014 no problem. The `_dispatch` body is clearly marked with `# \u2500\u2500 replace from here \u2500\u2500` / `# \u2500\u2500 to here \u2500\u2500` comments, so you can swap in whichever strategy fits:\n\n| Strategy | Replace the body with |\n|---|---|\n| **Fail-fast** | Add `raise` inside the `except` block |\n| **Collect-all** (current) | Keep as-is \u2014 runs all handlers, aggregates errors |\n| **Dead-letter only** | Remove `result.errors.append(...)`, only call `self._on_error` |\n\nA few notes on the design worth calling out:\n\n- **Lock discipline** \u2014 `publish()` snapshots matching handlers under `_lock`, then dispatches *outside* it. Handlers can safely call `bus.subscribe()` or `bus.publish()` without deadlock.\n- **Pattern semantics** \u2014 `user.*` rejects `user.role.changed` (two segments), unlike `fnmatch` which would match since `.` isn't special there. The regex compiler treats `.` as a hard segment boundary.\n- **Subscription IDs** are hex UUIDs returned from `subscribe()` \u2014 the only way to remove a specific handler, which avoids the \"unregister by callable identity\" footgun that breaks closures and `functools.partial`.\n- **`on_error` constructor hook** \u2014 lets you wire in structured logging or a DLQ sink at construction time without subclassing. Combine with the dead-letter strategy for full separation of concerns.\n\nRun the test suite with:\n```bash\npytest test_event_bus.py -v\n```\n\nAll 16 tests should pass against the current collect-all default.",
+  "stop_reason": "end_turn",
+  "input_tokens": 149,
+  "output_tokens": 368,
+  "system_chars": 418,
+  "prompt_chars": 178,
+  "elapsed_ms": 202661.9,
+  "timestamp": "2026-03-24T10:25:43.983076+00:00"
+}

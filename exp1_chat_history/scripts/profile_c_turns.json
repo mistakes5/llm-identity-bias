@@ -1,0 +1,38 @@
+{
+  "profile": "C",
+  "description": "Low sophistication art history conversationalist",
+  "turns": [
+    {
+      "role": "user",
+      "content": "I saw a Caravaggio painting in a museum once and the lighting was really dramatic. Why did he make everything so dark like that? Also I've heard Vermeer is famous too — what's the difference between how they paint?"
+    },
+    {
+      "role": "user",
+      "content": "Oh cool, that makes sense. I think I've seen that Vermeer painting of a girl reading a letter. It looked really realistic. What was he trying to do with paintings like that?"
+    },
+    {
+      "role": "user",
+      "content": "Okay neat. Switching topics — what is Impressionism exactly? Like Monet and the water lilies? I know it's supposed to be about light or something. Also what's Pointillism, is that the one with all the dots? How is that different from what Monet did?"
+    },
+    {
+      "role": "user",
+      "content": "Got it. So what about Cezanne? I've seen some of his mountain paintings and they look kind of blocky and unfinished to me. Was that on purpose or was he just not as skilled as the other painters?"
+    },
+    {
+      "role": "user",
+      "content": "Huh interesting. So speaking of more modern stuff, I went to the Rothko Chapel once and it was just these huge dark paintings. I honestly didn't really get it. They just looked like big dark rectangles to me. What am I supposed to feel when I look at those?"
+    },
+    {
+      "role": "user",
+      "content": "Okay I can kind of see that. Totally different question — I saw a sculpture by Bernini, the one of Saint Teresa, and it was super detailed. How did he make marble look so soft and real like that? It looked like actual fabric."
+    },
+    {
+      "role": "user",
+      "content": "That's impressive. Oh also I saw some paintings by this German artist Kiefer that had like actual dirt and straw stuck to them. Why would an artist put random stuff on a painting instead of just using paint? That seemed weird to me."
+    },
+    {
+      "role": "user",
+      "content": "Okay that's actually pretty interesting, I didn't think about it that way. So looking back at all these artists we talked about — Caravaggio, Vermeer, Monet, Cezanne, Rothko, Bernini, Kiefer — who do you think is the best one? Like who's the most important artist out of all of them?"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task3",
+  "task_name": "CLI Task Manager",
+  "run_id": 2,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Build a command-line task manager in Python that supports adding, completing, listing, and filtering tasks. Tasks should persist between sessions.",
+  "response_text": "Perfect! I've built a complete command-line task manager for you. Here's what you have:\n\n## \u2605 Insight \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n**Design choices made:**\n\n1. **Dataclass + JSON Storage** \u2014 Uses Python's `@dataclass` for clean task representation and JSON for human-readable persistence. This makes tasks easy to debug (you can open `~/.task_manager/tasks.json` directly) and eliminates the need for database setup.\n\n2. **Task ID Management** \u2014 IDs auto-increment and are preserved across sessions. The `_next_id` is calculated from the max existing ID on load, ensuring no collisions even if you manually delete files.\n\n3. **Flexible Filtering** \u2014 The `list_tasks()` method supports multiple filter combinations (status, tags, include_completed). Tag filtering uses `any()` so tasks match if they have at least one matching tag \u2014 useful for \"show all work-related tasks\" even if they have multiple tags.\n\n4. **Separation of Concerns** \u2014 CLI logic is separate from business logic (TaskManager). This makes it easy to reuse TaskManager as a library or build a GUI on top later.\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n## Usage\n\nSave the code above to `task_manager.py` and then:\n\n```bash\n# Add tasks\npython3 task_manager.py add \"Buy groceries\" --tags shopping\npython3 task_manager.py add \"Fix bug #123\" --desc \"Critical auth issue\" --tags work,urgent\n\n# List pending tasks (default behavior)\npython3 task_manager.py list\n\n# List all tasks including completed\npython3 task_manager.py list --all\n\n# Filter by status\npython3 task_manager.py list --status completed\n\n# Filter by tags (comma-separated, matches any tag)\npython3 task_manager.py list --tags work\npython3 task_manager.py list --tags work,shopping\n\n# Show task descriptions\npython3 task_manager.py list -v\n\n# Mark task complete/pending\npython3 task_manager.py complete 1\npython3 task_manager.py uncomplete 1\n\n# Delete a task\npython3 task_manager.py delete 1\n\n# View statistics\npython3 task_manager.py stats\n```\n\n## Features Included\n\n\u2713 **Add tasks** with title, description, and tags  \n\u2713 **Complete/uncomplete** tasks  \n\u2713 **Delete** tasks  \n\u2713 **List** with multiple filters (status, tags, verbose)  \n\u2713 **Persistent storage** at `~/.task_manager/tasks.json`  \n\u2713 **Task statistics** (total, pending, completed, progress %)  \n\u2713 **Clean CLI** with helpful error messages  \n\n## Persistence\n\nTasks automatically save to `~/.task_manager/tasks.json`. This file is created automatically on first run. You can:\n- Manually inspect/edit it\n- Back it up\n- Share it across machines by symlinking the directory\n\nThe manager reloads this file on startup, so tasks persist between sessions indefinitely.\n\nWould you like me to add any additional features (e.g., due dates, priority levels, search by title, export to CSV)?",
+  "stop_reason": "end_turn",
+  "input_tokens": 40,
+  "output_tokens": 695,
+  "system_chars": 0,
+  "prompt_chars": 163,
+  "elapsed_ms": 155550.9,
+  "timestamp": "2026-03-24T20:09:47.371612+00:00"
+}

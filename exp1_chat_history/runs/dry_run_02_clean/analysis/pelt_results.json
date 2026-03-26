@@ -1,0 +1,494 @@
+{
+  "cyclomatic_complexity": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 13.566666666666666,
+        "std": 7.495257760003247,
+        "trend": 0.04338153503893221,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "max_nesting_depth": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 2.8,
+        "std": 1.4922019523732928,
+        "trend": 0.022691879866518407,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "function_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 8.5,
+        "std": 3.7394295465128544,
+        "trend": 0.02380422691879865,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "class_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 1.6,
+        "std": 0.8793937305515279,
+        "trend": 0.014682981090100118,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "total_lines": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 139.66666666666666,
+        "std": 58.001340980666605,
+        "trend": -0.3902113459399325,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "saturation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "comment_lines": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 7.7,
+        "std": 6.061627944152737,
+        "trend": -0.11190211345939931,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "comment_ratio": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 0.05401333333333334,
+        "std": 0.031134768703528572,
+        "trend": -0.00046416017797552806,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "docstring_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 6.366666666666666,
+        "std": 4.549603157297226,
+        "trend": 0.04293659621802006,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "type_annotation_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 13.633333333333333,
+        "std": 6.353389296710501,
+        "trend": -0.0015572858731921504,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "comprehension_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 1.5333333333333334,
+        "std": 2.7170245163086446,
+        "trend": 0.008898776418242504,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "try_except_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 0.7333333333333333,
+        "std": 0.8537498983243798,
+        "trend": 0.0008898776418242615,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "unique_imports": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 3.7,
+        "std": 2.26789182575654,
+        "trend": 0.004226918798665223,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "avg_function_length": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 11.077000000000002,
+        "std": 3.859761780213903,
+        "trend": -0.007374860956618613,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "parse_error": {
+    "skipped": true,
+    "reason": "insufficient data"
+  },
+  "has_clarifying_questions": {
+    "skipped": true,
+    "reason": "insufficient data"
+  },
+  "explanation_length": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 1341.9333333333334,
+        "std": 778.2622066002064,
+        "trend": 0.3786429365962294,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "code_length": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 4578.733333333334,
+        "std": 1976.6929947656404,
+        "trend": -15.929254727474852,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "saturation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "code_to_explanation_ratio": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 4.134996666666667,
+        "std": 2.5708546845337037,
+        "trend": -0.05284429365962172,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "advanced_pattern_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 10.3,
+        "std": 7.563729238940273,
+        "trend": -0.04026696329254725,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "assumption_count": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 0.0,
+        "std": 0.0,
+        "trend": 0.0,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "architectural_sophistication": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 5.614999999999998,
+        "std": 0.9829504904453056,
+        "trend": 0.006329254727475025,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "defensive_coding": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 5.081666666666666,
+        "std": 1.4188307001032772,
+        "trend": 0.006484983314794275,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "idiomatic_density": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 5.423333333333334,
+        "std": 2.5137864313068086,
+        "trend": -0.011813125695216852,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  },
+  "verbosity_ratio": {
+    "change_points": [],
+    "n_regimes": 1,
+    "regimes": [
+      {
+        "start": 0,
+        "end": 30,
+        "mean": 0.3363000000000001,
+        "std": 0.21516961526510509,
+        "trend": 0.0012606006674082365,
+        "start_date": null,
+        "end_date": null
+      }
+    ],
+    "phase": "accumulation",
+    "profile_boundaries": {
+      "A": 10,
+      "B": 20,
+      "C": 30
+    },
+    "total_values": 30
+  }
+}

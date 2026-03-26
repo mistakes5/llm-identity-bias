@@ -1,0 +1,8 @@
+{
+  "source": "sonnet_C_task4_run4.json",
+  "n_blocks": 3,
+  "syntax_valid": false,
+  "syntax_error": "Line 142: invalid syntax",
+  "code_lines": 147,
+  "code_chars": 5388
+}

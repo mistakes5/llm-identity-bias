@@ -1,0 +1,211 @@
+========================================================================
+PROFILE BIAS EXPERIMENT — STATISTICAL ANALYSIS REPORT
+========================================================================
+
+DATA OVERVIEW
+----------------------------------------
+  Total observations: 30
+  Profile A: 10
+  Profile B: 10
+  Profile C: 10
+  Model haiku: 15
+  Model sonnet: 15
+
+========================================================================
+KEY FINDINGS
+========================================================================
+
+  * 1 metric(s) show SIGNIFICANT profile effects (one-way ANOVA, p < 0.05):
+    - architectural_sophistication: F=5.866, p=0.0077
+
+  * Largest effect sizes (Cohen's d):
+    - architectural_sophistication (A_vs_B): |d|=1.234 (large)
+    - architectural_sophistication (B_vs_C): |d|=1.209 (large)
+    - class_count (A_vs_B): |d|=0.941 (large)
+    - code_length (B_vs_C): |d|=0.863 (large)
+    - explanation_length (A_vs_B): |d|=0.856 (large)
+    - total_lines (B_vs_C): |d|=0.854 (large)
+    - explanation_length (B_vs_C): |d|=0.848 (large)
+    - function_count (A_vs_B): |d|=0.828 (large)
+    - type_annotation_count (B_vs_C): |d|=0.805 (large)
+    - class_count (B_vs_C): |d|=0.759 (medium)
+
+  * Model sensitivity to profile priming:
+    - haiku: 0/24 metrics show significant profile effect
+    - sonnet: 0/24 metrics show significant profile effect
+
+  * No significant profile x model interaction effects detected.
+
+  * No PELT change points aligned with profile boundaries.
+
+========================================================================
+DETAILED RESULTS
+========================================================================
+
+ONE-WAY ANOVA (by Profile)
+------------------------------------------------------------------------
+Metric                                F          p   Sig?    Mean_A   Mean_B   Mean_C
+------------------------------------------------------------------------
+cyclomatic_complexity             0.259     0.7741           12.400   14.900   13.400
+max_nesting_depth                 0.547     0.5851            2.700    2.500    3.200
+function_count                    2.288     0.1208            7.300   10.500    7.700
+class_count                       2.644     0.0894            1.300    2.100    1.400
+total_lines                       2.236     0.1263          130.600  169.800  118.600
+comment_lines                     1.003     0.3802            7.600    9.700    5.800
+comment_ratio                     0.250     0.7807            0.054    0.059    0.049
+docstring_count                   0.706     0.5024            5.600    7.800    5.700
+type_annotation_count             1.709     0.2001           12.600   16.600   11.700
+comprehension_count               0.316     0.7317            1.000    2.000    1.600
+try_except_count                  0.692     0.5091            0.600    1.000    0.600
+unique_imports                    0.680     0.5151            3.300    4.400    3.400
+avg_function_length               0.143     0.8675           11.619   10.689   10.923
+explanation_length                3.307     0.0519         1077.600 1829.600 1118.600
+code_length                       2.147     0.1364         4282.500 5586.100 3867.600
+code_to_explanation_ratio         0.590     0.5615            4.875    3.704    3.825
+advanced_pattern_count            1.535     0.2337            8.900   13.700    8.300
+assumption_count                    nan        nan            0.000    0.000    0.000
+architectural_sophistication      5.866     0.0077     **     5.225    6.380    5.240
+defensive_coding                  1.156     0.3297            4.785    5.645    4.815
+idiomatic_density                 0.502     0.6109            5.170    6.090    5.010
+verbosity_ratio                   0.532     0.5934            0.287    0.390    0.332
+
+TWO-WAY ANOVA (Profile x Model)
+------------------------------------------------------------------------------------------
+Metric                      Prof_F    Prof_p  Model_F   Model_p  Inter_F   Inter_p
+------------------------------------------------------------------------------------------
+cyclomatic_complexity        0.260    0.7733    3.077    0.0922    0.031    0.9693
+max_nesting_depth            0.619    0.5468    6.349    0.0188    0.111    0.8953
+function_count               2.077    0.1472    0.276    0.6044    0.118    0.8888
+class_count                  2.533    0.1004    0.711    0.4074    0.578    0.5688
+total_lines                  2.045    0.1513    0.301    0.5882    0.196    0.8231
+comment_lines                0.929    0.4087    0.235    0.6323    0.391    0.6807
+comment_ratio                0.235    0.7920    0.088    0.7694    0.677    0.5174
+docstring_count              0.847    0.4410    5.945    0.0225    1.224    0.3117
+type_annotation_count        1.607    0.2213    0.020    0.8896    0.686    0.5133
+comprehension_count          0.286    0.7536    0.241    0.6279    0.105    0.9003
+try_except_count             0.653    0.5295    1.469    0.2372    0.000    1.0000
+unique_imports               0.613    0.5499    0.271    0.6076    0.039    0.9621
+avg_function_length          0.134    0.8752    0.742    0.3976    0.296    0.7463
+explanation_length           3.090    0.0640    0.810    0.3770    0.208    0.8140
+code_length                  2.005    0.1566    0.831    0.3711    0.192    0.8266
+code_to_explanation_ratio    0.548    0.5852    0.420    0.5230    0.334    0.7191
+advanced_pattern_count       1.403    0.2653    0.090    0.7665    0.297    0.7458
+assumption_count               nan       nan      nan       nan      nan       nan
+architectural_sophistication    5.402    0.0116    0.112    0.7411    0.377    0.6896
+defensive_coding             1.200    0.3185    4.009    0.0567    0.011    0.9895
+idiomatic_density            0.456    0.6393    0.091    0.7661    0.215    0.8084
+verbosity_ratio              0.532    0.5944    1.998    0.1703    0.491    0.6182
+
+EFFECT SIZES (Cohen's d)
+--------------------------------------------------------------------------------
+Metric                        A_vs_B     A_vs_C     B_vs_C  Largest Pair    Interp      
+--------------------------------------------------------------------------------
+cyclomatic_complexity         -0.323     -0.128      0.189  A_vs_B          small       
+max_nesting_depth              0.153     -0.289     -0.447  B_vs_C          small       
+function_count                -0.828     -0.149      0.665  A_vs_B          large       
+class_count                   -0.941     -0.131      0.759  A_vs_B          large       
+total_lines                   -0.649      0.246      0.854  B_vs_C          large       
+comment_lines                 -0.296      0.308      0.716  B_vs_C          medium      
+comment_ratio                 -0.141      0.173      0.328  B_vs_C          small       
+docstring_count               -0.431     -0.030      0.395  A_vs_B          small       
+type_annotation_count         -0.536      0.174      0.805  B_vs_C          large       
+comprehension_count           -0.361     -0.242      0.125  A_vs_B          small       
+try_except_count              -0.447      0.000      0.419  A_vs_B          small       
+unique_imports                -0.452     -0.047      0.410  A_vs_B          small       
+avg_function_length            0.252      0.156     -0.059  A_vs_B          small       
+parse_error                    0.000      0.000      0.000  A_vs_B          negligible  
+has_clarifying_questions       0.000      0.000      0.000  A_vs_B          negligible  
+explanation_length            -0.856     -0.107      0.848  A_vs_B          large       
+code_length                   -0.632      0.238      0.863  B_vs_C          large       
+code_to_explanation_ratio      0.427      0.355     -0.055  A_vs_B          small       
+advanced_pattern_count        -0.598      0.099      0.644  B_vs_C          medium      
+assumption_count               0.000      0.000      0.000  A_vs_B          negligible  
+architectural_sophistication     -1.234     -0.022      1.209  A_vs_B          large       
+defensive_coding              -0.577     -0.021      0.613  B_vs_C          medium      
+idiomatic_density             -0.338      0.062      0.436  B_vs_C          small       
+verbosity_ratio               -0.400     -0.318      0.228  A_vs_B          small       
+
+MANN-WHITNEY U (Bonferroni-corrected)
+--------------------------------------------------------------------------------
+Metric                      A_vs_B p   A_vs_C p   B_vs_C p  Any Sig?
+--------------------------------------------------------------------------------
+cyclomatic_complexity         1.0000     1.0000     1.0000        no
+max_nesting_depth             1.0000     1.0000     1.0000        no
+function_count                0.4459     1.0000     0.5902        no
+class_count                   0.2252     1.0000     0.5354        no
+total_lines                   0.6369     1.0000     0.2460        no
+comment_lines                 0.3014     1.0000     0.3599        no
+comment_ratio                 1.0000     1.0000     1.0000        no
+docstring_count               1.0000     1.0000     1.0000        no
+type_annotation_count         0.7176     1.0000     0.5502        no
+comprehension_count           1.0000     1.0000     1.0000        no
+try_except_count              1.0000     1.0000     1.0000        no
+unique_imports                1.0000     1.0000     1.0000        no
+avg_function_length           1.0000     1.0000     1.0000        no
+parse_error                      N/A        N/A        N/A        no
+has_clarifying_questions         N/A        N/A        N/A        no
+explanation_length            0.1355     1.0000     0.0419       YES
+code_length                   0.4214     1.0000     0.0936        no
+code_to_explanation_ratio     1.0000     0.9225     1.0000        no
+advanced_pattern_count        0.7651     1.0000     0.7202        no
+assumption_count              1.0000     1.0000     1.0000        no
+architectural_sophistication     0.0633     1.0000     0.1125        no
+defensive_coding              0.5546     1.0000     0.8169        no
+idiomatic_density             1.0000     1.0000     1.0000        no
+verbosity_ratio               1.0000     0.9225     1.0000        no
+
+KRUSKAL-WALLIS H-TEST
+--------------------------------------------------
+Metric                                H          p
+--------------------------------------------------
+cyclomatic_complexity             0.433     0.8052
+max_nesting_depth                 0.878     0.6448
+function_count                    2.696     0.2598
+class_count                       3.737     0.1544
+total_lines                       3.700     0.1573
+comment_lines                     3.662     0.1602
+comment_ratio                     0.424     0.8090
+docstring_count                   1.061     0.5884
+type_annotation_count             2.266     0.3221
+comprehension_count               0.101     0.9507
+try_except_count                  1.030     0.5975
+unique_imports                    1.061     0.5883
+avg_function_length               0.279     0.8699
+explanation_length                7.011     0.0300
+code_length                       5.350     0.0689
+code_to_explanation_ratio         1.032     0.5968
+advanced_pattern_count            2.072     0.3548
+assumption_count                    nan        nan
+architectural_sophistication      6.785     0.0336
+defensive_coding                  2.123     0.3459
+idiomatic_density                 0.785     0.6754
+verbosity_ratio                   1.032     0.5968
+
+========================================================================
+PER-TASK BREAKDOWN OF SIGNIFICANT EFFECTS
+========================================================================
+
+  Task: task1
+    (no significant profile effects)
+
+  Task: task2
+    (no significant profile effects)
+
+  Task: task3
+    - function_count (p=0.0378)
+    - type_annotation_count (p=0.0493)
+    - avg_function_length (p=0.0018)
+    - explanation_length (p=0.0121)
+    - code_to_explanation_ratio (p=0.0020)
+    - idiomatic_density (p=0.0072)
+    - verbosity_ratio (p=0.0015)
+
+  Task: task4
+    (no significant profile effects)
+
+  Task: task5
+    - comment_lines (p=0.0225)
+
+========================================================================
+END OF REPORT
+========================================================================

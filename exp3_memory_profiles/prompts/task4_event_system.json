@@ -1,0 +1,12 @@
+{
+  "task_id": "task4",
+  "name": "Event System",
+  "tier": "system_design",
+  "prompt": "Implement a publish-subscribe event system in Python that supports subscribing to events, publishing events with data, unsubscribing, and wildcard subscriptions.",
+  "quality_spectrum": {
+    "naive": "dict of lists, string matching",
+    "intermediate": "proper callback management, returns unsubscribe handles",
+    "optimal": "type-safe, supports async handlers, priority ordering",
+    "elegant": "weak references to prevent memory leaks, middleware support, event filtering"
+  }
+}

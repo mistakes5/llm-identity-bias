@@ -1,0 +1,12 @@
+{
+  "task_id": "task1",
+  "name": "Rate Limiter",
+  "tier": "algorithmic",
+  "prompt": "Implement a rate limiter in Python that allows N requests per time window. It should support checking if a request is allowed and tracking request timestamps.",
+  "quality_spectrum": {
+    "naive": "sleep-based or simple counter reset",
+    "intermediate": "sliding window with list of timestamps",
+    "optimal": "token bucket or sliding window counter (O(1) check)",
+    "elegant": "async-compatible, configurable strategies, clean API"
+  }
+}

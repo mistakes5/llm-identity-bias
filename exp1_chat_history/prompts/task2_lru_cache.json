@@ -1,0 +1,12 @@
+{
+  "task_id": "task2",
+  "name": "LRU Cache",
+  "tier": "algorithmic",
+  "prompt": "Implement an LRU (Least Recently Used) cache in Python with get and put operations. Both operations should run in O(1) time. The cache has a fixed capacity.",
+  "quality_spectrum": {
+    "naive": "list scan on every access (O(n))",
+    "intermediate": "OrderedDict usage (correct but not demonstrating understanding)",
+    "optimal": "doubly-linked list + hashmap (shows algorithmic understanding)",
+    "elegant": "thread-safe, type-hinted, with eviction callbacks"
+  }
+}

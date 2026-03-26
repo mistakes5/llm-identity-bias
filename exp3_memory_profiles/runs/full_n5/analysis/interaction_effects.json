@@ -1,0 +1,209 @@
+[
+  {
+    "metric": "cyclomatic_complexity",
+    "profile_F": 2.9045532429781202,
+    "profile_p": 0.02265678761826513,
+    "model_F": 0.655200746467482,
+    "model_p": 0.41912610032468656,
+    "interaction_F": 0.6333968199490947,
+    "interaction_p": 0.6391736925837215
+  },
+  {
+    "metric": "max_nesting_depth",
+    "profile_F": 0.5920924564485289,
+    "profile_p": 0.6687068646712986,
+    "model_F": 5.312031685985385,
+    "model_p": 0.02210263127458134,
+    "interaction_F": 0.39527448189993397,
+    "interaction_p": 0.8119212247827403
+  },
+  {
+    "metric": "function_count",
+    "profile_F": 4.577053751819618,
+    "profile_p": 0.0014308784031117762,
+    "model_F": 1.5048976691126814,
+    "model_p": 0.22121876190413853,
+    "interaction_F": 1.783047497599256,
+    "interaction_p": 0.13319232449936622
+  },
+  {
+    "metric": "class_count",
+    "profile_F": 12.32982934655113,
+    "profile_p": 4.515311844220918e-09,
+    "model_F": 1.438203992041962,
+    "model_p": 0.2317086290746845,
+    "interaction_F": 2.0272596289969322,
+    "interaction_p": 0.09157317829677214
+  },
+  {
+    "metric": "total_lines",
+    "profile_F": 2.9273753325034075,
+    "profile_p": 0.021832350291089538,
+    "model_F": 0.6012458284263311,
+    "model_p": 0.4389282629539655,
+    "interaction_F": 1.177922275082498,
+    "interaction_p": 0.32136218941437544
+  },
+  {
+    "metric": "comment_lines",
+    "profile_F": 13.741957306856508,
+    "profile_p": 4.986628989194588e-10,
+    "model_F": 14.874162739328073,
+    "model_p": 0.00015058693939168854,
+    "interaction_F": 2.9916706265485615,
+    "interaction_p": 0.01966463587749075
+  },
+  {
+    "metric": "comment_ratio",
+    "profile_F": 4.418061860018539,
+    "profile_p": 0.0018649618359096252,
+    "model_F": 0.7403153989155759,
+    "model_p": 0.39048812116936094,
+    "interaction_F": 0.32462651452967034,
+    "interaction_p": 0.8612840053222071
+  },
+  {
+    "metric": "docstring_count",
+    "profile_F": 4.458362770380728,
+    "profile_p": 0.0017438636381883847,
+    "model_F": 17.9807100210486,
+    "model_p": 3.2752954526941044e-05,
+    "interaction_F": 1.2500198704107406,
+    "interaction_p": 0.29072262017677164
+  },
+  {
+    "metric": "type_annotation_count",
+    "profile_F": 23.405786875363678,
+    "profile_p": 3.6980204556709637e-16,
+    "model_F": 1.015056810359705,
+    "model_p": 0.3147912827795681,
+    "interaction_F": 4.583037940279145,
+    "interaction_p": 0.0014166740933067496
+  },
+  {
+    "metric": "comprehension_count",
+    "profile_F": 1.692412867632565,
+    "profile_p": 0.15271205086846482,
+    "model_F": 4.0535721519718555,
+    "model_p": 0.04528523287953154,
+    "interaction_F": 0.6354853827214952,
+    "interaction_p": 0.6376932953800889
+  },
+  {
+    "metric": "try_except_count",
+    "profile_F": 1.6020300806711143,
+    "profile_p": 0.17477580547101768,
+    "model_F": 11.09304382043401,
+    "model_p": 0.0010147061046310607,
+    "interaction_F": 0.311341172274998,
+    "interaction_p": 0.8702239330790366
+  },
+  {
+    "metric": "unique_imports",
+    "profile_F": 11.312784976307748,
+    "profile_p": 2.2576410543009014e-08,
+    "model_F": 2.9084191294598933,
+    "model_p": 0.08951694497711453,
+    "interaction_F": 1.2337605198138775,
+    "interaction_p": 0.29740795301471035
+  },
+  {
+    "metric": "avg_function_length",
+    "profile_F": 4.773837848473122,
+    "profile_p": 0.0010305461640348933,
+    "model_F": 4.4227991245409415,
+    "model_p": 0.03658809054865783,
+    "interaction_F": 0.5445021306813611,
+    "interaction_p": 0.7032189387483534
+  },
+  {
+    "metric": "explanation_length",
+    "profile_F": 6.671743631592218,
+    "profile_p": 4.1624638655490465e-05,
+    "model_F": 0.7390880868052494,
+    "model_p": 0.3908110662303503,
+    "interaction_F": 1.403305796785252,
+    "interaction_p": 0.23350594988095824
+  },
+  {
+    "metric": "code_length",
+    "profile_F": 2.640696229960102,
+    "profile_p": 0.03449402391784051,
+    "model_F": 2.756995306639355,
+    "model_p": 0.09813583716319303,
+    "interaction_F": 1.3773892373932917,
+    "interaction_p": 0.2423901803862309
+  },
+  {
+    "metric": "code_to_explanation_ratio",
+    "profile_F": 0.4143237944724113,
+    "profile_p": 0.7982483654042318,
+    "model_F": 5.470796206862222,
+    "model_p": 0.020158247668229868,
+    "interaction_F": 0.5783291146937508,
+    "interaction_p": 0.6786208075885078
+  },
+  {
+    "metric": "advanced_pattern_count",
+    "profile_F": 6.165705848986018,
+    "profile_p": 9.725799540006934e-05,
+    "model_F": 3.3391719937402478,
+    "model_p": 0.06889040546207179,
+    "interaction_F": 1.1530134004900008,
+    "interaction_p": 0.33232531715318137
+  },
+  {
+    "metric": "assumption_count",
+    "profile_F": 2.2708639683538498e-30,
+    "profile_p": 1.0,
+    "model_F": 1.8000000000000012,
+    "model_p": 0.18098053985395035,
+    "interaction_F": 0.8000000000000002,
+    "interaction_p": 0.5262147439715068
+  },
+  {
+    "metric": "architectural_sophistication",
+    "profile_F": 17.668379621614854,
+    "profile_p": 1.320455105371995e-12,
+    "model_F": 0.3822001181488994,
+    "model_p": 0.5370618523572137,
+    "interaction_F": 1.7784619790306095,
+    "interaction_p": 0.13412143777790572
+  },
+  {
+    "metric": "defensive_coding",
+    "profile_F": 13.415867811778837,
+    "profile_p": 8.26716138084746e-10,
+    "model_F": 5.9649516829551485,
+    "model_p": 0.015374748583750876,
+    "interaction_F": 1.3705975502646242,
+    "interaction_p": 0.2450468683312202
+  },
+  {
+    "metric": "idiomatic_density",
+    "profile_F": 18.004411759354277,
+    "profile_p": 8.050227089254161e-13,
+    "model_F": 2.1366382928268832,
+    "model_p": 0.14523079184580662,
+    "interaction_F": 1.844273293617575,
+    "interaction_p": 0.12134826571497612
+  },
+  {
+    "metric": "verbosity_ratio",
+    "profile_F": 0.5139688705610646,
+    "profile_p": 0.725528373028524,
+    "model_F": 3.777433157621884,
+    "model_p": 0.05311731411776267,
+    "interaction_F": 0.13327056244320015,
+    "interaction_p": 0.9700357049667944
+  },
+  {
+    "metric": "strategy_score",
+    "profile_F": 4.6431623931624095,
+    "profile_p": 0.0012548235824022924,
+    "model_F": 0.03846153846153818,
+    "model_p": 0.8446852212075221,
+    "interaction_F": 0.7329059829059881,
+    "interaction_p": 0.5702901112141006
+  }
+]

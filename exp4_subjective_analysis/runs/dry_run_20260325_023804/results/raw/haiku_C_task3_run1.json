@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "The **New Topographics movement** (1970s\u201380s) broke from romantic landscape tradition in several key ways:\n\n**Earlier landscape photography** celebrated:\n- Sublime, pristine nature (Ansel Adams, etc.)\n- Dramatic light and composition\n- Wilderness as transcendent subject\n- Technical perfection and beauty\n\n**New Topographics rejected this by:**\n\n1. **Embraced the ordinary** \u2014 mundane, overlooked places (parking lots, subdivisions, industrial sites, roadsides) rather than scenic vistas\n2. **Deadpan aesthetics** \u2014 neutral, frontally composed, unglamorous framing; no romantic lighting or dramatic moments\n3. **Documented human alteration** \u2014 showed how development, sprawl, and infrastructure were reshaping the landscape; treated nature and human intervention as equally visible subjects\n4. **Stripped away sentiment** \u2014 dispassionate documentary approach vs. emotional connection to nature\n5. **Anti-picturesque** \u2014 rejected composition rules that made things look beautiful; instead made the viewer confront uncomfortable reality\n6. **Color and detail** \u2014 often shot in color to capture the banality of strip malls and subdivisions (vs. B&W which could romanticize)\n\n**Key photographers:** Robert Adams, Lewis Baltz, Bernd & Hilla Becher (typologies), Ed Ruscha.\n\nEssentially, New Topographics asked: *What happens when nature becomes landscape becomes real estate?* They photographed the answer without aesthetic rescue\u2014making the viewer see sprawl, development, and environmental change directly rather than through the lens of natural beauty.",
+  "stop_reason": "end_turn",
+  "input_tokens": 105,
+  "output_tokens": 387,
+  "system_chars": 321,
+  "prompt_chars": 101,
+  "elapsed_ms": 14690.4,
+  "timestamp": "2026-03-25T06:53:55.086476+00:00"
+}

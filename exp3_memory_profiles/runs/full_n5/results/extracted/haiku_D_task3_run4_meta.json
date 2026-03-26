@@ -1,0 +1,8 @@
+{
+  "source": "haiku_D_task3_run4.json",
+  "n_blocks": 1,
+  "syntax_valid": false,
+  "syntax_error": "Line 2: invalid character '\u251c' (U+251C)",
+  "code_lines": 5,
+  "code_chars": 228
+}

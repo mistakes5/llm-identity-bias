@@ -1,0 +1,8 @@
+Rate the analytical depth of this response on a 1-5 scale:
+1 = Surface only. States obvious facts. No interpretation or framework.
+2 = Some interpretation but stays within conventional readings. No original connections.
+3 = Engages with established critical frameworks. Shows awareness of multiple perspectives.
+4 = Draws non-obvious connections. Challenges common readings. Introduces productive tensions.
+5 = Structurally original analysis. Cross-domain synthesis. Reframes the question itself.
+
+Respond with only a number 1-5.

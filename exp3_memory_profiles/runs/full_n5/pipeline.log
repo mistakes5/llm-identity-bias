@@ -1,0 +1,1334 @@
+2026-03-24 05:10:36 | INFO     | pipeline | Experiment 3 — Memory-Level Profile Bias
+2026-03-24 05:10:36 | INFO     | pipeline | Run output directory: experiment_3/runs/full_n5
+2026-03-24 05:10:36 | INFO     | pipeline | ============================================================
+2026-03-24 05:10:36 | INFO     | pipeline | STEP 1/6: Running experiment (250 API calls)
+2026-03-24 05:10:36 | INFO     | pipeline | ============================================================
+2026-03-24 05:10:36 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-24 05:10:36 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-24 05:10:36 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-24 05:10:36 | INFO     | pipeline | Profile D (high_sophistication_technical): 418 chars
+2026-03-24 05:10:36 | INFO     | pipeline | Profile E (low_sophistication_technical): 321 chars
+2026-03-24 05:10:36 | INFO     | pipeline | Model sonnet: 125 calls (randomized, seed=42)
+2026-03-24 05:10:36 | INFO     | pipeline | [1/125] sonnet A(high_sophistication_nontechnical) task2 run5
+2026-03-24 05:12:19 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1264 est tokens, 102949.8ms
+2026-03-24 05:12:19 | INFO     | pipeline | [2/125] sonnet D(high_sophistication_technical) task5 run2
+2026-03-24 05:13:34 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1187 est tokens, 75512.7ms
+2026-03-24 05:13:34 | INFO     | pipeline | [3/125] sonnet D(high_sophistication_technical) task5 run5
+2026-03-24 05:15:03 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1483 est tokens, 89090.5ms
+2026-03-24 05:15:03 | INFO     | pipeline | [4/125] sonnet D(high_sophistication_technical) task5 run4
+2026-03-24 05:16:29 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=532 est tokens, 86343.0ms
+2026-03-24 05:16:29 | INFO     | pipeline | [5/125] sonnet C(low_sophistication_nontechnical) task5 run1
+2026-03-24 05:17:07 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1346 est tokens, 37284.5ms
+2026-03-24 05:17:07 | INFO     | pipeline | [6/125] sonnet A(high_sophistication_nontechnical) task4 run2
+2026-03-24 05:20:15 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=2554 est tokens, 188676.4ms
+2026-03-24 05:20:15 | INFO     | pipeline | [7/125] sonnet C(low_sophistication_nontechnical) task3 run1
+2026-03-24 05:25:13 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2525 est tokens, 297717.8ms
+2026-03-24 05:25:13 | INFO     | pipeline | [8/125] sonnet B(control) task5 run3
+2026-03-24 05:26:19 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=588 est tokens, 65335.5ms
+2026-03-24 05:26:19 | INFO     | pipeline | [9/125] sonnet E(low_sophistication_technical) task1 run2
+2026-03-24 05:27:28 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1585 est tokens, 69711.8ms
+2026-03-24 05:27:28 | INFO     | pipeline | [10/125] sonnet D(high_sophistication_technical) task2 run1
+2026-03-24 05:29:07 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=929 est tokens, 98303.9ms
+2026-03-24 05:29:07 | INFO     | pipeline | [11/125] sonnet C(low_sophistication_nontechnical) task4 run3
+2026-03-24 05:30:59 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1258 est tokens, 112612.9ms
+2026-03-24 05:30:59 | INFO     | pipeline | [12/125] sonnet A(high_sophistication_nontechnical) task5 run2
+2026-03-24 05:32:20 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1999 est tokens, 80458.3ms
+2026-03-24 05:32:20 | INFO     | pipeline | [13/125] sonnet B(control) task2 run1
+2026-03-24 05:33:29 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1428 est tokens, 68900.1ms
+2026-03-24 05:33:29 | INFO     | pipeline | [14/125] sonnet D(high_sophistication_technical) task2 run5
+2026-03-24 05:34:04 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1160 est tokens, 35331.9ms
+2026-03-24 05:34:04 | INFO     | pipeline | [15/125] sonnet B(control) task2 run3
+2026-03-24 05:35:50 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1539 est tokens, 106502.0ms
+2026-03-24 05:35:50 | INFO     | pipeline | [16/125] sonnet C(low_sophistication_nontechnical) task3 run3
+2026-03-24 05:38:06 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2158 est tokens, 135284.9ms
+2026-03-24 05:38:06 | INFO     | pipeline | [17/125] sonnet C(low_sophistication_nontechnical) task5 run3
+2026-03-24 05:38:44 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1548 est tokens, 37837.3ms
+2026-03-24 05:38:44 | INFO     | pipeline | [18/125] sonnet E(low_sophistication_technical) task4 run5
+2026-03-24 05:42:44 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2826 est tokens, 240017.8ms
+2026-03-24 05:42:44 | INFO     | pipeline | [19/125] sonnet D(high_sophistication_technical) task4 run4
+2026-03-24 05:45:36 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=2466 est tokens, 172176.1ms
+2026-03-24 05:45:36 | INFO     | pipeline | [20/125] sonnet C(low_sophistication_nontechnical) task3 run2
+2026-03-24 05:48:03 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2007 est tokens, 147264.9ms
+2026-03-24 05:48:03 | INFO     | pipeline | [21/125] sonnet C(low_sophistication_nontechnical) task2 run2
+2026-03-24 05:48:30 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=930 est tokens, 26691.3ms
+2026-03-24 05:48:30 | INFO     | pipeline | [22/125] sonnet A(high_sophistication_nontechnical) task1 run3
+2026-03-24 05:50:57 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=1639 est tokens, 147019.3ms
+2026-03-24 05:50:57 | INFO     | pipeline | [23/125] sonnet C(low_sophistication_nontechnical) task4 run1
+2026-03-24 05:53:47 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1691 est tokens, 170685.0ms
+2026-03-24 05:53:47 | INFO     | pipeline | [24/125] sonnet D(high_sophistication_technical) task1 run4
+2026-03-24 05:55:12 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1526 est tokens, 84873.9ms
+2026-03-24 05:55:12 | INFO     | pipeline | [25/125] sonnet B(control) task3 run2
+2026-03-24 06:05:06 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=3382 est tokens, 594078.9ms
+2026-03-24 06:05:06 | INFO     | pipeline | [26/125] sonnet D(high_sophistication_technical) task5 run3
+2026-03-24 06:06:22 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=522 est tokens, 75810.0ms
+2026-03-24 06:06:22 | INFO     | pipeline | [27/125] sonnet A(high_sophistication_nontechnical) task2 run3
+2026-03-24 06:07:44 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1367 est tokens, 81426.5ms
+2026-03-24 06:07:44 | INFO     | pipeline | [28/125] sonnet A(high_sophistication_nontechnical) task1 run2
+2026-03-24 06:11:56 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=589 est tokens, 252599.9ms
+2026-03-24 06:11:56 | INFO     | pipeline | [29/125] sonnet D(high_sophistication_technical) task3 run1
+2026-03-24 06:14:15 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=1988 est tokens, 138605.6ms
+2026-03-24 06:14:15 | INFO     | pipeline | [30/125] sonnet C(low_sophistication_nontechnical) task1 run3
+2026-03-24 06:14:48 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1482 est tokens, 33599.5ms
+2026-03-24 06:14:48 | INFO     | pipeline | [31/125] sonnet B(control) task1 run2
+2026-03-24 06:18:03 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1676 est tokens, 194279.9ms
+2026-03-24 06:18:03 | INFO     | pipeline | [32/125] sonnet D(high_sophistication_technical) task3 run4
+2026-03-24 06:20:21 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=576 est tokens, 138323.8ms
+2026-03-24 06:20:21 | INFO     | pipeline | [33/125] sonnet C(low_sophistication_nontechnical) task5 run4
+2026-03-24 06:21:00 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1638 est tokens, 38622.6ms
+2026-03-24 06:21:00 | INFO     | pipeline | [34/125] sonnet E(low_sophistication_technical) task1 run3
+2026-03-24 06:22:21 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=400 est tokens, 81124.3ms
+2026-03-24 06:22:21 | INFO     | pipeline | [35/125] sonnet D(high_sophistication_technical) task4 run3
+2026-03-24 06:25:43 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=368 est tokens, 202661.9ms
+2026-03-24 06:25:43 | INFO     | pipeline | [36/125] sonnet E(low_sophistication_technical) task3 run4
+2026-03-24 06:27:09 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=376 est tokens, 85908.8ms
+2026-03-24 06:27:09 | INFO     | pipeline | [37/125] sonnet B(control) task3 run5
+2026-03-24 06:35:47 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=831 est tokens, 517826.2ms
+2026-03-24 06:35:47 | INFO     | pipeline | [38/125] sonnet E(low_sophistication_technical) task1 run1
+2026-03-24 06:36:54 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1265 est tokens, 66860.0ms
+2026-03-24 06:36:54 | INFO     | pipeline | [39/125] sonnet B(control) task2 run5
+2026-03-24 06:38:00 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1135 est tokens, 65492.2ms
+2026-03-24 06:38:00 | INFO     | pipeline | [40/125] sonnet C(low_sophistication_nontechnical) task1 run1
+2026-03-24 06:38:31 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1440 est tokens, 31506.6ms
+2026-03-24 06:38:31 | INFO     | pipeline | [41/125] sonnet B(control) task3 run4
+2026-03-24 06:42:58 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=3039 est tokens, 266506.3ms
+2026-03-24 06:42:58 | INFO     | pipeline | [42/125] sonnet E(low_sophistication_technical) task2 run4
+2026-03-24 06:45:59 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=2061 est tokens, 181335.5ms
+2026-03-24 06:45:59 | INFO     | pipeline | [43/125] sonnet B(control) task4 run2
+2026-03-24 06:48:20 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=2618 est tokens, 140921.1ms
+2026-03-24 06:48:20 | INFO     | pipeline | [44/125] sonnet D(high_sophistication_technical) task2 run3
+2026-03-24 06:49:18 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1091 est tokens, 58494.3ms
+2026-03-24 06:49:18 | INFO     | pipeline | [45/125] sonnet D(high_sophistication_technical) task1 run2
+2026-03-24 06:51:09 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=2838 est tokens, 110313.4ms
+2026-03-24 06:51:09 | INFO     | pipeline | [46/125] sonnet C(low_sophistication_nontechnical) task2 run5
+2026-03-24 06:51:33 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=861 est tokens, 24668.9ms
+2026-03-24 06:51:33 | INFO     | pipeline | [47/125] sonnet B(control) task4 run3
+2026-03-24 06:53:58 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=1676 est tokens, 144932.2ms
+2026-03-24 06:53:58 | INFO     | pipeline | [48/125] sonnet E(low_sophistication_technical) task5 run5
+2026-03-24 06:55:11 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=412 est tokens, 72471.5ms
+2026-03-24 06:55:11 | INFO     | pipeline | [49/125] sonnet A(high_sophistication_nontechnical) task5 run3
+2026-03-24 06:56:06 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1627 est tokens, 54701.7ms
+2026-03-24 06:56:06 | INFO     | pipeline | [50/125] sonnet C(low_sophistication_nontechnical) task1 run2
+2026-03-24 06:56:31 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1203 est tokens, 25096.8ms
+2026-03-24 06:56:31 | INFO     | pipeline | [51/125] sonnet D(high_sophistication_technical) task5 run1
+2026-03-24 06:57:33 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1414 est tokens, 62571.3ms
+2026-03-24 06:57:33 | INFO     | pipeline | [52/125] sonnet A(high_sophistication_nontechnical) task5 run4
+2026-03-24 06:59:01 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1790 est tokens, 88310.2ms
+2026-03-24 06:59:02 | INFO     | pipeline | [53/125] sonnet B(control) task4 run1
+2026-03-24 07:07:15 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=4022 est tokens, 493061.5ms
+2026-03-24 07:07:15 | INFO     | pipeline | [54/125] sonnet C(low_sophistication_nontechnical) task3 run4
+2026-03-24 07:09:30 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2053 est tokens, 135337.5ms
+2026-03-24 07:09:30 | INFO     | pipeline | [55/125] sonnet E(low_sophistication_technical) task4 run3
+2026-03-24 07:11:42 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2687 est tokens, 132094.9ms
+2026-03-24 07:11:42 | INFO     | pipeline | [56/125] sonnet C(low_sophistication_nontechnical) task4 run2
+2026-03-24 07:13:33 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2141 est tokens, 111356.6ms
+2026-03-24 07:13:33 | INFO     | pipeline | [57/125] sonnet A(high_sophistication_nontechnical) task2 run2
+2026-03-24 07:14:17 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1718 est tokens, 43957.2ms
+2026-03-24 07:14:17 | INFO     | pipeline | [58/125] sonnet C(low_sophistication_nontechnical) task2 run1
+2026-03-24 07:14:45 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=961 est tokens, 27160.1ms
+2026-03-24 07:14:45 | INFO     | pipeline | [59/125] sonnet E(low_sophistication_technical) task5 run4
+2026-03-24 07:15:55 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=465 est tokens, 70817.5ms
+2026-03-24 07:15:55 | INFO     | pipeline | [60/125] sonnet D(high_sophistication_technical) task3 run3
+2026-03-24 07:23:38 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=2557 est tokens, 462372.4ms
+2026-03-24 07:23:38 | INFO     | pipeline | [61/125] sonnet E(low_sophistication_technical) task1 run4
+2026-03-24 07:25:38 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1763 est tokens, 119820.1ms
+2026-03-24 07:25:38 | INFO     | pipeline | [62/125] sonnet A(high_sophistication_nontechnical) task4 run4
+2026-03-24 07:28:49 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=3334 est tokens, 191575.3ms
+2026-03-24 07:28:49 | INFO     | pipeline | [63/125] sonnet B(control) task5 run5
+2026-03-24 07:30:52 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1964 est tokens, 122565.2ms
+2026-03-24 07:30:52 | INFO     | pipeline | [64/125] sonnet E(low_sophistication_technical) task1 run5
+2026-03-24 07:32:51 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1857 est tokens, 118794.0ms
+2026-03-24 07:32:51 | INFO     | pipeline | [65/125] sonnet C(low_sophistication_nontechnical) task5 run5
+2026-03-24 07:33:41 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1340 est tokens, 50730.4ms
+2026-03-24 07:33:41 | INFO     | pipeline | [66/125] sonnet A(high_sophistication_nontechnical) task2 run4
+2026-03-24 07:34:31 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1501 est tokens, 49812.7ms
+2026-03-24 07:34:31 | INFO     | pipeline | [67/125] sonnet A(high_sophistication_nontechnical) task5 run5
+2026-03-24 07:35:50 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=689 est tokens, 79099.2ms
+2026-03-24 07:35:50 | INFO     | pipeline | [68/125] sonnet B(control) task5 run2
+2026-03-24 07:38:00 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=2028 est tokens, 129948.2ms
+2026-03-24 07:38:00 | INFO     | pipeline | [69/125] sonnet B(control) task3 run3
+2026-03-24 07:46:01 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=2664 est tokens, 481084.9ms
+2026-03-24 07:46:01 | INFO     | pipeline | [70/125] sonnet A(high_sophistication_nontechnical) task3 run1
+2026-03-24 07:49:09 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=2307 est tokens, 187933.4ms
+2026-03-24 07:49:09 | INFO     | pipeline | [71/125] sonnet D(high_sophistication_technical) task1 run5
+2026-03-24 07:50:30 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1654 est tokens, 81069.0ms
+2026-03-24 07:50:30 | INFO     | pipeline | [72/125] sonnet A(high_sophistication_nontechnical) task4 run1
+2026-03-24 07:54:35 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=3891 est tokens, 244451.1ms
+2026-03-24 07:54:35 | INFO     | pipeline | [73/125] sonnet C(low_sophistication_nontechnical) task4 run4
+2026-03-24 07:56:03 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1715 est tokens, 88320.8ms
+2026-03-24 07:56:03 | INFO     | pipeline | [74/125] sonnet C(low_sophistication_nontechnical) task2 run4
+2026-03-24 07:56:49 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1194 est tokens, 45896.4ms
+2026-03-24 07:56:49 | INFO     | pipeline | [75/125] sonnet A(high_sophistication_nontechnical) task2 run1
+2026-03-24 07:59:03 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1849 est tokens, 133641.5ms
+2026-03-24 07:59:03 | INFO     | pipeline | [76/125] sonnet B(control) task2 run4
+2026-03-24 08:00:09 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1045 est tokens, 66078.0ms
+2026-03-24 08:00:09 | INFO     | pipeline | [77/125] sonnet B(control) task4 run5
+2026-03-24 08:02:51 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=2599 est tokens, 162510.8ms
+2026-03-24 08:02:51 | INFO     | pipeline | [78/125] sonnet B(control) task5 run1
+2026-03-24 08:04:41 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1753 est tokens, 109494.5ms
+2026-03-24 08:04:41 | INFO     | pipeline | [79/125] sonnet A(high_sophistication_nontechnical) task3 run3
+2026-03-24 08:12:12 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=3033 est tokens, 451534.0ms
+2026-03-24 08:12:12 | INFO     | pipeline | [80/125] sonnet B(control) task5 run4
+2026-03-24 08:13:43 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1539 est tokens, 91127.1ms
+2026-03-24 08:13:43 | INFO     | pipeline | [81/125] sonnet E(low_sophistication_technical) task2 run2
+2026-03-24 08:14:59 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=426 est tokens, 75701.9ms
+2026-03-24 08:14:59 | INFO     | pipeline | [82/125] sonnet E(low_sophistication_technical) task4 run1
+2026-03-24 08:18:48 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=562 est tokens, 228876.8ms
+2026-03-24 08:18:48 | INFO     | pipeline | [83/125] sonnet E(low_sophistication_technical) task3 run5
+2026-03-24 08:20:40 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1972 est tokens, 111828.9ms
+2026-03-24 08:20:40 | INFO     | pipeline | [84/125] sonnet E(low_sophistication_technical) task2 run1
+2026-03-24 08:22:29 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=552 est tokens, 109087.8ms
+2026-03-24 08:22:29 | INFO     | pipeline | [85/125] sonnet A(high_sophistication_nontechnical) task4 run5
+2026-03-24 08:26:37 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=4160 est tokens, 248294.0ms
+2026-03-24 08:26:37 | INFO     | pipeline | [86/125] sonnet D(high_sophistication_technical) task4 run1
+2026-03-24 08:30:39 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=2501 est tokens, 241895.8ms
+2026-03-24 08:30:39 | INFO     | pipeline | [87/125] sonnet B(control) task4 run4
+2026-03-24 08:34:50 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=3772 est tokens, 250838.4ms
+2026-03-24 08:34:50 | INFO     | pipeline | [88/125] sonnet E(low_sophistication_technical) task2 run5
+2026-03-24 08:38:06 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=2538 est tokens, 195628.6ms
+2026-03-24 08:38:06 | INFO     | pipeline | [89/125] sonnet A(high_sophistication_nontechnical) task5 run1
+2026-03-24 08:39:59 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=510 est tokens, 113579.0ms
+2026-03-24 08:39:59 | INFO     | pipeline | [90/125] sonnet A(high_sophistication_nontechnical) task1 run1
+2026-03-24 08:43:07 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=2164 est tokens, 187764.4ms
+2026-03-24 08:43:07 | INFO     | pipeline | [91/125] sonnet E(low_sophistication_technical) task5 run1
+2026-03-24 08:44:11 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1431 est tokens, 63632.7ms
+2026-03-24 08:44:11 | INFO     | pipeline | [92/125] sonnet E(low_sophistication_technical) task3 run1
+2026-03-24 08:46:31 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1878 est tokens, 140380.3ms
+2026-03-24 08:46:31 | INFO     | pipeline | [93/125] sonnet C(low_sophistication_nontechnical) task2 run3
+2026-03-24 08:47:01 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1151 est tokens, 29995.4ms
+2026-03-24 08:47:01 | INFO     | pipeline | [94/125] sonnet E(low_sophistication_technical) task4 run4
+2026-03-24 14:01:09 | INFO     | pipeline | Experiment 3 — Memory-Level Profile Bias
+2026-03-24 14:01:09 | INFO     | pipeline | Run output directory: experiment_3/runs/full_n5
+2026-03-24 14:01:09 | INFO     | pipeline | ============================================================
+2026-03-24 14:01:09 | INFO     | pipeline | STEP 1/6: Running experiment (250 API calls)
+2026-03-24 14:01:09 | INFO     | pipeline | ============================================================
+2026-03-24 14:01:09 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-24 14:01:09 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-24 14:01:09 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-24 14:01:09 | INFO     | pipeline | Profile D (high_sophistication_technical): 418 chars
+2026-03-24 14:01:09 | INFO     | pipeline | Profile E (low_sophistication_technical): 321 chars
+2026-03-24 14:01:09 | INFO     | pipeline | Model sonnet: 125 calls (randomized, seed=42)
+2026-03-24 14:01:09 | INFO     | pipeline | [94/125] sonnet E(low_sophistication_technical) task4 run4
+2026-03-24 14:22:17 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=994 est tokens, 1267759.8ms
+2026-03-24 14:22:17 | INFO     | pipeline | [95/125] sonnet C(low_sophistication_nontechnical) task1 run4
+2026-03-24 14:23:26 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1283 est tokens, 68711.5ms
+2026-03-24 14:23:26 | INFO     | pipeline | [96/125] sonnet E(low_sophistication_technical) task3 run3
+2026-03-24 14:26:44 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2279 est tokens, 198013.2ms
+2026-03-24 14:26:44 | INFO     | pipeline | [97/125] sonnet D(high_sophistication_technical) task3 run5
+2026-03-24 14:29:20 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=1708 est tokens, 156678.5ms
+2026-03-24 14:29:20 | INFO     | pipeline | [98/125] sonnet D(high_sophistication_technical) task2 run4
+2026-03-24 14:30:30 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1296 est tokens, 69201.2ms
+2026-03-24 14:30:30 | INFO     | pipeline | [99/125] sonnet D(high_sophistication_technical) task4 run2
+2026-03-24 14:35:30 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=5878 est tokens, 300309.8ms
+2026-03-24 14:35:30 | INFO     | pipeline | [100/125] sonnet B(control) task1 run1
+2026-03-24 14:37:07 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1446 est tokens, 96808.8ms
+2026-03-24 14:37:07 | INFO     | pipeline | [101/125] sonnet C(low_sophistication_nontechnical) task5 run2
+2026-03-24 14:38:03 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1492 est tokens, 55884.1ms
+2026-03-24 14:38:03 | INFO     | pipeline | [102/125] sonnet E(low_sophistication_technical) task2 run3
+2026-03-24 14:40:37 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1850 est tokens, 154149.9ms
+2026-03-24 14:40:37 | INFO     | pipeline | [103/125] sonnet D(high_sophistication_technical) task1 run3
+2026-03-24 14:41:44 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1047 est tokens, 67567.5ms
+2026-03-24 14:41:44 | INFO     | pipeline | [104/125] sonnet C(low_sophistication_nontechnical) task3 run5
+2026-03-24 14:44:49 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2613 est tokens, 184890.1ms
+2026-03-24 14:44:49 | INFO     | pipeline | [105/125] sonnet B(control) task1 run5
+2026-03-24 14:46:04 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1843 est tokens, 74957.5ms
+2026-03-24 14:46:04 | INFO     | pipeline | [106/125] sonnet B(control) task1 run3
+2026-03-24 14:49:15 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1807 est tokens, 191086.2ms
+2026-03-24 14:49:15 | INFO     | pipeline | [107/125] sonnet E(low_sophistication_technical) task3 run2
+2026-03-24 14:51:55 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1832 est tokens, 159161.3ms
+2026-03-24 14:51:55 | INFO     | pipeline | [108/125] sonnet E(low_sophistication_technical) task5 run3
+2026-03-24 14:53:27 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=513 est tokens, 92410.6ms
+2026-03-24 14:53:27 | INFO     | pipeline | [109/125] sonnet A(high_sophistication_nontechnical) task1 run5
+2026-03-24 14:54:19 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=2425 est tokens, 51626.8ms
+2026-03-24 14:54:19 | INFO     | pipeline | [110/125] sonnet C(low_sophistication_nontechnical) task1 run5
+2026-03-24 14:54:57 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1688 est tokens, 37887.9ms
+2026-03-24 14:54:57 | INFO     | pipeline | [111/125] sonnet D(high_sophistication_technical) task1 run1
+2026-03-24 14:57:14 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1419 est tokens, 136991.6ms
+2026-03-24 14:57:14 | INFO     | pipeline | [112/125] sonnet A(high_sophistication_nontechnical) task3 run2
+2026-03-24 15:00:30 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=3807 est tokens, 196132.4ms
+2026-03-24 15:00:30 | INFO     | pipeline | [113/125] sonnet C(low_sophistication_nontechnical) task4 run5
+2026-03-24 15:02:47 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1868 est tokens, 137173.2ms
+2026-03-24 15:02:47 | INFO     | pipeline | [114/125] sonnet E(low_sophistication_technical) task4 run2
+2026-03-24 15:05:14 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1653 est tokens, 146705.2ms
+2026-03-24 15:05:14 | INFO     | pipeline | [115/125] sonnet D(high_sophistication_technical) task3 run2
+2026-03-24 15:08:40 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=2113 est tokens, 206554.5ms
+2026-03-24 15:08:40 | INFO     | pipeline | [116/125] sonnet A(high_sophistication_nontechnical) task3 run4
+2026-03-24 15:12:40 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=2023 est tokens, 239355.7ms
+2026-03-24 15:12:40 | INFO     | pipeline | [117/125] sonnet E(low_sophistication_technical) task5 run2
+2026-03-24 15:14:13 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=484 est tokens, 93427.2ms
+2026-03-24 15:14:13 | INFO     | pipeline | [118/125] sonnet A(high_sophistication_nontechnical) task4 run3
+2026-03-24 15:19:01 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=4111 est tokens, 288026.5ms
+2026-03-24 15:19:01 | INFO     | pipeline | [119/125] sonnet B(control) task1 run4
+2026-03-24 15:20:30 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=2002 est tokens, 88984.2ms
+2026-03-24 15:20:30 | INFO     | pipeline | [120/125] sonnet B(control) task2 run2
+2026-03-24 15:22:13 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1303 est tokens, 102876.6ms
+2026-03-24 15:22:13 | INFO     | pipeline | [121/125] sonnet B(control) task3 run1
+2026-03-24 15:26:37 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=753 est tokens, 264039.7ms
+2026-03-24 15:26:37 | INFO     | pipeline | [122/125] sonnet D(high_sophistication_technical) task4 run5
+2026-03-24 15:28:46 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=3115 est tokens, 129093.3ms
+2026-03-24 15:28:46 | INFO     | pipeline | [123/125] sonnet A(high_sophistication_nontechnical) task1 run4
+2026-03-24 15:31:25 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=2040 est tokens, 158588.5ms
+2026-03-24 15:31:25 | INFO     | pipeline | [124/125] sonnet A(high_sophistication_nontechnical) task3 run5
+2026-03-24 15:34:57 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=3457 est tokens, 212303.8ms
+2026-03-24 15:34:57 | INFO     | pipeline | [125/125] sonnet D(high_sophistication_technical) task2 run2
+2026-03-24 15:36:30 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1257 est tokens, 93263.2ms
+2026-03-24 15:36:30 | INFO     | pipeline | Model sonnet done: 32 calls, 93 skipped
+2026-03-24 15:36:30 | INFO     | pipeline | Model haiku: 125 calls (randomized, seed=42)
+2026-03-24 15:36:30 | INFO     | pipeline | [1/125] haiku A(high_sophistication_nontechnical) task2 run5
+2026-03-24 15:37:08 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1502 est tokens, 37434.4ms
+2026-03-24 15:37:08 | INFO     | pipeline | [2/125] haiku D(high_sophistication_technical) task5 run2
+2026-03-24 15:37:39 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1613 est tokens, 30737.2ms
+2026-03-24 15:37:39 | INFO     | pipeline | [3/125] haiku D(high_sophistication_technical) task5 run5
+2026-03-24 15:38:21 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1538 est tokens, 42093.0ms
+2026-03-24 15:38:21 | INFO     | pipeline | [4/125] haiku D(high_sophistication_technical) task5 run4
+2026-03-24 15:38:47 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1498 est tokens, 26263.6ms
+2026-03-24 15:38:47 | INFO     | pipeline | [5/125] haiku C(low_sophistication_nontechnical) task5 run1
+2026-03-24 15:39:55 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1710 est tokens, 68325.9ms
+2026-03-24 15:39:55 | INFO     | pipeline | [6/125] haiku A(high_sophistication_nontechnical) task4 run2
+2026-03-24 15:41:24 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=3361 est tokens, 88295.0ms
+2026-03-24 15:41:24 | INFO     | pipeline | [7/125] haiku C(low_sophistication_nontechnical) task3 run1
+2026-03-24 15:42:13 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2448 est tokens, 49409.0ms
+2026-03-24 15:42:13 | INFO     | pipeline | [8/125] haiku B(control) task5 run3
+2026-03-24 15:43:05 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=2029 est tokens, 51914.8ms
+2026-03-24 15:43:05 | INFO     | pipeline | [9/125] haiku E(low_sophistication_technical) task1 run2
+2026-03-24 15:43:45 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1881 est tokens, 40523.0ms
+2026-03-24 15:43:45 | INFO     | pipeline | [10/125] haiku D(high_sophistication_technical) task2 run1
+2026-03-24 15:46:55 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1102 est tokens, 189428.3ms
+2026-03-24 15:46:55 | INFO     | pipeline | [11/125] haiku C(low_sophistication_nontechnical) task4 run3
+2026-03-24 15:50:08 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2864 est tokens, 193480.9ms
+2026-03-24 15:50:08 | INFO     | pipeline | [12/125] haiku A(high_sophistication_nontechnical) task5 run2
+2026-03-24 15:50:34 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1299 est tokens, 25451.9ms
+2026-03-24 15:50:34 | INFO     | pipeline | [13/125] haiku B(control) task2 run1
+2026-03-24 15:52:36 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1462 est tokens, 122210.2ms
+2026-03-24 15:52:36 | INFO     | pipeline | [14/125] haiku D(high_sophistication_technical) task2 run5
+2026-03-24 15:54:01 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=836 est tokens, 85305.0ms
+2026-03-24 15:54:01 | INFO     | pipeline | [15/125] haiku B(control) task2 run3
+2026-03-24 15:55:52 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1309 est tokens, 110895.6ms
+2026-03-24 15:55:52 | INFO     | pipeline | [16/125] haiku C(low_sophistication_nontechnical) task3 run3
+2026-03-24 15:58:27 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=336 est tokens, 154908.6ms
+2026-03-24 15:58:27 | INFO     | pipeline | [17/125] haiku C(low_sophistication_nontechnical) task5 run3
+2026-03-24 15:59:48 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1996 est tokens, 81284.9ms
+2026-03-24 15:59:48 | INFO     | pipeline | [18/125] haiku E(low_sophistication_technical) task4 run5
+2026-03-24 16:00:48 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2676 est tokens, 59456.0ms
+2026-03-24 16:00:48 | INFO     | pipeline | [19/125] haiku D(high_sophistication_technical) task4 run4
+2026-03-24 16:02:17 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=1804 est tokens, 89079.4ms
+2026-03-24 16:02:17 | INFO     | pipeline | [20/125] haiku C(low_sophistication_nontechnical) task3 run2
+2026-03-24 16:04:00 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1491 est tokens, 103297.3ms
+2026-03-24 16:04:00 | INFO     | pipeline | [21/125] haiku C(low_sophistication_nontechnical) task2 run2
+2026-03-24 16:04:21 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1128 est tokens, 20404.8ms
+2026-03-24 16:04:21 | INFO     | pipeline | [22/125] haiku A(high_sophistication_nontechnical) task1 run3
+2026-03-24 16:04:55 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=1848 est tokens, 34555.7ms
+2026-03-24 16:04:55 | INFO     | pipeline | [23/125] haiku C(low_sophistication_nontechnical) task4 run1
+2026-03-24 16:06:21 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1822 est tokens, 85915.7ms
+2026-03-24 16:06:21 | INFO     | pipeline | [24/125] haiku D(high_sophistication_technical) task1 run4
+2026-03-24 16:07:11 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1008 est tokens, 50071.6ms
+2026-03-24 16:07:11 | INFO     | pipeline | [25/125] haiku B(control) task3 run2
+2026-03-24 16:09:47 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=695 est tokens, 155550.9ms
+2026-03-24 16:09:47 | INFO     | pipeline | [26/125] haiku D(high_sophistication_technical) task5 run3
+2026-03-24 16:10:16 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1337 est tokens, 29473.7ms
+2026-03-24 16:10:16 | INFO     | pipeline | [27/125] haiku A(high_sophistication_nontechnical) task2 run3
+2026-03-24 16:10:43 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1598 est tokens, 26356.9ms
+2026-03-24 16:10:43 | INFO     | pipeline | [28/125] haiku A(high_sophistication_nontechnical) task1 run2
+2026-03-24 16:11:36 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=1750 est tokens, 53014.4ms
+2026-03-24 16:11:36 | INFO     | pipeline | [29/125] haiku D(high_sophistication_technical) task3 run1
+2026-03-24 16:17:18 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=365 est tokens, 342442.2ms
+2026-03-24 16:17:18 | INFO     | pipeline | [30/125] haiku C(low_sophistication_nontechnical) task1 run3
+2026-03-24 16:18:09 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1573 est tokens, 50978.4ms
+2026-03-24 16:18:09 | INFO     | pipeline | [31/125] haiku B(control) task1 run2
+2026-03-24 16:18:49 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=126 est tokens, 40227.5ms
+2026-03-24 16:18:49 | INFO     | pipeline | [32/125] haiku D(high_sophistication_technical) task3 run4
+2026-03-24 16:19:29 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=307 est tokens, 39261.0ms
+2026-03-24 16:19:29 | INFO     | pipeline | [33/125] haiku C(low_sophistication_nontechnical) task5 run4
+2026-03-24 16:20:01 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1255 est tokens, 32086.9ms
+2026-03-24 16:20:01 | INFO     | pipeline | [34/125] haiku E(low_sophistication_technical) task1 run3
+2026-03-24 16:20:28 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1062 est tokens, 27204.1ms
+2026-03-24 16:20:28 | INFO     | pipeline | [35/125] haiku D(high_sophistication_technical) task4 run3
+2026-03-24 16:23:08 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=2469 est tokens, 160405.6ms
+2026-03-24 16:23:08 | INFO     | pipeline | [36/125] haiku E(low_sophistication_technical) task3 run4
+2026-03-24 16:24:59 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1800 est tokens, 111072.4ms
+2026-03-24 16:24:59 | INFO     | pipeline | [37/125] haiku B(control) task3 run5
+2026-03-24 16:33:12 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=214 est tokens, 492707.2ms
+2026-03-24 16:33:12 | INFO     | pipeline | [38/125] haiku E(low_sophistication_technical) task1 run1
+2026-03-24 16:33:37 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=409 est tokens, 24762.7ms
+2026-03-24 16:33:37 | INFO     | pipeline | [39/125] haiku B(control) task2 run5
+2026-03-24 16:34:32 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1038 est tokens, 54832.5ms
+2026-03-24 16:34:32 | INFO     | pipeline | [40/125] haiku C(low_sophistication_nontechnical) task1 run1
+2026-03-24 16:35:34 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1500 est tokens, 62609.9ms
+2026-03-24 16:35:34 | INFO     | pipeline | [41/125] haiku B(control) task3 run4
+2026-03-24 16:40:11 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=2473 est tokens, 276794.6ms
+2026-03-24 16:40:11 | INFO     | pipeline | [42/125] haiku E(low_sophistication_technical) task2 run4
+2026-03-24 16:41:14 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1181 est tokens, 62075.3ms
+2026-03-24 16:41:14 | INFO     | pipeline | [43/125] haiku B(control) task4 run2
+2026-03-24 16:43:46 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=2602 est tokens, 152397.4ms
+2026-03-24 16:43:46 | INFO     | pipeline | [44/125] haiku D(high_sophistication_technical) task2 run3
+2026-03-24 16:44:24 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=968 est tokens, 38340.9ms
+2026-03-24 16:44:24 | INFO     | pipeline | [45/125] haiku D(high_sophistication_technical) task1 run2
+2026-03-24 16:45:34 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1431 est tokens, 69182.3ms
+2026-03-24 16:45:34 | INFO     | pipeline | [46/125] haiku C(low_sophistication_nontechnical) task2 run5
+2026-03-24 16:46:49 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1255 est tokens, 75445.2ms
+2026-03-24 16:46:49 | INFO     | pipeline | [47/125] haiku B(control) task4 run3
+2026-03-24 16:56:47 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=462 est tokens, 598374.0ms
+2026-03-24 16:56:47 | INFO     | pipeline | [48/125] haiku E(low_sophistication_technical) task5 run5
+2026-03-24 16:57:31 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1690 est tokens, 43673.0ms
+2026-03-24 16:57:31 | INFO     | pipeline | [49/125] haiku A(high_sophistication_nontechnical) task5 run3
+2026-03-24 16:57:59 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=559 est tokens, 28033.2ms
+2026-03-24 16:57:59 | INFO     | pipeline | [50/125] haiku C(low_sophistication_nontechnical) task1 run2
+2026-03-24 16:58:47 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1757 est tokens, 48207.3ms
+2026-03-24 16:58:47 | INFO     | pipeline | [51/125] haiku D(high_sophistication_technical) task5 run1
+2026-03-24 16:59:23 | INFO     | pipeline |   -> sys=418 chars, prompt=1366 chars, out=1606 est tokens, 36182.1ms
+2026-03-24 16:59:23 | INFO     | pipeline | [52/125] haiku A(high_sophistication_nontechnical) task5 run4
+2026-03-24 17:00:07 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1682 est tokens, 42998.1ms
+2026-03-24 17:00:07 | INFO     | pipeline | [53/125] haiku B(control) task4 run1
+2026-03-24 17:01:30 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=5092 est tokens, 83081.4ms
+2026-03-24 17:01:30 | INFO     | pipeline | [54/125] haiku C(low_sophistication_nontechnical) task3 run4
+2026-03-24 17:07:34 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=408 est tokens, 363920.2ms
+2026-03-24 17:07:34 | INFO     | pipeline | [55/125] haiku E(low_sophistication_technical) task4 run3
+2026-03-24 18:49:10 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1342 est tokens, 6096690.3ms
+2026-03-24 18:49:10 | INFO     | pipeline | [56/125] haiku C(low_sophistication_nontechnical) task4 run2
+2026-03-24 18:50:03 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=4271 est tokens, 52865.8ms
+2026-03-24 18:50:03 | INFO     | pipeline | [57/125] haiku A(high_sophistication_nontechnical) task2 run2
+2026-03-24 18:51:20 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1288 est tokens, 76269.6ms
+2026-03-24 18:51:20 | INFO     | pipeline | [58/125] haiku C(low_sophistication_nontechnical) task2 run1
+2026-03-24 18:51:53 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=888 est tokens, 33672.2ms
+2026-03-24 18:51:53 | INFO     | pipeline | [59/125] haiku E(low_sophistication_technical) task5 run4
+2026-03-24 18:52:36 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1723 est tokens, 42612.2ms
+2026-03-24 18:52:36 | INFO     | pipeline | [60/125] haiku D(high_sophistication_technical) task3 run3
+2026-03-24 18:57:28 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=1546 est tokens, 292536.2ms
+2026-03-24 18:57:28 | INFO     | pipeline | [61/125] haiku E(low_sophistication_technical) task1 run4
+2026-03-24 18:58:04 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=695 est tokens, 35139.4ms
+2026-03-24 18:58:04 | INFO     | pipeline | [62/125] haiku A(high_sophistication_nontechnical) task4 run4
+2026-03-24 18:59:07 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=1682 est tokens, 63606.7ms
+2026-03-24 18:59:07 | INFO     | pipeline | [63/125] haiku B(control) task5 run5
+2026-03-24 18:59:35 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1498 est tokens, 27581.1ms
+2026-03-24 18:59:35 | INFO     | pipeline | [64/125] haiku E(low_sophistication_technical) task1 run5
+2026-03-24 19:00:41 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1005 est tokens, 66109.3ms
+2026-03-24 19:00:41 | INFO     | pipeline | [65/125] haiku C(low_sophistication_nontechnical) task5 run5
+2026-03-24 19:01:03 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=2004 est tokens, 22490.7ms
+2026-03-24 19:01:03 | INFO     | pipeline | [66/125] haiku A(high_sophistication_nontechnical) task2 run4
+2026-03-24 19:02:02 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1070 est tokens, 58984.2ms
+2026-03-24 19:02:02 | INFO     | pipeline | [67/125] haiku A(high_sophistication_nontechnical) task5 run5
+2026-03-24 19:02:40 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1414 est tokens, 37759.5ms
+2026-03-24 19:02:40 | INFO     | pipeline | [68/125] haiku B(control) task5 run2
+2026-03-24 19:03:04 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1396 est tokens, 24111.1ms
+2026-03-24 19:03:04 | INFO     | pipeline | [69/125] haiku B(control) task3 run3
+2026-03-24 19:05:24 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=195 est tokens, 139585.2ms
+2026-03-24 19:05:24 | INFO     | pipeline | [70/125] haiku A(high_sophistication_nontechnical) task3 run1
+2026-03-24 19:12:22 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=1928 est tokens, 418249.9ms
+2026-03-24 19:12:22 | INFO     | pipeline | [71/125] haiku D(high_sophistication_technical) task1 run5
+2026-03-24 19:13:21 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1319 est tokens, 59302.1ms
+2026-03-24 19:13:21 | INFO     | pipeline | [72/125] haiku A(high_sophistication_nontechnical) task4 run1
+2026-03-24 19:16:09 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=2215 est tokens, 167772.8ms
+2026-03-24 19:16:09 | INFO     | pipeline | [73/125] haiku C(low_sophistication_nontechnical) task4 run4
+2026-03-24 19:19:02 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2356 est tokens, 173301.2ms
+2026-03-24 19:19:02 | INFO     | pipeline | [74/125] haiku C(low_sophistication_nontechnical) task2 run4
+2026-03-24 19:19:41 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1085 est tokens, 38344.8ms
+2026-03-24 19:19:41 | INFO     | pipeline | [75/125] haiku A(high_sophistication_nontechnical) task2 run1
+2026-03-24 19:20:27 | INFO     | pipeline |   -> sys=499 chars, prompt=173 chars, out=1147 est tokens, 46258.6ms
+2026-03-24 19:20:27 | INFO     | pipeline | [76/125] haiku B(control) task2 run4
+2026-03-24 19:22:29 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=1262 est tokens, 121592.7ms
+2026-03-24 19:22:29 | INFO     | pipeline | [77/125] haiku B(control) task4 run5
+2026-03-24 19:25:27 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=913 est tokens, 178777.5ms
+2026-03-24 19:25:27 | INFO     | pipeline | [78/125] haiku B(control) task5 run1
+2026-03-24 19:26:05 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1623 est tokens, 38018.1ms
+2026-03-24 19:26:05 | INFO     | pipeline | [79/125] haiku A(high_sophistication_nontechnical) task3 run3
+2026-03-24 19:27:18 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=2719 est tokens, 72505.3ms
+2026-03-24 19:27:18 | INFO     | pipeline | [80/125] haiku B(control) task5 run4
+2026-03-24 19:27:50 | INFO     | pipeline |   -> sys=0 chars, prompt=1366 chars, out=1912 est tokens, 31691.5ms
+2026-03-24 19:27:50 | INFO     | pipeline | [81/125] haiku E(low_sophistication_technical) task2 run2
+2026-03-24 19:28:33 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1288 est tokens, 43109.2ms
+2026-03-24 19:28:33 | INFO     | pipeline | [82/125] haiku E(low_sophistication_technical) task4 run1
+2026-03-24 19:32:13 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=2446 est tokens, 219842.0ms
+2026-03-24 19:32:13 | INFO     | pipeline | [83/125] haiku E(low_sophistication_technical) task3 run5
+2026-03-24 19:32:48 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=172 est tokens, 34897.1ms
+2026-03-24 19:32:48 | INFO     | pipeline | [84/125] haiku E(low_sophistication_technical) task2 run1
+2026-03-24 19:33:19 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1228 est tokens, 31936.5ms
+2026-03-24 19:33:19 | INFO     | pipeline | [85/125] haiku A(high_sophistication_nontechnical) task4 run5
+2026-03-24 19:34:09 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=2146 est tokens, 49943.9ms
+2026-03-24 19:34:09 | INFO     | pipeline | [86/125] haiku D(high_sophistication_technical) task4 run1
+2026-03-24 19:40:39 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=445 est tokens, 389617.6ms
+2026-03-24 19:40:39 | INFO     | pipeline | [87/125] haiku B(control) task4 run4
+2026-03-24 20:02:46 | INFO     | pipeline |   -> sys=0 chars, prompt=178 chars, out=1908 est tokens, 1326969.1ms
+2026-03-24 20:02:46 | INFO     | pipeline | [88/125] haiku E(low_sophistication_technical) task2 run5
+2026-03-24 20:03:47 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1209 est tokens, 60933.8ms
+2026-03-24 20:03:47 | INFO     | pipeline | [89/125] haiku A(high_sophistication_nontechnical) task5 run1
+2026-03-24 20:04:08 | INFO     | pipeline |   -> sys=499 chars, prompt=1366 chars, out=1718 est tokens, 21097.7ms
+2026-03-24 20:04:08 | INFO     | pipeline | [90/125] haiku A(high_sophistication_nontechnical) task1 run1
+2026-03-24 20:04:36 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=1157 est tokens, 27672.7ms
+2026-03-24 20:04:36 | INFO     | pipeline | [91/125] haiku E(low_sophistication_technical) task5 run1
+2026-03-24 20:05:10 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=507 est tokens, 34518.8ms
+2026-03-24 20:05:10 | INFO     | pipeline | [92/125] haiku E(low_sophistication_technical) task3 run1
+2026-03-24 20:09:20 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=291 est tokens, 249326.8ms
+2026-03-24 20:09:20 | INFO     | pipeline | [93/125] haiku C(low_sophistication_nontechnical) task2 run3
+2026-03-24 20:09:36 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1085 est tokens, 16238.3ms
+2026-03-24 20:09:36 | INFO     | pipeline | [94/125] haiku E(low_sophistication_technical) task4 run4
+2026-03-24 20:12:12 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1726 est tokens, 156049.4ms
+2026-03-24 20:12:12 | INFO     | pipeline | [95/125] haiku C(low_sophistication_nontechnical) task1 run4
+2026-03-24 20:12:49 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1165 est tokens, 36768.8ms
+2026-03-24 20:12:49 | INFO     | pipeline | [96/125] haiku E(low_sophistication_technical) task3 run3
+2026-03-24 20:14:54 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=1867 est tokens, 125550.6ms
+2026-03-24 20:14:54 | INFO     | pipeline | [97/125] haiku D(high_sophistication_technical) task3 run5
+2026-03-24 20:15:34 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=231 est tokens, 39822.5ms
+2026-03-24 20:15:34 | INFO     | pipeline | [98/125] haiku D(high_sophistication_technical) task2 run4
+2026-03-24 20:15:54 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=1250 est tokens, 19552.4ms
+2026-03-24 20:15:54 | INFO     | pipeline | [99/125] haiku D(high_sophistication_technical) task4 run2
+2026-03-24 20:16:45 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=2281 est tokens, 51016.6ms
+2026-03-24 20:16:45 | INFO     | pipeline | [100/125] haiku B(control) task1 run1
+2026-03-24 20:17:44 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=2494 est tokens, 59119.3ms
+2026-03-24 20:17:44 | INFO     | pipeline | [101/125] haiku C(low_sophistication_nontechnical) task5 run2
+2026-03-24 20:18:22 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1916 est tokens, 37940.5ms
+2026-03-24 20:18:22 | INFO     | pipeline | [102/125] haiku E(low_sophistication_technical) task2 run3
+2026-03-24 20:18:45 | INFO     | pipeline |   -> sys=321 chars, prompt=173 chars, out=1736 est tokens, 23493.2ms
+2026-03-24 20:18:45 | INFO     | pipeline | [103/125] haiku D(high_sophistication_technical) task1 run3
+2026-03-24 20:29:54 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1403 est tokens, 668617.1ms
+2026-03-24 20:29:54 | INFO     | pipeline | [104/125] haiku C(low_sophistication_nontechnical) task3 run5
+2026-03-24 21:54:50 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2406 est tokens, 5095791.0ms
+2026-03-24 21:54:50 | INFO     | pipeline | [105/125] haiku B(control) task1 run5
+2026-03-24 22:00:52 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1295 est tokens, 362654.6ms
+2026-03-24 22:00:52 | INFO     | pipeline | [106/125] haiku B(control) task1 run3
+2026-03-24 22:01:47 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1887 est tokens, 54571.0ms
+2026-03-24 22:01:47 | INFO     | pipeline | [107/125] haiku E(low_sophistication_technical) task3 run2
+2026-03-24 22:03:14 | INFO     | pipeline |   -> sys=321 chars, prompt=163 chars, out=2567 est tokens, 87009.7ms
+2026-03-24 22:03:14 | INFO     | pipeline | [108/125] haiku E(low_sophistication_technical) task5 run3
+2026-03-24 22:03:41 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1678 est tokens, 27369.7ms
+2026-03-24 22:03:41 | INFO     | pipeline | [109/125] haiku A(high_sophistication_nontechnical) task1 run5
+2026-03-24 22:05:31 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=2378 est tokens, 109655.2ms
+2026-03-24 22:05:31 | INFO     | pipeline | [110/125] haiku C(low_sophistication_nontechnical) task1 run5
+2026-03-24 22:05:58 | INFO     | pipeline |   -> sys=321 chars, prompt=175 chars, out=1166 est tokens, 26895.4ms
+2026-03-24 22:05:58 | INFO     | pipeline | [111/125] haiku D(high_sophistication_technical) task1 run1
+2026-03-24 22:06:41 | INFO     | pipeline |   -> sys=418 chars, prompt=175 chars, out=1407 est tokens, 42919.6ms
+2026-03-24 22:06:41 | INFO     | pipeline | [112/125] haiku A(high_sophistication_nontechnical) task3 run2
+2026-03-24 22:14:18 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=2338 est tokens, 457485.1ms
+2026-03-24 22:14:18 | INFO     | pipeline | [113/125] haiku C(low_sophistication_nontechnical) task4 run5
+2026-03-24 22:15:20 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=3325 est tokens, 61692.0ms
+2026-03-24 22:15:20 | INFO     | pipeline | [114/125] haiku E(low_sophistication_technical) task4 run2
+2026-03-24 22:16:54 | INFO     | pipeline |   -> sys=321 chars, prompt=178 chars, out=1369 est tokens, 94463.7ms
+2026-03-24 22:16:54 | INFO     | pipeline | [115/125] haiku D(high_sophistication_technical) task3 run2
+2026-03-24 22:20:13 | INFO     | pipeline |   -> sys=418 chars, prompt=163 chars, out=387 est tokens, 198323.0ms
+2026-03-24 22:20:13 | INFO     | pipeline | [116/125] haiku A(high_sophistication_nontechnical) task3 run4
+2026-03-24 22:22:20 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=781 est tokens, 127454.6ms
+2026-03-24 22:22:20 | INFO     | pipeline | [117/125] haiku E(low_sophistication_technical) task5 run2
+2026-03-24 22:22:53 | INFO     | pipeline |   -> sys=321 chars, prompt=1366 chars, out=1752 est tokens, 32623.1ms
+2026-03-24 22:22:53 | INFO     | pipeline | [118/125] haiku A(high_sophistication_nontechnical) task4 run3
+2026-03-24 22:29:30 | INFO     | pipeline |   -> sys=499 chars, prompt=178 chars, out=2784 est tokens, 397566.5ms
+2026-03-24 22:29:30 | INFO     | pipeline | [119/125] haiku B(control) task1 run4
+2026-03-24 22:30:05 | INFO     | pipeline |   -> sys=0 chars, prompt=175 chars, out=1243 est tokens, 34983.6ms
+2026-03-24 22:30:05 | INFO     | pipeline | [120/125] haiku B(control) task2 run2
+2026-03-24 22:31:07 | INFO     | pipeline |   -> sys=0 chars, prompt=173 chars, out=983 est tokens, 62028.0ms
+2026-03-24 22:31:07 | INFO     | pipeline | [121/125] haiku B(control) task3 run1
+2026-03-24 22:33:30 | INFO     | pipeline |   -> sys=0 chars, prompt=163 chars, out=1824 est tokens, 142211.3ms
+2026-03-24 22:33:30 | INFO     | pipeline | [122/125] haiku D(high_sophistication_technical) task4 run5
+2026-03-24 22:42:02 | INFO     | pipeline |   -> sys=418 chars, prompt=178 chars, out=2696 est tokens, 512436.6ms
+2026-03-24 22:42:02 | INFO     | pipeline | [123/125] haiku A(high_sophistication_nontechnical) task1 run4
+2026-03-24 22:43:16 | INFO     | pipeline |   -> sys=499 chars, prompt=175 chars, out=2428 est tokens, 74220.9ms
+2026-03-24 22:43:16 | INFO     | pipeline | [124/125] haiku A(high_sophistication_nontechnical) task3 run5
+2026-03-24 22:48:12 | INFO     | pipeline | Experiment 3 — Memory-Level Profile Bias
+2026-03-24 22:48:12 | INFO     | pipeline | Run output directory: experiment_3/runs/full_n5
+2026-03-24 22:48:12 | INFO     | pipeline | ============================================================
+2026-03-24 22:48:12 | INFO     | pipeline | STEP 1/6: Running experiment (250 API calls)
+2026-03-24 22:48:12 | INFO     | pipeline | ============================================================
+2026-03-24 22:48:12 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-24 22:48:12 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-24 22:48:12 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-24 22:48:12 | INFO     | pipeline | Profile D (high_sophistication_technical): 418 chars
+2026-03-24 22:48:12 | INFO     | pipeline | Profile E (low_sophistication_technical): 321 chars
+2026-03-24 22:48:12 | INFO     | pipeline | Model sonnet: 125 calls (randomized, seed=42)
+2026-03-24 22:48:12 | INFO     | pipeline | Model sonnet done: 0 calls, 125 skipped
+2026-03-24 22:48:12 | INFO     | pipeline | Model haiku: 125 calls (randomized, seed=42)
+2026-03-24 22:48:12 | INFO     | pipeline | [124/125] haiku A(high_sophistication_nontechnical) task3 run5
+2026-03-24 22:54:50 | INFO     | pipeline |   -> sys=499 chars, prompt=163 chars, out=2229 est tokens, 398790.9ms
+2026-03-24 22:54:50 | INFO     | pipeline | [125/125] haiku D(high_sophistication_technical) task2 run2
+2026-03-24 22:55:07 | INFO     | pipeline |   -> sys=418 chars, prompt=173 chars, out=959 est tokens, 16157.4ms
+2026-03-24 22:55:07 | INFO     | pipeline | Model haiku done: 2 calls, 123 skipped
+2026-03-24 22:55:07 | INFO     | pipeline | Experiment complete. {'call_count': 2, 'total_input_tokens': 312, 'total_output_tokens': 3188, 'estimated_cost_usd': 0.0488}
+2026-03-24 22:55:07 | INFO     | pipeline | Step 1 completed in 415.0s
+2026-03-24 22:55:07 | INFO     | pipeline |   Usage: {'call_count': 2, 'total_input_tokens': 312, 'total_output_tokens': 3188, 'estimated_cost_usd': 0.0488}
+2026-03-24 22:55:07 | INFO     | pipeline | ============================================================
+2026-03-24 22:55:07 | INFO     | pipeline | STEPS 2-6: Analysis pipeline
+2026-03-24 22:55:07 | INFO     | pipeline | ============================================================
+2026-03-24 22:55:07 | INFO     | pipeline | ----------------------------------------
+2026-03-24 22:55:07 | INFO     | pipeline | STEP 2/6: Extracting code
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task1_run1.json: 2 blocks, 88 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task1_run2.json: 3 blocks, 173 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task1_run3.json: 2 blocks, 177 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task1_run4.json: 4 blocks, 254 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task1_run5.json: 5 blocks, 218 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task2_run1.json: 1 blocks, 108 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task2_run2.json: 2 blocks, 120 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task2_run3.json: 2 blocks, 164 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task2_run4.json: 2 blocks, 95 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task2_run5.json: 1 blocks, 143 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task3_run1.json: 1 blocks, 135 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task3_run2.json: 1 blocks, 193 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task3_run3.json: 2 blocks, 264 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task3_run4.json: 1 blocks, 24 lines, SYNTAX ERROR: Line 3: invalid character '★' (U+2605)
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task3_run5.json: 2 blocks, 218 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task4_run1.json: 1 blocks, 193 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task4_run2.json: 2 blocks, 394 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task4_run3.json: 2 blocks, 257 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task4_run4.json: 2 blocks, 129 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task4_run5.json: 4 blocks, 192 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task5_run1.json: 1 blocks, 138 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task5_run2.json: 1 blocks, 112 lines, OK
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_A_task5_run3.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task5_run3.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task5_run4.json: 1 blocks, 156 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_A_task5_run5.json: 1 blocks, 128 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task1_run1.json: 2 blocks, 239 lines, OK
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_B_task1_run2.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task1_run2.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task1_run3.json: 2 blocks, 176 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task1_run4.json: 2 blocks, 116 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task1_run5.json: 1 blocks, 93 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task2_run1.json: 2 blocks, 128 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task2_run2.json: 2 blocks, 88 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task2_run3.json: 3 blocks, 144 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task2_run4.json: 1 blocks, 114 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task2_run5.json: 2 blocks, 98 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task3_run1.json: 1 blocks, 133 lines, OK
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_B_task3_run2.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task3_run2.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_B_task3_run3.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task3_run3.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task3_run4.json: 1 blocks, 212 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task3_run5.json: 1 blocks, 9 lines, SYNTAX ERROR: Line 2: invalid character '├' (U+251C)
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task4_run1.json: 3 blocks, 631 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task4_run2.json: 2 blocks, 247 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task4_run3.json: 1 blocks, 11 lines, SYNTAX ERROR: Line 2: invalid character '├' (U+251C)
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task4_run4.json: 2 blocks, 175 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task4_run5.json: 4 blocks, 37 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task5_run1.json: 1 blocks, 144 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task5_run2.json: 2 blocks, 137 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task5_run3.json: 1 blocks, 182 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task5_run4.json: 2 blocks, 179 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_B_task5_run5.json: 2 blocks, 129 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task1_run1.json: 4 blocks, 120 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task1_run2.json: 2 blocks, 154 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task1_run3.json: 2 blocks, 148 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task1_run4.json: 2 blocks, 101 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task1_run5.json: 2 blocks, 111 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task2_run1.json: 1 blocks, 79 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task2_run2.json: 2 blocks, 103 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task2_run3.json: 1 blocks, 97 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task2_run4.json: 1 blocks, 104 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task2_run5.json: 1 blocks, 112 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task3_run1.json: 2 blocks, 252 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task3_run2.json: 1 blocks, 148 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task3_run3.json: 1 blocks, 1 lines, SYNTAX ERROR: Line 1: invalid syntax
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_C_task3_run4.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task3_run4.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task3_run5.json: 1 blocks, 226 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task4_run1.json: 2 blocks, 185 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task4_run2.json: 3 blocks, 456 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task4_run3.json: 2 blocks, 265 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task4_run4.json: 2 blocks, 242 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task4_run5.json: 2 blocks, 394 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task5_run1.json: 1 blocks, 198 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task5_run2.json: 1 blocks, 186 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task5_run3.json: 1 blocks, 195 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task5_run4.json: 2 blocks, 119 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_C_task5_run5.json: 1 blocks, 206 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task1_run1.json: 2 blocks, 111 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task1_run2.json: 5 blocks, 101 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task1_run3.json: 3 blocks, 131 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task1_run4.json: 1 blocks, 74 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task1_run5.json: 2 blocks, 118 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task2_run1.json: 2 blocks, 90 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task2_run2.json: 2 blocks, 90 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task2_run3.json: 1 blocks, 107 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task2_run4.json: 1 blocks, 120 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task2_run5.json: 1 blocks, 80 lines, OK
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_D_task3_run1.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task3_run1.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task3_run2.json: 1 blocks, 8 lines, SYNTAX ERROR: Line 2: invalid character '—' (U+2014)
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task3_run3.json: 1 blocks, 126 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task3_run4.json: 1 blocks, 5 lines, SYNTAX ERROR: Line 2: invalid character '├' (U+251C)
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_D_task3_run5.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task3_run5.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_D_task4_run1.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task4_run1.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task4_run2.json: 2 blocks, 223 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task4_run3.json: 6 blocks, 215 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task4_run4.json: 4 blocks, 157 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task4_run5.json: 2 blocks, 252 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task5_run1.json: 1 blocks, 149 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task5_run2.json: 1 blocks, 147 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task5_run3.json: 1 blocks, 126 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task5_run4.json: 1 blocks, 139 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_D_task5_run5.json: 1 blocks, 142 lines, OK
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_E_task1_run1.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task1_run1.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task1_run2.json: 3 blocks, 177 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task1_run3.json: 3 blocks, 85 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task1_run4.json: 1 blocks, 44 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task1_run5.json: 3 blocks, 84 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task2_run1.json: 2 blocks, 125 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task2_run2.json: 1 blocks, 119 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task2_run3.json: 2 blocks, 157 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task2_run4.json: 2 blocks, 112 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task2_run5.json: 1 blocks, 104 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task3_run1.json: 2 blocks, 6 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task3_run2.json: 2 blocks, 288 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task3_run3.json: 1 blocks, 170 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task3_run4.json: 1 blocks, 190 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task3_run5.json: 1 blocks, 1 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task4_run1.json: 1 blocks, 234 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task4_run2.json: 2 blocks, 104 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task4_run3.json: 2 blocks, 111 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task4_run4.json: 2 blocks, 169 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task4_run5.json: 2 blocks, 233 lines, SYNTAX ERROR: Line 233: expected an indented block after function definition on line 231
+2026-03-24 22:55:07 | WARNING  | pipeline | No code blocks found in haiku_E_task5_run1.json
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task5_run1.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task5_run2.json: 1 blocks, 167 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task5_run3.json: 1 blocks, 148 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task5_run4.json: 1 blocks, 149 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | haiku_E_task5_run5.json: 1 blocks, 157 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task1_run1.json: 1 blocks, 180 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task1_run2.json: 2 blocks, 18 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task1_run3.json: 3 blocks, 138 lines, SYNTAX ERROR: Line 128: invalid syntax
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task1_run4.json: 2 blocks, 173 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task1_run5.json: 3 blocks, 214 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task2_run1.json: 1 blocks, 134 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task2_run2.json: 3 blocks, 141 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task2_run3.json: 2 blocks, 107 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task2_run4.json: 3 blocks, 111 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task2_run5.json: 3 blocks, 111 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task3_run1.json: 2 blocks, 184 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task3_run2.json: 5 blocks, 374 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task3_run3.json: 7 blocks, 339 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task3_run4.json: 3 blocks, 140 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task3_run5.json: 7 blocks, 351 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task4_run1.json: 2 blocks, 403 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task4_run2.json: 1 blocks, 238 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task4_run3.json: 3 blocks, 429 lines, SYNTAX ERROR: Line 429: expected an indented block after function definition on line 428
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task4_run4.json: 3 blocks, 288 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task4_run5.json: 3 blocks, 424 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task5_run1.json: 1 blocks, 3 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task5_run2.json: 2 blocks, 159 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task5_run3.json: 1 blocks, 131 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task5_run4.json: 1 blocks, 152 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_A_task5_run5.json: 1 blocks, 3 lines, SYNTAX ERROR: Line 3: expected an indented block after function definition on line 2
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task1_run1.json: 2 blocks, 112 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task1_run2.json: 2 blocks, 137 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task1_run3.json: 3 blocks, 147 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task1_run4.json: 2 blocks, 182 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task1_run5.json: 3 blocks, 161 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task2_run1.json: 1 blocks, 108 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task2_run2.json: 2 blocks, 102 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task2_run3.json: 2 blocks, 129 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task2_run4.json: 1 blocks, 91 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task2_run5.json: 1 blocks, 86 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task3_run1.json: 1 blocks, 10 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task3_run2.json: 1 blocks, 347 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task3_run3.json: 2 blocks, 229 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task3_run4.json: 2 blocks, 246 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task3_run5.json: 3 blocks, 30 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task4_run1.json: 4 blocks, 394 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task4_run2.json: 2 blocks, 240 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task4_run3.json: 4 blocks, 158 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task4_run4.json: 2 blocks, 381 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task4_run5.json: 3 blocks, 202 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task5_run1.json: 2 blocks, 167 lines, SYNTAX ERROR: Line 167: expected an indented block after function definition on line 166
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task5_run2.json: 1 blocks, 217 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task5_run3.json: 1 blocks, 7 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task5_run4.json: 2 blocks, 138 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_B_task5_run5.json: 2 blocks, 179 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task1_run1.json: 2 blocks, 97 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task1_run2.json: 3 blocks, 106 lines, SYNTAX ERROR: Line 1: invalid character '★' (U+2605)
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task1_run3.json: 2 blocks, 120 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task1_run4.json: 2 blocks, 112 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task1_run5.json: 2 blocks, 127 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task2_run1.json: 2 blocks, 80 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task2_run2.json: 2 blocks, 70 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task2_run3.json: 2 blocks, 84 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task2_run4.json: 2 blocks, 92 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task2_run5.json: 2 blocks, 71 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task3_run1.json: 1 blocks, 223 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task3_run2.json: 2 blocks, 173 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task3_run3.json: 2 blocks, 216 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task3_run4.json: 1 blocks, 174 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task3_run5.json: 2 blocks, 268 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task4_run1.json: 2 blocks, 154 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task4_run2.json: 2 blocks, 201 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task4_run3.json: 1 blocks, 94 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task4_run4.json: 3 blocks, 147 lines, SYNTAX ERROR: Line 142: invalid syntax
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task4_run5.json: 3 blocks, 168 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task5_run1.json: 1 blocks, 125 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task5_run2.json: 2 blocks, 148 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task5_run3.json: 1 blocks, 143 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task5_run4.json: 1 blocks, 144 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_C_task5_run5.json: 1 blocks, 115 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task1_run1.json: 2 blocks, 122 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task1_run2.json: 2 blocks, 277 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task1_run3.json: 3 blocks, 81 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task1_run4.json: 2 blocks, 138 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task1_run5.json: 2 blocks, 155 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task2_run1.json: 1 blocks, 68 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task2_run2.json: 3 blocks, 101 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task2_run3.json: 1 blocks, 85 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task2_run4.json: 2 blocks, 100 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task2_run5.json: 2 blocks, 105 lines, OK
+2026-03-24 22:55:07 | INFO     | pipeline | sonnet_D_task3_run1.json: 1 blocks, 196 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task3_run2.json: 2 blocks, 181 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task3_run3.json: 1 blocks, 240 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task3_run4.json: 2 blocks, 5 lines, SYNTAX ERROR: Line 5: expected an indented block after function definition on line 4
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task3_run5.json: 2 blocks, 178 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task4_run1.json: 2 blocks, 247 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task4_run2.json: 3 blocks, 625 lines, OK
+2026-03-24 22:55:08 | WARNING  | pipeline | No code blocks found in sonnet_D_task4_run3.json
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task4_run3.json: 0 blocks, 1 lines, SYNTAX ERROR: No code blocks found
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task4_run4.json: 3 blocks, 214 lines, SYNTAX ERROR: Line 214: expected an indented block after function definition on line 213
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task4_run5.json: 3 blocks, 328 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task5_run1.json: 2 blocks, 136 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task5_run2.json: 1 blocks, 110 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task5_run3.json: 1 blocks, 2 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task5_run4.json: 1 blocks, 3 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_D_task5_run5.json: 1 blocks, 144 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task1_run1.json: 1 blocks, 82 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task1_run2.json: 2 blocks, 119 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task1_run3.json: 2 blocks, 5 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task1_run4.json: 2 blocks, 132 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task1_run5.json: 2 blocks, 121 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task2_run1.json: 1 blocks, 11 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task2_run2.json: 1 blocks, 2 lines, SYNTAX ERROR: Line 1: invalid syntax
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task2_run3.json: 1 blocks, 156 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task2_run4.json: 2 blocks, 181 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task2_run5.json: 1 blocks, 197 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task3_run1.json: 2 blocks, 191 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task3_run2.json: 3 blocks, 178 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task3_run3.json: 2 blocks, 211 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task3_run4.json: 1 blocks, 8 lines, SYNTAX ERROR: Line 2: invalid character '├' (U+251C)
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task3_run5.json: 3 blocks, 187 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task4_run1.json: 3 blocks, 17 lines, SYNTAX ERROR: Line 5: unindent does not match any outer indentation level
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task4_run2.json: 2 blocks, 138 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task4_run3.json: 3 blocks, 235 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task4_run4.json: 2 blocks, 79 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task4_run5.json: 2 blocks, 223 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task5_run1.json: 2 blocks, 103 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task5_run2.json: 1 blocks, 2 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task5_run3.json: 1 blocks, 4 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task5_run4.json: 1 blocks, 4 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | sonnet_E_task5_run5.json: 1 blocks, 3 lines, OK
+2026-03-24 22:55:08 | INFO     | pipeline | Extraction complete: 221/250 valid syntax (88%)
+2026-03-24 22:55:08 | INFO     | pipeline | Step 2 completed in 1.0s
+2026-03-24 22:55:08 | INFO     | pipeline | ----------------------------------------
+2026-03-24 22:55:08 | INFO     | pipeline | STEP 3/6: Computing code metrics
+2026-03-24 22:55:08 | INFO     | pipeline | Analysing 250 extracted files...
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_A_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_B_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_C_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_D_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing haiku_E_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_A_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_B_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task1_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task1_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task1_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task1_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task2_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task2_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task2_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task2_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task2_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task3_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task3_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task3_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task3_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task3_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task4_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task4_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task4_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task4_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task4_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task5_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task5_run2
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task5_run3
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task5_run4
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_C_task5_run5
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_D_task1_run1
+2026-03-24 22:55:08 | DEBUG    | pipeline | Processing sonnet_D_task1_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task1_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task1_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task1_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task2_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task2_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task2_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task2_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task2_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task3_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task3_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task3_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task3_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task3_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task4_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task4_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task4_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task4_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task4_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task5_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task5_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task5_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task5_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_D_task5_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task1_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task1_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task1_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task1_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task1_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task2_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task2_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task2_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task2_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task2_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task3_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task3_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task3_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task3_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task3_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task4_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task4_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task4_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task4_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task4_run5
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task5_run1
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task5_run2
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task5_run3
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task5_run4
+2026-03-24 22:55:09 | DEBUG    | pipeline | Processing sonnet_E_task5_run5
+2026-03-24 22:55:09 | INFO     | pipeline | Wrote 250 rows to experiment_3/runs/full_n5/results/metrics/metrics_table.csv (parse errors: 18)
+2026-03-24 22:55:09 | INFO     | pipeline | Step 3 completed in 1.0s
+2026-03-24 22:55:09 | INFO     | pipeline | ----------------------------------------
+2026-03-24 22:55:09 | INFO     | pipeline | STEP 4/6: Classifying solution strategies (LLM judge)
+2026-03-24 22:55:09 | INFO     | pipeline | Classifying 250 files with haiku judge...
+2026-03-24 22:55:17 | INFO     | pipeline |   [1/250] haiku_A_task1_run1 → score 3
+2026-03-24 22:55:26 | INFO     | pipeline |   [2/250] haiku_A_task1_run2 → score 5
+2026-03-24 22:55:33 | INFO     | pipeline |   [3/250] haiku_A_task1_run3 → score 5
+2026-03-24 22:55:45 | INFO     | pipeline |   [4/250] haiku_A_task1_run4 → score 5
+2026-03-24 22:55:53 | INFO     | pipeline |   [5/250] haiku_A_task1_run5 → score 5
+2026-03-24 22:56:01 | INFO     | pipeline |   [6/250] haiku_A_task2_run1 → score 3
+2026-03-24 22:56:09 | INFO     | pipeline |   [7/250] haiku_A_task2_run2 → score 3
+2026-03-24 22:56:20 | INFO     | pipeline |   [8/250] haiku_A_task2_run3 → score 3
+2026-03-24 22:56:26 | INFO     | pipeline |   [9/250] haiku_A_task2_run4 → score 3
+2026-03-24 22:56:37 | INFO     | pipeline |   [10/250] haiku_A_task2_run5 → score 3
+2026-03-24 22:56:46 | INFO     | pipeline |   [11/250] haiku_A_task3_run1 → score 3
+2026-03-24 22:56:58 | INFO     | pipeline |   [12/250] haiku_A_task3_run2 → score 4
+2026-03-24 22:57:46 | INFO     | pipeline |   [13/250] haiku_A_task3_run3 → score 4
+2026-03-24 22:57:58 | INFO     | pipeline |   [14/250] haiku_A_task3_run4 → score 4
+2026-03-24 22:58:13 | INFO     | pipeline |   [15/250] haiku_A_task3_run5 → score 4
+2026-03-24 22:58:23 | INFO     | pipeline |   [16/250] haiku_A_task4_run1 → score 3
+2026-03-24 22:58:36 | INFO     | pipeline |   [17/250] haiku_A_task4_run2 → score 3
+2026-03-24 22:58:48 | INFO     | pipeline |   [18/250] haiku_A_task4_run3 → score 3
+2026-03-24 22:59:03 | INFO     | pipeline |   [19/250] haiku_A_task4_run4 → score 3
+2026-03-24 22:59:13 | INFO     | pipeline |   [20/250] haiku_A_task4_run5 → score 4
+2026-03-24 22:59:32 | INFO     | pipeline |   [21/250] haiku_A_task5_run1 → score 3
+2026-03-24 22:59:45 | INFO     | pipeline |   [22/250] haiku_A_task5_run2 → score 2
+2026-03-24 22:59:45 | INFO     | pipeline |   [23/250] haiku_A_task5_run3 → score 0
+2026-03-24 23:00:01 | INFO     | pipeline |   [24/250] haiku_A_task5_run4 → score 4
+2026-03-24 23:00:20 | INFO     | pipeline |   [25/250] haiku_A_task5_run5 → score 3
+2026-03-24 23:00:27 | INFO     | pipeline |   [26/250] haiku_B_task1_run1 → score 5
+2026-03-24 23:00:27 | INFO     | pipeline |   [27/250] haiku_B_task1_run2 → score 0
+2026-03-24 23:00:37 | INFO     | pipeline |   [28/250] haiku_B_task1_run3 → score 5
+2026-03-24 23:00:46 | INFO     | pipeline |   [29/250] haiku_B_task1_run4 → score 3
+2026-03-24 23:01:02 | INFO     | pipeline |   [30/250] haiku_B_task1_run5 → score 3
+2026-03-24 23:01:13 | INFO     | pipeline |   [31/250] haiku_B_task2_run1 → score 3
+2026-03-24 23:01:20 | INFO     | pipeline |   [32/250] haiku_B_task2_run2 → score 3
+2026-03-24 23:01:30 | INFO     | pipeline |   [33/250] haiku_B_task2_run3 → score 3
+2026-03-24 23:01:38 | INFO     | pipeline |   [34/250] haiku_B_task2_run4 → score 3
+2026-03-24 23:01:46 | INFO     | pipeline |   [35/250] haiku_B_task2_run5 → score 3
+2026-03-24 23:01:53 | INFO     | pipeline |   [36/250] haiku_B_task3_run1 → score 4
+2026-03-24 23:01:53 | INFO     | pipeline |   [37/250] haiku_B_task3_run2 → score 0
+2026-03-24 23:01:53 | INFO     | pipeline |   [38/250] haiku_B_task3_run3 → score 0
+2026-03-24 23:02:03 | INFO     | pipeline |   [39/250] haiku_B_task3_run4 → score 3
+2026-03-24 23:02:12 | INFO     | pipeline |   [40/250] haiku_B_task3_run5 → score 4
+2026-03-24 23:02:24 | INFO     | pipeline |   [41/250] haiku_B_task4_run1 → score 3
+2026-03-24 23:02:37 | INFO     | pipeline |   [42/250] haiku_B_task4_run2 → score 3
+2026-03-24 23:02:47 | INFO     | pipeline |   [43/250] haiku_B_task4_run3 → score 3
+2026-03-24 23:03:07 | INFO     | pipeline |   [44/250] haiku_B_task4_run4 → score 3
+2026-03-24 23:03:16 | INFO     | pipeline |   [45/250] haiku_B_task4_run5 → score 3
+2026-03-24 23:03:34 | INFO     | pipeline |   [46/250] haiku_B_task5_run1 → score 4
+2026-03-24 23:03:45 | INFO     | pipeline |   [47/250] haiku_B_task5_run2 → score 4
+2026-03-24 23:03:58 | INFO     | pipeline |   [48/250] haiku_B_task5_run3 → score 4
+2026-03-24 23:04:09 | INFO     | pipeline |   [49/250] haiku_B_task5_run4 → score 3
+2026-03-24 23:04:24 | INFO     | pipeline |   [50/250] haiku_B_task5_run5 → score 2
+2026-03-24 23:04:44 | INFO     | pipeline |   [51/250] haiku_C_task1_run1 → score 5
+2026-03-24 23:04:52 | INFO     | pipeline |   [52/250] haiku_C_task1_run2 → score 5
+2026-03-24 23:05:04 | INFO     | pipeline |   [53/250] haiku_C_task1_run3 → score 5
+2026-03-24 23:05:11 | INFO     | pipeline |   [54/250] haiku_C_task1_run4 → score 3
+2026-03-24 23:05:18 | INFO     | pipeline |   [55/250] haiku_C_task1_run5 → score 3
+2026-03-24 23:05:25 | INFO     | pipeline |   [56/250] haiku_C_task2_run1 → score 3
+2026-03-24 23:05:34 | INFO     | pipeline |   [57/250] haiku_C_task2_run2 → score 3
+2026-03-24 23:05:41 | INFO     | pipeline |   [58/250] haiku_C_task2_run3 → score 3
+2026-03-24 23:05:51 | INFO     | pipeline |   [59/250] haiku_C_task2_run4 → score 3
+2026-03-24 23:05:59 | INFO     | pipeline |   [60/250] haiku_C_task2_run5 → score 3
+2026-03-24 23:06:08 | INFO     | pipeline |   [61/250] haiku_C_task3_run1 → score 4
+2026-03-24 23:06:27 | INFO     | pipeline |   [62/250] haiku_C_task3_run2 → score 3
+2026-03-24 23:06:43 | INFO     | pipeline |   [63/250] haiku_C_task3_run3 → score 1
+2026-03-24 23:06:43 | INFO     | pipeline |   [64/250] haiku_C_task3_run4 → score 0
+2026-03-24 23:06:51 | INFO     | pipeline |   [65/250] haiku_C_task3_run5 → score 4
+2026-03-24 23:07:02 | INFO     | pipeline |   [66/250] haiku_C_task4_run1 → score 3
+2026-03-24 23:07:16 | INFO     | pipeline |   [67/250] haiku_C_task4_run2 → score 3
+2026-03-24 23:07:30 | INFO     | pipeline |   [68/250] haiku_C_task4_run3 → score 3
+2026-03-24 23:07:40 | INFO     | pipeline |   [69/250] haiku_C_task4_run4 → score 3
+2026-03-24 23:07:59 | INFO     | pipeline |   [70/250] haiku_C_task4_run5 → score 3
+2026-03-24 23:08:15 | INFO     | pipeline |   [71/250] haiku_C_task5_run1 → score 3
+2026-03-24 23:08:31 | INFO     | pipeline |   [72/250] haiku_C_task5_run2 → score 4
+2026-03-24 23:08:42 | INFO     | pipeline |   [73/250] haiku_C_task5_run3 → score 2
+2026-03-24 23:08:55 | INFO     | pipeline |   [74/250] haiku_C_task5_run4 → score 3
+2026-03-24 23:09:19 | INFO     | pipeline |   [75/250] haiku_C_task5_run5 → score 3
+2026-03-24 23:09:31 | INFO     | pipeline |   [76/250] haiku_D_task1_run1 → score 5
+2026-03-24 23:09:44 | INFO     | pipeline |   [77/250] haiku_D_task1_run2 → score 4
+2026-03-24 23:09:51 | INFO     | pipeline |   [78/250] haiku_D_task1_run3 → score 3
+2026-03-24 23:10:01 | INFO     | pipeline |   [79/250] haiku_D_task1_run4 → score 5
+2026-03-24 23:10:09 | INFO     | pipeline |   [80/250] haiku_D_task1_run5 → score 3
+2026-03-24 23:10:19 | INFO     | pipeline |   [81/250] haiku_D_task2_run1 → score 3
+2026-03-24 23:10:27 | INFO     | pipeline |   [82/250] haiku_D_task2_run2 → score 3
+2026-03-24 23:10:34 | INFO     | pipeline |   [83/250] haiku_D_task2_run3 → score 3
+2026-03-24 23:10:41 | INFO     | pipeline |   [84/250] haiku_D_task2_run4 → score 3
+2026-03-24 23:10:49 | INFO     | pipeline |   [85/250] haiku_D_task2_run5 → score 3
+2026-03-24 23:10:49 | INFO     | pipeline |   [86/250] haiku_D_task3_run1 → score 0
+2026-03-24 23:10:57 | INFO     | pipeline |   [87/250] haiku_D_task3_run2 → score 4
+2026-03-24 23:11:06 | INFO     | pipeline |   [88/250] haiku_D_task3_run3 → score 4
+2026-03-24 23:11:19 | INFO     | pipeline |   [89/250] haiku_D_task3_run4 → score 4
+2026-03-24 23:11:19 | INFO     | pipeline |   [90/250] haiku_D_task3_run5 → score 0
+2026-03-24 23:11:19 | INFO     | pipeline |   [91/250] haiku_D_task4_run1 → score 0
+2026-03-24 23:11:30 | INFO     | pipeline |   [92/250] haiku_D_task4_run2 → score 3
+2026-03-24 23:11:43 | INFO     | pipeline |   [93/250] haiku_D_task4_run3 → score 3
+2026-03-24 23:11:58 | INFO     | pipeline |   [94/250] haiku_D_task4_run4 → score 3
+2026-03-24 23:12:12 | INFO     | pipeline |   [95/250] haiku_D_task4_run5 → score 4
+2026-03-24 23:12:33 | INFO     | pipeline |   [96/250] haiku_D_task5_run1 → score 3
+2026-03-24 23:12:43 | INFO     | pipeline |   [97/250] haiku_D_task5_run2 → score 3
+2026-03-24 23:13:02 | INFO     | pipeline |   [98/250] haiku_D_task5_run3 → score 3
+2026-03-24 23:13:27 | INFO     | pipeline |   [99/250] haiku_D_task5_run4 → score 3
+2026-03-24 23:13:39 | INFO     | pipeline |   [100/250] haiku_D_task5_run5 → score 3
+2026-03-24 23:13:39 | INFO     | pipeline |   [101/250] haiku_E_task1_run1 → score 0
+2026-03-24 23:13:46 | INFO     | pipeline |   [102/250] haiku_E_task1_run2 → score 3
+2026-03-24 23:13:53 | INFO     | pipeline |   [103/250] haiku_E_task1_run3 → score 3
+2026-03-24 23:14:01 | INFO     | pipeline |   [104/250] haiku_E_task1_run4 → score 3
+2026-03-24 23:14:08 | INFO     | pipeline |   [105/250] haiku_E_task1_run5 → score 3
+2026-03-24 23:14:15 | INFO     | pipeline |   [106/250] haiku_E_task2_run1 → score 3
+2026-03-24 23:14:23 | INFO     | pipeline |   [107/250] haiku_E_task2_run2 → score 3
+2026-03-24 23:14:31 | INFO     | pipeline |   [108/250] haiku_E_task2_run3 → score 3
+2026-03-24 23:14:38 | INFO     | pipeline |   [109/250] haiku_E_task2_run4 → score 3
+2026-03-24 23:14:46 | INFO     | pipeline |   [110/250] haiku_E_task2_run5 → score 3
+2026-03-24 23:14:53 | INFO     | pipeline |   [111/250] haiku_E_task3_run1 → score 2
+2026-03-24 23:15:01 | INFO     | pipeline |   [112/250] haiku_E_task3_run2 → score 2
+2026-03-24 23:15:09 | INFO     | pipeline |   [113/250] haiku_E_task3_run3 → score 2
+2026-03-24 23:15:26 | INFO     | pipeline |   [114/250] haiku_E_task3_run4 → score 3
+2026-03-24 23:15:40 | INFO     | pipeline |   [115/250] haiku_E_task3_run5 → score 1
+2026-03-24 23:16:07 | INFO     | pipeline |   [116/250] haiku_E_task4_run1 → score 2
+2026-03-24 23:16:28 | INFO     | pipeline |   [117/250] haiku_E_task4_run2 → score 3
+2026-03-24 23:16:40 | INFO     | pipeline |   [118/250] haiku_E_task4_run3 → score 2
+2026-03-24 23:16:52 | INFO     | pipeline |   [119/250] haiku_E_task4_run4 → score 3
+2026-03-24 23:17:04 | INFO     | pipeline |   [120/250] haiku_E_task4_run5 → score 3
+2026-03-24 23:17:04 | INFO     | pipeline |   [121/250] haiku_E_task5_run1 → score 0
+2026-03-24 23:17:16 | INFO     | pipeline |   [122/250] haiku_E_task5_run2 → score 2
+2026-03-24 23:17:32 | INFO     | pipeline |   [123/250] haiku_E_task5_run3 → score 3
+2026-03-24 23:17:43 | INFO     | pipeline |   [124/250] haiku_E_task5_run4 → score 3
+2026-03-24 23:17:54 | INFO     | pipeline |   [125/250] haiku_E_task5_run5 → score 3
+2026-03-24 23:18:02 | INFO     | pipeline |   [126/250] sonnet_A_task1_run1 → score 3
+2026-03-24 23:18:20 | INFO     | pipeline |   [127/250] sonnet_A_task1_run2 → score 3
+2026-03-24 23:18:27 | INFO     | pipeline |   [128/250] sonnet_A_task1_run3 → score 3
+2026-03-24 23:18:34 | INFO     | pipeline |   [129/250] sonnet_A_task1_run4 → score 3
+2026-03-24 23:18:44 | INFO     | pipeline |   [130/250] sonnet_A_task1_run5 → score 3
+2026-03-24 23:18:52 | INFO     | pipeline |   [131/250] sonnet_A_task2_run1 → score 3
+2026-03-24 23:19:01 | INFO     | pipeline |   [132/250] sonnet_A_task2_run2 → score 3
+2026-03-24 23:19:08 | INFO     | pipeline |   [133/250] sonnet_A_task2_run3 → score 3
+2026-03-24 23:19:17 | INFO     | pipeline |   [134/250] sonnet_A_task2_run4 → score 3
+2026-03-24 23:19:28 | INFO     | pipeline |   [135/250] sonnet_A_task2_run5 → score 3
+2026-03-24 23:19:38 | INFO     | pipeline |   [136/250] sonnet_A_task3_run1 → score 4
+2026-03-24 23:19:45 | INFO     | pipeline |   [137/250] sonnet_A_task3_run2 → score 4
+2026-03-24 23:19:56 | INFO     | pipeline |   [138/250] sonnet_A_task3_run3 → score 4
+2026-03-24 23:20:08 | INFO     | pipeline |   [139/250] sonnet_A_task3_run4 → score 4
+2026-03-24 23:20:17 | INFO     | pipeline |   [140/250] sonnet_A_task3_run5 → score 4
+2026-03-24 23:20:30 | INFO     | pipeline |   [141/250] sonnet_A_task4_run1 → score 3
+2026-03-24 23:20:48 | INFO     | pipeline |   [142/250] sonnet_A_task4_run2 → score 3
+2026-03-24 23:21:01 | INFO     | pipeline |   [143/250] sonnet_A_task4_run3 → score 3
+2026-03-24 23:21:13 | INFO     | pipeline |   [144/250] sonnet_A_task4_run4 → score 3
+2026-03-24 23:21:32 | INFO     | pipeline |   [145/250] sonnet_A_task4_run5 → score 3
+2026-03-24 23:21:42 | INFO     | pipeline |   [146/250] sonnet_A_task5_run1 → score 1
+2026-03-24 23:21:58 | INFO     | pipeline |   [147/250] sonnet_A_task5_run2 → score 2
+2026-03-24 23:22:18 | INFO     | pipeline |   [148/250] sonnet_A_task5_run3 → score 3
+2026-03-24 23:22:36 | INFO     | pipeline |   [149/250] sonnet_A_task5_run4 → score 3
+2026-03-24 23:22:49 | INFO     | pipeline |   [150/250] sonnet_A_task5_run5 → score 2
+2026-03-24 23:22:58 | INFO     | pipeline |   [151/250] sonnet_B_task1_run1 → score 3
+2026-03-24 23:23:11 | INFO     | pipeline |   [152/250] sonnet_B_task1_run2 → score 3
+2026-03-24 23:23:19 | INFO     | pipeline |   [153/250] sonnet_B_task1_run3 → score 3
+2026-03-24 23:23:28 | INFO     | pipeline |   [154/250] sonnet_B_task1_run4 → score 3
+2026-03-24 23:23:39 | INFO     | pipeline |   [155/250] sonnet_B_task1_run5 → score 3
+2026-03-24 23:23:48 | INFO     | pipeline |   [156/250] sonnet_B_task2_run1 → score 3
+2026-03-24 23:23:58 | INFO     | pipeline |   [157/250] sonnet_B_task2_run2 → score 3
+2026-03-24 23:24:09 | INFO     | pipeline |   [158/250] sonnet_B_task2_run3 → score 3
+2026-03-24 23:24:16 | INFO     | pipeline |   [159/250] sonnet_B_task2_run4 → score 3
+2026-03-24 23:24:22 | INFO     | pipeline |   [160/250] sonnet_B_task2_run5 → score 3
+2026-03-24 23:24:34 | INFO     | pipeline |   [161/250] sonnet_B_task3_run1 → score 3
+2026-03-24 23:24:46 | INFO     | pipeline |   [162/250] sonnet_B_task3_run2 → score 4
+2026-03-24 23:24:57 | INFO     | pipeline |   [163/250] sonnet_B_task3_run3 → score 2
+2026-03-24 23:25:08 | INFO     | pipeline |   [164/250] sonnet_B_task3_run4 → score 4
+2026-03-24 23:25:23 | INFO     | pipeline |   [165/250] sonnet_B_task3_run5 → score 3
+2026-03-24 23:25:37 | INFO     | pipeline |   [166/250] sonnet_B_task4_run1 → score 4
+2026-03-24 23:25:52 | INFO     | pipeline |   [167/250] sonnet_B_task4_run2 → score 3
+2026-03-24 23:26:10 | INFO     | pipeline |   [168/250] sonnet_B_task4_run3 → score 3
+2026-03-24 23:26:21 | INFO     | pipeline |   [169/250] sonnet_B_task4_run4 → score 3
+2026-03-24 23:26:33 | INFO     | pipeline |   [170/250] sonnet_B_task4_run5 → score 3
+2026-03-24 23:27:00 | INFO     | pipeline |   [171/250] sonnet_B_task5_run1 → score 3
+2026-03-24 23:27:18 | INFO     | pipeline |   [172/250] sonnet_B_task5_run2 → score 4
+2026-03-24 23:27:27 | INFO     | pipeline |   [173/250] sonnet_B_task5_run3 → score 4
+2026-03-24 23:27:40 | INFO     | pipeline |   [174/250] sonnet_B_task5_run4 → score 4
+2026-03-24 23:28:08 | INFO     | pipeline |   [175/250] sonnet_B_task5_run5 → score 2
+2026-03-24 23:28:15 | INFO     | pipeline |   [176/250] sonnet_C_task1_run1 → score 3
+2026-03-24 23:28:23 | INFO     | pipeline |   [177/250] sonnet_C_task1_run2 → score 3
+2026-03-24 23:28:31 | INFO     | pipeline |   [178/250] sonnet_C_task1_run3 → score 3
+2026-03-24 23:28:41 | INFO     | pipeline |   [179/250] sonnet_C_task1_run4 → score 3
+2026-03-24 23:28:48 | INFO     | pipeline |   [180/250] sonnet_C_task1_run5 → score 3
+2026-03-24 23:28:55 | INFO     | pipeline |   [181/250] sonnet_C_task2_run1 → score 3
+2026-03-24 23:29:03 | INFO     | pipeline |   [182/250] sonnet_C_task2_run2 → score 3
+2026-03-24 23:29:10 | INFO     | pipeline |   [183/250] sonnet_C_task2_run3 → score 3
+2026-03-24 23:29:18 | INFO     | pipeline |   [184/250] sonnet_C_task2_run4 → score 3
+2026-03-24 23:29:24 | INFO     | pipeline |   [185/250] sonnet_C_task2_run5 → score 3
+2026-03-24 23:29:35 | INFO     | pipeline |   [186/250] sonnet_C_task3_run1 → score 2
+2026-03-24 23:29:47 | INFO     | pipeline |   [187/250] sonnet_C_task3_run2 → score 4
+2026-03-24 23:29:54 | INFO     | pipeline |   [188/250] sonnet_C_task3_run3 → score 4
+2026-03-24 23:30:05 | INFO     | pipeline |   [189/250] sonnet_C_task3_run4 → score 2
+2026-03-24 23:30:31 | INFO     | pipeline |   [190/250] sonnet_C_task3_run5 → score 2
+2026-03-24 23:30:44 | INFO     | pipeline |   [191/250] sonnet_C_task4_run1 → score 4
+2026-03-24 23:31:01 | INFO     | pipeline |   [192/250] sonnet_C_task4_run2 → score 3
+2026-03-24 23:31:18 | INFO     | pipeline |   [193/250] sonnet_C_task4_run3 → score 3
+2026-03-24 23:31:30 | INFO     | pipeline |   [194/250] sonnet_C_task4_run4 → score 3
+2026-03-24 23:31:38 | INFO     | pipeline |   [195/250] sonnet_C_task4_run5 → score 3
+2026-03-24 23:31:50 | INFO     | pipeline |   [196/250] sonnet_C_task5_run1 → score 2
+2026-03-24 23:32:02 | INFO     | pipeline |   [197/250] sonnet_C_task5_run2 → score 4
+2026-03-24 23:32:22 | INFO     | pipeline |   [198/250] sonnet_C_task5_run3 → score 3
+2026-03-24 23:32:41 | INFO     | pipeline |   [199/250] sonnet_C_task5_run4 → score 2
+2026-03-24 23:32:53 | INFO     | pipeline |   [200/250] sonnet_C_task5_run5 → score 3
+2026-03-24 23:33:24 | INFO     | pipeline |   [201/250] sonnet_D_task1_run1 → score 3
+2026-03-24 23:33:32 | INFO     | pipeline |   [202/250] sonnet_D_task1_run2 → score 5
+2026-03-24 23:33:41 | INFO     | pipeline |   [203/250] sonnet_D_task1_run3 → score 3
+2026-03-24 23:33:51 | INFO     | pipeline |   [204/250] sonnet_D_task1_run4 → score 3
+2026-03-24 23:34:03 | INFO     | pipeline |   [205/250] sonnet_D_task1_run5 → score 5
+2026-03-24 23:34:12 | INFO     | pipeline |   [206/250] sonnet_D_task2_run1 → score 3
+2026-03-24 23:34:25 | INFO     | pipeline |   [207/250] sonnet_D_task2_run2 → score 3
+2026-03-24 23:34:32 | INFO     | pipeline |   [208/250] sonnet_D_task2_run3 → score 3
+2026-03-24 23:34:40 | INFO     | pipeline |   [209/250] sonnet_D_task2_run4 → score 3
+2026-03-24 23:34:48 | INFO     | pipeline |   [210/250] sonnet_D_task2_run5 → score 3
+2026-03-24 23:34:56 | INFO     | pipeline |   [211/250] sonnet_D_task3_run1 → score 4
+2026-03-24 23:35:07 | INFO     | pipeline |   [212/250] sonnet_D_task3_run2 → score 4
+2026-03-24 23:35:16 | INFO     | pipeline |   [213/250] sonnet_D_task3_run3 → score 4
+2026-03-24 23:35:29 | INFO     | pipeline |   [214/250] sonnet_D_task3_run4 → score 3
+2026-03-24 23:35:40 | INFO     | pipeline |   [215/250] sonnet_D_task3_run5 → score 3
+2026-03-24 23:35:53 | INFO     | pipeline |   [216/250] sonnet_D_task4_run1 → score 3
+2026-03-24 23:36:06 | INFO     | pipeline |   [217/250] sonnet_D_task4_run2 → score 3
+2026-03-24 23:36:06 | INFO     | pipeline |   [218/250] sonnet_D_task4_run3 → score 0
+2026-03-24 23:36:16 | INFO     | pipeline |   [219/250] sonnet_D_task4_run4 → score 3
+2026-03-24 23:36:29 | INFO     | pipeline |   [220/250] sonnet_D_task4_run5 → score 3
+2026-03-24 23:36:50 | INFO     | pipeline |   [221/250] sonnet_D_task5_run1 → score 3
+2026-03-24 23:37:04 | INFO     | pipeline |   [222/250] sonnet_D_task5_run2 → score 4
+2026-03-24 23:37:10 | INFO     | pipeline |   [223/250] sonnet_D_task5_run3 → score 1
+2026-03-24 23:37:20 | INFO     | pipeline |   [224/250] sonnet_D_task5_run4 → score 3
+2026-03-24 23:37:35 | INFO     | pipeline |   [225/250] sonnet_D_task5_run5 → score 4
+2026-03-24 23:37:43 | INFO     | pipeline |   [226/250] sonnet_E_task1_run1 → score 3
+2026-03-24 23:37:51 | INFO     | pipeline |   [227/250] sonnet_E_task1_run2 → score 3
+2026-03-24 23:37:57 | INFO     | pipeline |   [228/250] sonnet_E_task1_run3 → score 3
+2026-03-24 23:38:05 | INFO     | pipeline |   [229/250] sonnet_E_task1_run4 → score 3
+2026-03-24 23:38:13 | INFO     | pipeline |   [230/250] sonnet_E_task1_run5 → score 3
+2026-03-24 23:38:19 | INFO     | pipeline |   [231/250] sonnet_E_task2_run1 → score 3
+2026-03-24 23:38:26 | INFO     | pipeline |   [232/250] sonnet_E_task2_run2 → score 3
+2026-03-24 23:38:34 | INFO     | pipeline |   [233/250] sonnet_E_task2_run3 → score 3
+2026-03-24 23:38:42 | INFO     | pipeline |   [234/250] sonnet_E_task2_run4 → score 3
+2026-03-24 23:38:50 | INFO     | pipeline |   [235/250] sonnet_E_task2_run5 → score 3
+2026-03-24 23:38:59 | INFO     | pipeline |   [236/250] sonnet_E_task3_run1 → score 2
+2026-03-24 23:39:07 | INFO     | pipeline |   [237/250] sonnet_E_task3_run2 → score 2
+2026-03-24 23:39:15 | INFO     | pipeline |   [238/250] sonnet_E_task3_run3 → score 2
+2026-03-24 23:39:21 | INFO     | pipeline |   [239/250] sonnet_E_task3_run4 → score 2
+2026-03-24 23:39:39 | INFO     | pipeline |   [240/250] sonnet_E_task3_run5 → score 2
+2026-03-24 23:39:54 | INFO     | pipeline |   [241/250] sonnet_E_task4_run1 → score 3
+2026-03-24 23:40:11 | INFO     | pipeline |   [242/250] sonnet_E_task4_run2 → score 2
+2026-03-24 23:40:38 | INFO     | pipeline |   [243/250] sonnet_E_task4_run3 → score 2
+2026-03-24 23:40:49 | INFO     | pipeline |   [244/250] sonnet_E_task4_run4 → score 3
+2026-03-24 23:40:59 | INFO     | pipeline |   [245/250] sonnet_E_task4_run5 → score 3
+2026-03-24 23:41:13 | INFO     | pipeline |   [246/250] sonnet_E_task5_run1 → score 2
+2026-03-24 23:41:20 | INFO     | pipeline |   [247/250] sonnet_E_task5_run2 → score 1
+2026-03-24 23:41:31 | INFO     | pipeline |   [248/250] sonnet_E_task5_run3 → score 1
+2026-03-24 23:41:43 | INFO     | pipeline |   [249/250] sonnet_E_task5_run4 → score 4
+2026-03-24 23:41:50 | INFO     | pipeline |   [250/250] sonnet_E_task5_run5 → score 1
+2026-03-24 23:41:50 | INFO     | pipeline | Saved 250 classifications to experiment_3/runs/full_n5/analysis/strategy_classifications.json
+2026-03-24 23:41:50 | INFO     | pipeline | Appended strategy_score column to experiment_3/runs/full_n5/results/metrics/metrics_table.csv
+2026-03-24 23:41:50 | INFO     | pipeline | Judge calls: 240  |  est. cost: $1.0367
+2026-03-24 23:41:50 | INFO     | pipeline | Step 4 completed in 2801.3s
+2026-03-24 23:41:50 | INFO     | pipeline | ----------------------------------------
+2026-03-24 23:41:50 | INFO     | pipeline | STEP 5/6: Running statistical analysis
+2026-03-24 23:41:51 | INFO     | pipeline | Step 5 completed in 1.0s
+2026-03-24 23:41:51 | INFO     | pipeline | ----------------------------------------
+2026-03-24 23:41:51 | INFO     | pipeline | STEP 6/6: Generating plots
+2026-03-24 23:41:58 | INFO     | pipeline | Step 6 completed in 7.6s
+2026-03-24 23:41:58 | INFO     | pipeline |   Generated 100 plots
+2026-03-24 23:41:58 | INFO     | pipeline | ============================================================
+2026-03-24 23:41:58 | INFO     | pipeline | PIPELINE COMPLETE in 3226.8s (53.8 minutes)
+2026-03-24 23:41:58 | INFO     | pipeline |   Run: experiment_3/runs/full_n5
+2026-03-24 23:41:58 | INFO     | pipeline | ============================================================

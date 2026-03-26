@@ -1,0 +1,1002 @@
+{
+  "haiku_A_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_A_task1_run2": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_A_task1_run3": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_A_task1_run4": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_A_task1_run5": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_A_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_A_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_A_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_A_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_A_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_A_task3_run1": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "haiku_A_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_A_task3_run3": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_A_task3_run4": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_A_task3_run5": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_A_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_A_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_A_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_A_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_A_task4_run5": {
+    "task_id": "task4",
+    "score": 4
+  },
+  "haiku_A_task5_run1": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_A_task5_run2": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "haiku_A_task5_run3": {
+    "task_id": "task5",
+    "score": 0
+  },
+  "haiku_A_task5_run4": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "haiku_A_task5_run5": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_B_task1_run1": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_B_task1_run2": {
+    "task_id": "task1",
+    "score": 0
+  },
+  "haiku_B_task1_run3": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_B_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_B_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_B_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_B_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_B_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_B_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_B_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_B_task3_run1": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_B_task3_run2": {
+    "task_id": "task3",
+    "score": 0
+  },
+  "haiku_B_task3_run3": {
+    "task_id": "task3",
+    "score": 0
+  },
+  "haiku_B_task3_run4": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "haiku_B_task3_run5": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_B_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_B_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_B_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_B_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_B_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_B_task5_run1": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "haiku_B_task5_run2": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "haiku_B_task5_run3": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "haiku_B_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_B_task5_run5": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "haiku_C_task1_run1": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_C_task1_run2": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_C_task1_run3": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_C_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_C_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_C_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_C_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_C_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_C_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_C_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_C_task3_run1": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_C_task3_run2": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "haiku_C_task3_run3": {
+    "task_id": "task3",
+    "score": 1
+  },
+  "haiku_C_task3_run4": {
+    "task_id": "task3",
+    "score": 0
+  },
+  "haiku_C_task3_run5": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_C_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_C_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_C_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_C_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_C_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_C_task5_run1": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_C_task5_run2": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "haiku_C_task5_run3": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "haiku_C_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_C_task5_run5": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_D_task1_run1": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_D_task1_run2": {
+    "task_id": "task1",
+    "score": 4
+  },
+  "haiku_D_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_D_task1_run4": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "haiku_D_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_D_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_D_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_D_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_D_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_D_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_D_task3_run1": {
+    "task_id": "task3",
+    "score": 0
+  },
+  "haiku_D_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_D_task3_run3": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_D_task3_run4": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "haiku_D_task3_run5": {
+    "task_id": "task3",
+    "score": 0
+  },
+  "haiku_D_task4_run1": {
+    "task_id": "task4",
+    "score": 0
+  },
+  "haiku_D_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_D_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_D_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_D_task4_run5": {
+    "task_id": "task4",
+    "score": 4
+  },
+  "haiku_D_task5_run1": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_D_task5_run2": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_D_task5_run3": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_D_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_D_task5_run5": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_E_task1_run1": {
+    "task_id": "task1",
+    "score": 0
+  },
+  "haiku_E_task1_run2": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_E_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_E_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_E_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "haiku_E_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_E_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_E_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_E_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_E_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "haiku_E_task3_run1": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "haiku_E_task3_run2": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "haiku_E_task3_run3": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "haiku_E_task3_run4": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "haiku_E_task3_run5": {
+    "task_id": "task3",
+    "score": 1
+  },
+  "haiku_E_task4_run1": {
+    "task_id": "task4",
+    "score": 2
+  },
+  "haiku_E_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_E_task4_run3": {
+    "task_id": "task4",
+    "score": 2
+  },
+  "haiku_E_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_E_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "haiku_E_task5_run1": {
+    "task_id": "task5",
+    "score": 0
+  },
+  "haiku_E_task5_run2": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "haiku_E_task5_run3": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_E_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "haiku_E_task5_run5": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_A_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_A_task1_run2": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_A_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_A_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_A_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_A_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_A_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_A_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_A_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_A_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_A_task3_run1": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_A_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_A_task3_run3": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_A_task3_run4": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_A_task3_run5": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_A_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_A_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_A_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_A_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_A_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_A_task5_run1": {
+    "task_id": "task5",
+    "score": 1
+  },
+  "sonnet_A_task5_run2": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_A_task5_run3": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_A_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_A_task5_run5": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_B_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_B_task1_run2": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_B_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_B_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_B_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_B_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_B_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_B_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_B_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_B_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_B_task3_run1": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "sonnet_B_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_B_task3_run3": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_B_task3_run4": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_B_task3_run5": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "sonnet_B_task4_run1": {
+    "task_id": "task4",
+    "score": 4
+  },
+  "sonnet_B_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_B_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_B_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_B_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_B_task5_run1": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_B_task5_run2": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_B_task5_run3": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_B_task5_run4": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_B_task5_run5": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_C_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_C_task1_run2": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_C_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_C_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_C_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_C_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_C_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_C_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_C_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_C_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_C_task3_run1": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_C_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_C_task3_run3": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_C_task3_run4": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_C_task3_run5": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_C_task4_run1": {
+    "task_id": "task4",
+    "score": 4
+  },
+  "sonnet_C_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_C_task4_run3": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_C_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_C_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_C_task5_run1": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_C_task5_run2": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_C_task5_run3": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_C_task5_run4": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_C_task5_run5": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_D_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_D_task1_run2": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "sonnet_D_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_D_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_D_task1_run5": {
+    "task_id": "task1",
+    "score": 5
+  },
+  "sonnet_D_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_D_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_D_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_D_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_D_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_D_task3_run1": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_D_task3_run2": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_D_task3_run3": {
+    "task_id": "task3",
+    "score": 4
+  },
+  "sonnet_D_task3_run4": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "sonnet_D_task3_run5": {
+    "task_id": "task3",
+    "score": 3
+  },
+  "sonnet_D_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_D_task4_run2": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_D_task4_run3": {
+    "task_id": "task4",
+    "score": 0
+  },
+  "sonnet_D_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_D_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_D_task5_run1": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_D_task5_run2": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_D_task5_run3": {
+    "task_id": "task5",
+    "score": 1
+  },
+  "sonnet_D_task5_run4": {
+    "task_id": "task5",
+    "score": 3
+  },
+  "sonnet_D_task5_run5": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_E_task1_run1": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_E_task1_run2": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_E_task1_run3": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_E_task1_run4": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_E_task1_run5": {
+    "task_id": "task1",
+    "score": 3
+  },
+  "sonnet_E_task2_run1": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_E_task2_run2": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_E_task2_run3": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_E_task2_run4": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_E_task2_run5": {
+    "task_id": "task2",
+    "score": 3
+  },
+  "sonnet_E_task3_run1": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_E_task3_run2": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_E_task3_run3": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_E_task3_run4": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_E_task3_run5": {
+    "task_id": "task3",
+    "score": 2
+  },
+  "sonnet_E_task4_run1": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_E_task4_run2": {
+    "task_id": "task4",
+    "score": 2
+  },
+  "sonnet_E_task4_run3": {
+    "task_id": "task4",
+    "score": 2
+  },
+  "sonnet_E_task4_run4": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_E_task4_run5": {
+    "task_id": "task4",
+    "score": 3
+  },
+  "sonnet_E_task5_run1": {
+    "task_id": "task5",
+    "score": 2
+  },
+  "sonnet_E_task5_run2": {
+    "task_id": "task5",
+    "score": 1
+  },
+  "sonnet_E_task5_run3": {
+    "task_id": "task5",
+    "score": 1
+  },
+  "sonnet_E_task5_run4": {
+    "task_id": "task5",
+    "score": 4
+  },
+  "sonnet_E_task5_run5": {
+    "task_id": "task5",
+    "score": 1
+  }
+}

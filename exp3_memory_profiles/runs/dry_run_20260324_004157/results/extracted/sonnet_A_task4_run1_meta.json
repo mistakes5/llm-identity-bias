@@ -1,0 +1,8 @@
+{
+  "source": "sonnet_A_task4_run1.json",
+  "n_blocks": 3,
+  "syntax_valid": false,
+  "syntax_error": "Line 156: expected an indented block after function definition on line 150",
+  "code_lines": 236,
+  "code_chars": 8118
+}

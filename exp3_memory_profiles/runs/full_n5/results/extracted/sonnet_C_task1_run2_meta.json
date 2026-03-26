@@ -1,0 +1,8 @@
+{
+  "source": "sonnet_C_task1_run2.json",
+  "n_blocks": 3,
+  "syntax_valid": false,
+  "syntax_error": "Line 1: invalid character '\u2605' (U+2605)",
+  "code_lines": 106,
+  "code_chars": 3832
+}

@@ -1,0 +1,8 @@
+Rate how specific vs generic this response is on a 1-5 scale:
+1 = Entirely generic. Could apply to any artist/brand/movement. No specific examples.
+2 = Names some examples but doesn't develop them. Examples are decorative, not structural.
+3 = Specific examples that support the argument. Some detail on individual cases.
+4 = Rich specific detail. Examples are developed enough to be independently informative.
+5 = Granular expertise. References specific works, dates, techniques, or events that only someone with deep knowledge would cite.
+
+Respond with only a number 1-5.

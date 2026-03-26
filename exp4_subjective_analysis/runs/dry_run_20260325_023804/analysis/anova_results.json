@@ -1,0 +1,306 @@
+{
+  "one_way": [
+    {
+      "metric": "response_length",
+      "F_statistic": 17.716378283311567,
+      "p_value": 1.217143890377183e-05,
+      "significant": "True",
+      "group_means": {
+        "A": 3479.4,
+        "B": 2022.1,
+        "C": 1615.5
+      },
+      "group_stds": {
+        "A": 1162.1652397333369,
+        "B": 467.55996644518467,
+        "C": 239.3088427581025
+      }
+    },
+    {
+      "metric": "estimated_tokens",
+      "F_statistic": 17.709441030632277,
+      "p_value": 1.2208013593871431e-05,
+      "significant": "True",
+      "group_means": {
+        "A": 869.4,
+        "B": 505.1,
+        "C": 403.6
+      },
+      "group_stds": {
+        "A": 290.4663682960751,
+        "B": 116.99900284475362,
+        "C": 59.81118438701726
+      }
+    },
+    {
+      "metric": "paragraph_count",
+      "F_statistic": 6.319519752130134,
+      "p_value": 0.005607233763181081,
+      "significant": "True",
+      "group_means": {
+        "A": 15.3,
+        "B": 9.5,
+        "C": 7.0
+      },
+      "group_stds": {
+        "A": 8.2334008094401,
+        "B": 3.8369548110737792,
+        "C": 1.8856180831641267
+      }
+    },
+    {
+      "metric": "question_count",
+      "F_statistic": 1.08,
+      "p_value": 0.3538174929832827,
+      "significant": "False",
+      "group_means": {
+        "A": 0.2,
+        "B": 0.1,
+        "C": 0.0
+      },
+      "group_stds": {
+        "A": 0.42163702135578396,
+        "B": 0.31622776601683794,
+        "C": 0.0
+      }
+    },
+    {
+      "metric": "hedge_density",
+      "F_statistic": 2.3574835193411494,
+      "p_value": 0.11385267714525375,
+      "significant": "False",
+      "group_means": {
+        "A": 0.0708,
+        "B": 0.0,
+        "C": 0.023200000000000002
+      },
+      "group_stds": {
+        "A": 0.10581094251331265,
+        "B": 0.0,
+        "C": 0.07336484171590642
+      }
+    },
+    {
+      "metric": "unique_entity_count",
+      "F_statistic": 0.8950778988004964,
+      "p_value": 0.4203553825068555,
+      "significant": "False",
+      "group_means": {
+        "A": 18.1,
+        "B": 17.3,
+        "C": 13.1
+      },
+      "group_stds": {
+        "A": 9.723396754449777,
+        "B": 9.809858986414296,
+        "C": 7.140650452787119
+      }
+    },
+    {
+      "metric": "named_reference_count",
+      "F_statistic": 1.2005444646098005,
+      "p_value": 0.31659547571751967,
+      "significant": "False",
+      "group_means": {
+        "A": 3.7,
+        "B": 2.3,
+        "C": 3.0
+      },
+      "group_stds": {
+        "A": 2.057506581601462,
+        "B": 2.3118054512532935,
+        "C": 1.632993161855452
+      }
+    },
+    {
+      "metric": "cross_domain_count",
+      "F_statistic": 9.3444976076555,
+      "p_value": 0.0008240510527572979,
+      "significant": "True",
+      "group_means": {
+        "A": 2.2,
+        "B": 0.9,
+        "C": 0.6
+      },
+      "group_stds": {
+        "A": 1.2292725943057183,
+        "B": 0.7378647873726218,
+        "C": 0.5163977794943223
+      }
+    },
+    {
+      "metric": "norm_unique_entity_count",
+      "F_statistic": 0.30617930102988344,
+      "p_value": 0.7387772265049196,
+      "significant": "False",
+      "group_means": {
+        "A": 3.725,
+        "B": 3.675,
+        "C": 3.2
+      },
+      "group_stds": {
+        "A": 1.4928068268273098,
+        "B": 1.7718869414647576,
+        "C": 1.6906606203887677
+      }
+    },
+    {
+      "metric": "norm_named_reference_count",
+      "F_statistic": 1.2005444646098005,
+      "p_value": 0.31659547571751967,
+      "significant": "False",
+      "group_means": {
+        "A": 1.85,
+        "B": 1.15,
+        "C": 1.5
+      },
+      "group_stds": {
+        "A": 1.028753290800731,
+        "B": 1.1559027256266468,
+        "C": 0.816496580927726
+      }
+    },
+    {
+      "metric": "norm_cross_domain_count",
+      "F_statistic": 9.3444976076555,
+      "p_value": 0.0008240510527572979,
+      "significant": "True",
+      "group_means": {
+        "A": 2.2,
+        "B": 0.9,
+        "C": 0.6
+      },
+      "group_stds": {
+        "A": 1.2292725943057183,
+        "B": 0.7378647873726218,
+        "C": 0.5163977794943223
+      }
+    },
+    {
+      "metric": "norm_question_count",
+      "F_statistic": 1.08,
+      "p_value": 0.3538174929832827,
+      "significant": "False",
+      "group_means": {
+        "A": 0.2,
+        "B": 0.1,
+        "C": 0.0
+      },
+      "group_stds": {
+        "A": 0.42163702135578396,
+        "B": 0.31622776601683794,
+        "C": 0.0
+      }
+    }
+  ],
+  "two_way": [
+    {
+      "metric": "response_length",
+      "profile_F": 15.158614859274063,
+      "profile_p": 1.2644175371850037e-07,
+      "model_F": 2.0471614495375103,
+      "model_p": 0.16025666897783053,
+      "interaction_F": 1.7529561277716827,
+      "interaction_p": 0.1574956312703605
+    },
+    {
+      "metric": "estimated_tokens",
+      "profile_F": 15.158299261721993,
+      "profile_p": 1.2647251396799894e-07,
+      "model_F": 2.050166964193401,
+      "model_p": 0.15995765656208963,
+      "interaction_F": 1.7498673097777282,
+      "interaction_p": 0.1581479339946454
+    },
+    {
+      "metric": "paragraph_count",
+      "profile_F": 3.818843215714804,
+      "profile_p": 0.010122327639246986,
+      "model_F": 0.5703892324481618,
+      "model_p": 0.4545285798712533,
+      "interaction_F": 0.050200072753728994,
+      "interaction_p": 0.9950811985431058
+    },
+    {
+      "metric": "question_count",
+      "profile_F": 3.312500000000002,
+      "profile_p": 0.019554935353441077,
+      "model_F": 7.999999999999981,
+      "model_p": 0.0072754964084393876,
+      "interaction_F": 2.0625000000000004,
+      "interaction_p": 0.10390709308392918
+    },
+    {
+      "metric": "hedge_density",
+      "profile_F": 1.1971472614099783,
+      "profile_p": 0.3269999688066268,
+      "model_F": 0.0034420183808467793,
+      "model_p": 0.9535081002565448,
+      "interaction_F": 1.678967394485746,
+      "interaction_p": 0.17386213892003838
+    },
+    {
+      "metric": "unique_entity_count",
+      "profile_F": 1.9333174848448775,
+      "profile_p": 0.12364101518033335,
+      "model_F": 0.02876500653750085,
+      "model_p": 0.8661776173514528,
+      "interaction_F": 0.8566504219660044,
+      "interaction_p": 0.49817814477507727
+    },
+    {
+      "metric": "named_reference_count",
+      "profile_F": 1.6191709844559505,
+      "profile_p": 0.18827829190722373,
+      "model_F": 0.1295336787564742,
+      "model_p": 0.7208094028568948,
+      "interaction_F": 2.5000000000000018,
+      "interaction_p": 0.057646075230342125
+    },
+    {
+      "metric": "cross_domain_count",
+      "profile_F": 13.826666666666629,
+      "profile_p": 3.625041846077318e-07,
+      "model_F": 1.7066666666666552,
+      "model_p": 0.19888062363099981,
+      "interaction_F": 1.3733333333333348,
+      "interaction_p": 0.2603970728311519
+    },
+    {
+      "metric": "norm_unique_entity_count",
+      "profile_F": 1.5606060606060572,
+      "profile_p": 0.20350462882066517,
+      "model_F": 0.07919191919191937,
+      "model_p": 0.7798462042446395,
+      "interaction_F": 0.43979797979798063,
+      "interaction_p": 0.7790678916852233
+    },
+    {
+      "metric": "norm_named_reference_count",
+      "profile_F": 1.6191709844559505,
+      "profile_p": 0.18827829190722373,
+      "model_F": 0.1295336787564742,
+      "model_p": 0.7208094028568948,
+      "interaction_F": 2.5000000000000018,
+      "interaction_p": 0.057646075230342125
+    },
+    {
+      "metric": "norm_cross_domain_count",
+      "profile_F": 13.826666666666629,
+      "profile_p": 3.625041846077318e-07,
+      "model_F": 1.7066666666666552,
+      "model_p": 0.19888062363099981,
+      "interaction_F": 1.3733333333333348,
+      "interaction_p": 0.2603970728311519
+    },
+    {
+      "metric": "norm_question_count",
+      "profile_F": 3.312500000000002,
+      "profile_p": 0.019554935353441077,
+      "model_F": 7.999999999999981,
+      "model_p": 0.0072754964084393876,
+      "interaction_F": 2.0625000000000004,
+      "interaction_p": 0.10390709308392918
+    }
+  ]
+}

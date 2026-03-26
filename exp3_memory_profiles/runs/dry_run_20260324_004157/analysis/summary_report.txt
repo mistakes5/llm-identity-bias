@@ -1,0 +1,319 @@
+========================================================================
+PROFILE BIAS EXPERIMENT — STATISTICAL ANALYSIS REPORT
+========================================================================
+
+DATA OVERVIEW
+----------------------------------------
+  Total observations: 50
+  Profile A: 10
+  Profile B: 10
+  Profile C: 10
+  Profile D: 10
+  Profile E: 10
+  Model haiku: 25
+  Model sonnet: 25
+
+========================================================================
+KEY FINDINGS
+========================================================================
+
+  * No metrics show significant profile effects at p < 0.05 (one-way ANOVA).
+
+  * Largest effect sizes (Cohen's d):
+    - class_count (A_vs_B): |d|=1.018 (large)
+    - defensive_coding (A_vs_C): |d|=0.915 (large)
+    - explanation_length (A_vs_C): |d|=0.914 (large)
+    - code_to_explanation_ratio (B_vs_C): |d|=0.814 (large)
+    - comment_lines (A_vs_B): |d|=0.747 (medium)
+    - max_nesting_depth (A_vs_B): |d|=0.732 (medium)
+    - class_count (A_vs_C): |d|=0.714 (medium)
+    - docstring_count (A_vs_B): |d|=0.712 (medium)
+    - architectural_sophistication (A_vs_B): |d|=0.638 (medium)
+    - try_except_count (A_vs_C): |d|=0.619 (medium)
+
+  * Model sensitivity to profile priming:
+    - haiku: 0/25 metrics show significant profile effect
+    - sonnet: 0/25 metrics show significant profile effect
+
+  * No significant profile x model interaction effects detected.
+
+  * PELT change-point detection found 1 shift(s) near profile boundaries:
+    - comment_ratio: change at index 25 (near profile C boundary at 27)
+
+========================================================================
+PLANNED CONTRASTS (Experiment 3)
+========================================================================
+
+Metric                    Contrast                              U          p     r_rb        d   Sig?
+----------------------------------------------------------------------------------------------------
+cyclomatic_complexity     A_vs_C (non-tech sophistication)     37.0     0.8834   -0.057    0.261       
+cyclomatic_complexity     D_vs_E (tech sophistication)       76.0     0.0124   -0.689    1.405      *
+cyclomatic_complexity     B_vs_ACDE (profile existence)     197.0     0.6599   -0.094    0.192       
+cyclomatic_complexity     AD_vs_CE (high vs low)            215.5     0.0795   -0.347    0.581       
+max_nesting_depth         A_vs_C (non-tech sophistication)     39.5     0.6268   -0.129    0.171       
+max_nesting_depth         D_vs_E (tech sophistication)       72.5     0.0204   -0.611    0.986      *
+max_nesting_depth         B_vs_ACDE (profile existence)     182.5     0.9530   -0.014   -0.185       
+max_nesting_depth         AD_vs_CE (high vs low)            217.5     0.0455   -0.359    0.526      *
+function_count            A_vs_C (non-tech sophistication)     45.0     0.3494   -0.286    0.604       
+function_count            D_vs_E (tech sophistication)       81.5     0.0032   -0.811    1.968      *
+function_count            B_vs_ACDE (profile existence)     188.0     0.8412   -0.044    0.196       
+function_count            AD_vs_CE (high vs low)            241.5     0.0097   -0.509    0.846      *
+class_count               A_vs_C (non-tech sophistication)     48.0     0.1916   -0.371    0.714       
+class_count               D_vs_E (tech sophistication)       76.5     0.0083   -0.700    1.483      *
+class_count               B_vs_ACDE (profile existence)     173.0     0.8573    0.039   -0.090       
+class_count               AD_vs_CE (high vs low)            236.5     0.0115   -0.478    0.916      *
+total_lines               A_vs_C (non-tech sophistication)     41.0     0.6009   -0.171    0.454       
+total_lines               D_vs_E (tech sophistication)       68.0     0.0658   -0.511    1.118       
+total_lines               B_vs_ACDE (profile existence)     195.5     0.6895   -0.086    0.144       
+total_lines               AD_vs_CE (high vs low)            207.5     0.1345   -0.297    0.621       
+comment_lines             A_vs_C (non-tech sophistication)     47.0     0.2606   -0.343    0.234       
+comment_lines             D_vs_E (tech sophistication)       38.5     0.6207    0.144   -0.542       
+comment_lines             B_vs_ACDE (profile existence)     161.5     0.6306    0.103   -0.297       
+comment_lines             AD_vs_CE (high vs low)            159.0     0.9873    0.006   -0.274       
+comment_ratio             A_vs_C (non-tech sophistication)     42.0     0.5362   -0.200    0.268       
+comment_ratio             D_vs_E (tech sophistication)        6.0     0.0017    0.867   -1.054      *
+comment_ratio             B_vs_ACDE (profile existence)     139.0     0.2807    0.228    0.052       
+comment_ratio             AD_vs_CE (high vs low)             91.0     0.0292    0.431   -0.634      *
+docstring_count           A_vs_C (non-tech sophistication)     42.5     0.4921   -0.214    0.584       
+docstring_count           D_vs_E (tech sophistication)       64.0     0.1233   -0.422    0.667       
+docstring_count           B_vs_ACDE (profile existence)     203.5     0.5371   -0.131   -0.043       
+docstring_count           AD_vs_CE (high vs low)            201.0     0.1927   -0.256    0.478       
+type_annotation_count     A_vs_C (non-tech sophistication)     41.0     0.5901   -0.171    0.132       
+type_annotation_count     D_vs_E (tech sophistication)       78.5     0.0036   -0.744    1.694      *
+type_annotation_count     B_vs_ACDE (profile existence)     195.5     0.6868   -0.086    0.226       
+type_annotation_count     AD_vs_CE (high vs low)            223.0     0.0439   -0.394    0.788      *
+comprehension_count       A_vs_C (non-tech sophistication)     31.5     0.7509    0.100   -0.102       
+comprehension_count       D_vs_E (tech sophistication)       56.0     0.3191   -0.244    0.764       
+comprehension_count       B_vs_ACDE (profile existence)     182.0     0.9642   -0.011    0.096       
+comprehension_count       AD_vs_CE (high vs low)            168.5     0.7754   -0.053    0.120       
+try_except_count          A_vs_C (non-tech sophistication)     42.0     0.5048   -0.200    0.619       
+try_except_count          D_vs_E (tech sophistication)       60.5     0.1536   -0.344    0.634       
+try_except_count          B_vs_ACDE (profile existence)     184.0     0.9189   -0.022    0.085       
+try_except_count          AD_vs_CE (high vs low)            197.0     0.2035   -0.231    0.553       
+unique_imports            A_vs_C (non-tech sophistication)     41.0     0.5868   -0.171    0.196       
+unique_imports            D_vs_E (tech sophistication)       78.0     0.0061   -0.733    1.769      *
+unique_imports            B_vs_ACDE (profile existence)     205.5     0.4999   -0.142    0.284       
+unique_imports            AD_vs_CE (high vs low)            233.0     0.0189   -0.456    0.839      *
+avg_function_length       A_vs_C (non-tech sophistication)     42.0     0.5362   -0.200   -0.025       
+avg_function_length       D_vs_E (tech sophistication)       22.0     0.0661    0.511   -0.338       
+avg_function_length       B_vs_ACDE (profile existence)     160.5     0.6128    0.108   -0.267       
+avg_function_length       AD_vs_CE (high vs low)            130.0     0.3476    0.188   -0.222       
+parse_error               A_vs_C (non-tech sophistication)  skipped
+parse_error               D_vs_E (tech sophistication)    skipped
+parse_error               B_vs_ACDE (profile existence)   skipped
+parse_error               AD_vs_CE (high vs low)          skipped
+has_clarifying_questions  A_vs_C (non-tech sophistication)  skipped
+has_clarifying_questions  D_vs_E (tech sophistication)    skipped
+has_clarifying_questions  B_vs_ACDE (profile existence)   skipped
+has_clarifying_questions  AD_vs_CE (high vs low)          skipped
+explanation_length        A_vs_C (non-tech sophistication)     74.0     0.0757   -0.480    0.914       
+explanation_length        D_vs_E (tech sophistication)       69.0     0.1620   -0.380    0.686       
+explanation_length        B_vs_ACDE (profile existence)     246.0     0.2698   -0.230    0.448       
+explanation_length        AD_vs_CE (high vs low)            287.0     0.0193   -0.435    0.766      *
+code_length               A_vs_C (non-tech sophistication)     47.0     0.8501    0.060    0.045       
+code_length               D_vs_E (tech sophistication)       74.0     0.0756   -0.480    0.952       
+code_length               B_vs_ACDE (profile existence)     209.5     0.8272   -0.048    0.124       
+code_length               AD_vs_CE (high vs low)            238.0     0.3104   -0.190    0.374       
+code_to_explanation_ratio A_vs_C (non-tech sophistication)     45.0     0.7337    0.100   -0.082       
+code_to_explanation_ratio D_vs_E (tech sophistication)       70.0     0.1405   -0.400    0.704       
+code_to_explanation_ratio B_vs_ACDE (profile existence)     165.0     0.4027    0.175   -0.331       
+code_to_explanation_ratio AD_vs_CE (high vs low)            227.0     0.4735   -0.135    0.238       
+advanced_pattern_count    A_vs_C (non-tech sophistication)     46.0     0.7903    0.080   -0.160       
+advanced_pattern_count    D_vs_E (tech sophistication)       89.5     0.0026   -0.790    1.932      *
+advanced_pattern_count    B_vs_ACDE (profile existence)     205.0     0.9121   -0.025    0.049       
+advanced_pattern_count    AD_vs_CE (high vs low)            269.0     0.0609   -0.345    0.574       
+assumption_count          A_vs_C (non-tech sophistication)     50.0     1.0000    0.000    0.000       
+assumption_count          D_vs_E (tech sophistication)       50.0     1.0000    0.000    0.000       
+assumption_count          B_vs_ACDE (profile existence)     200.0     1.0000    0.000    0.000       
+assumption_count          AD_vs_CE (high vs low)            200.0     1.0000    0.000    0.000       
+architectural_sophistication A_vs_C (non-tech sophistication)     47.5     0.2410   -0.357    0.560       
+architectural_sophistication D_vs_E (tech sophistication)       86.0     0.0009   -0.911    2.281      *
+architectural_sophistication B_vs_ACDE (profile existence)     190.0     0.8002   -0.056    0.104       
+architectural_sophistication AD_vs_CE (high vs low)            251.5     0.0038   -0.572    1.124      *
+defensive_coding          A_vs_C (non-tech sophistication)     54.0     0.0703   -0.543    0.915       
+defensive_coding          D_vs_E (tech sophistication)       79.0     0.0061   -0.756    1.478      *
+defensive_coding          B_vs_ACDE (profile existence)     204.0     0.5309   -0.133    0.265       
+defensive_coding          AD_vs_CE (high vs low)            242.5     0.0089   -0.516    0.939      *
+idiomatic_density         A_vs_C (non-tech sophistication)     36.5     0.9217   -0.043   -0.099       
+idiomatic_density         D_vs_E (tech sophistication)       86.0     0.0008   -0.911    2.593      *
+idiomatic_density         B_vs_ACDE (profile existence)     192.0     0.7588   -0.067    0.198       
+idiomatic_density         AD_vs_CE (high vs low)            227.0     0.0338   -0.419    0.736      *
+verbosity_ratio           A_vs_C (non-tech sophistication)     55.0     0.7337   -0.100    0.470       
+verbosity_ratio           D_vs_E (tech sophistication)       30.0     0.1405    0.400   -0.850       
+verbosity_ratio           B_vs_ACDE (profile existence)     235.0     0.4027   -0.175   -0.002       
+verbosity_ratio           AD_vs_CE (high vs low)            173.0     0.4735    0.135    0.039       
+strategy_score            A_vs_C (non-tech sophistication)     50.0     1.0000    0.000    0.000       
+strategy_score            D_vs_E (tech sophistication)       50.0     1.0000    0.000    0.000       
+strategy_score            B_vs_ACDE (profile existence)     200.0     1.0000    0.000    0.000       
+strategy_score            AD_vs_CE (high vs low)            200.0     1.0000    0.000    0.000       
+
+========================================================================
+DETAILED RESULTS
+========================================================================
+
+ONE-WAY ANOVA (by Profile)
+------------------------------------------------------------------------
+Metric                                F          p   Sig?    Mean_A   Mean_B   Mean_C
+------------------------------------------------------------------------
+cyclomatic_complexity             0.173     0.8421           22.000   17.700   18.000
+max_nesting_depth                 0.993     0.3853            3.000    2.000    2.700
+function_count                    0.689     0.5118           15.857   11.600   11.000
+class_count                       2.599     0.0951            3.286    2.100    2.600
+total_lines                       0.523     0.5992          212.714  164.700  169.800
+comment_lines                     0.744     0.4856           13.714    7.900   11.000
+comment_ratio                     0.646     0.5328            0.066    0.145    0.057
+docstring_count                   1.473     0.2492           10.714    6.000    6.600
+type_annotation_count             0.415     0.6648           20.143   16.800   19.200
+comprehension_count               0.098     0.9071            2.714    2.300    3.200
+try_except_count                  0.863     0.4345            1.571    0.900    0.800
+unique_imports                    0.078     0.9250            5.000    4.800    4.400
+avg_function_length               0.234     0.7928            9.461    8.659    9.533
+explanation_length                1.462     0.2495         1802.100 1691.100 1398.700
+code_length                       0.055     0.9468         6008.100 5470.900 5839.700
+code_to_explanation_ratio         0.784     0.4668            4.012    2.907    4.259
+advanced_pattern_count            0.150     0.8616           11.800   11.100   13.400
+assumption_count                    nan        nan            0.000    0.000    0.000
+architectural_sophistication      1.069     0.3592            7.450    6.325    6.700
+defensive_coding                  1.107     0.3467            6.529    5.370    5.485
+idiomatic_density                 0.394     0.6786            6.657    5.820    6.930
+verbosity_ratio                   0.678     0.5162            3.356    1.708    0.287
+strategy_score                      nan        nan            0.000    0.000    0.000
+
+TWO-WAY ANOVA (Profile x Model)
+------------------------------------------------------------------------------------------
+Metric                      Prof_F    Prof_p  Model_F   Model_p  Inter_F   Inter_p
+------------------------------------------------------------------------------------------
+cyclomatic_complexity        1.856    0.1396    0.004    0.9487    0.450    0.7717
+max_nesting_depth            2.068    0.1054    0.060    0.8074    0.584    0.6759
+function_count               2.908    0.0350    0.173    0.6797    0.728    0.5788
+class_count                  5.701    0.0012    0.298    0.5888    0.361    0.8345
+total_lines                  2.414    0.0667    0.320    0.5752    0.966    0.4381
+comment_lines                0.915    0.4656    2.556    0.1186    0.882    0.4843
+comment_ratio                2.549    0.0558    0.002    0.9646    0.609    0.6589
+docstring_count              2.399    0.0680    3.673    0.0633    1.127    0.3593
+type_annotation_count        7.487    0.0002    0.666    0.4197    1.499    0.2230
+comprehension_count          0.896    0.4763    1.238    0.2733    0.863    0.4956
+try_except_count             1.312    0.2842    0.131    0.7193    0.170    0.9525
+unique_imports               3.079    0.0280    0.744    0.3941    0.416    0.7960
+avg_function_length          0.307    0.8715    0.109    0.7436    0.567    0.6883
+explanation_length           2.592    0.0509    0.344    0.5610    1.034    0.4016
+code_length                  1.300    0.2865    0.542    0.4660    0.777    0.5470
+code_to_explanation_ratio    1.010    0.4139    0.288    0.5944    0.859    0.4969
+advanced_pattern_count       2.967    0.0309    1.063    0.3088    0.442    0.7773
+assumption_count               nan       nan      nan       nan      nan       nan
+architectural_sophistication    7.687    0.0001    0.129    0.7211    0.180    0.9475
+defensive_coding             6.190    0.0007    0.114    0.7376    0.311    0.8689
+idiomatic_density            7.496    0.0002    0.739    0.3957    0.396    0.8099
+verbosity_ratio              0.814    0.5237    0.139    0.7117    0.921    0.4614
+strategy_score                 nan       nan      nan       nan      nan       nan
+
+EFFECT SIZES (Cohen's d)
+--------------------------------------------------------------------------------
+Metric                        A_vs_B     A_vs_C     B_vs_C  Largest Pair    Interp      
+--------------------------------------------------------------------------------
+cyclomatic_complexity          0.233      0.261     -0.021  A_vs_C          small       
+max_nesting_depth              0.732      0.171     -0.481  A_vs_B          medium      
+function_count                 0.400      0.604      0.075  A_vs_C          medium      
+class_count                    1.018      0.714     -0.483  A_vs_B          large       
+total_lines                    0.419      0.454     -0.053  A_vs_C          small       
+comment_lines                  0.747      0.234     -0.322  A_vs_B          medium      
+comment_ratio                 -0.336      0.268      0.410  B_vs_C          small       
+docstring_count                0.712      0.584     -0.154  A_vs_B          medium      
+type_annotation_count          0.404      0.132     -0.288  A_vs_B          small       
+comprehension_count            0.090     -0.102     -0.208  B_vs_C          small       
+try_except_count               0.455      0.619      0.094  A_vs_C          medium      
+unique_imports                 0.058      0.196      0.126  A_vs_C          negligible  
+avg_function_length            0.273     -0.025     -0.254  A_vs_B          small       
+parse_error                    0.000      0.000      0.000  A_vs_B          negligible  
+has_clarifying_questions       0.000      0.000      0.000  A_vs_B          negligible  
+explanation_length             0.177      0.914      0.529  A_vs_C          large       
+code_length                    0.132      0.045     -0.111  A_vs_B          negligible  
+code_to_explanation_ratio      0.391     -0.082     -0.814  B_vs_C          large       
+advanced_pattern_count         0.074     -0.160     -0.244  B_vs_C          small       
+assumption_count               0.000      0.000      0.000  A_vs_B          negligible  
+architectural_sophistication      0.638      0.560     -0.238  A_vs_B          medium      
+defensive_coding               0.599      0.915     -0.062  A_vs_C          large       
+idiomatic_density              0.300     -0.099     -0.362  B_vs_C          small       
+verbosity_ratio                0.228      0.470      0.461  A_vs_C          small       
+strategy_score                 0.000      0.000      0.000  A_vs_B          negligible  
+
+MANN-WHITNEY U (Bonferroni-corrected)
+--------------------------------------------------------------------------------
+Metric                      A_vs_B p   A_vs_C p   B_vs_C p  Any Sig?
+--------------------------------------------------------------------------------
+cyclomatic_complexity         1.0000     1.0000     1.0000        no
+max_nesting_depth             0.8340     1.0000     1.0000        no
+function_count                0.6616     1.0000     1.0000        no
+class_count                   0.2368     0.5747     1.0000        no
+total_lines                   1.0000     1.0000     1.0000        no
+comment_lines                 0.1300     0.7817     1.0000        no
+comment_ratio                 1.0000     1.0000     1.0000        no
+docstring_count               1.0000     1.0000     1.0000        no
+type_annotation_count         0.9112     1.0000     1.0000        no
+comprehension_count           1.0000     1.0000     1.0000        no
+try_except_count              1.0000     1.0000     1.0000        no
+unique_imports                1.0000     1.0000     1.0000        no
+avg_function_length           1.0000     1.0000     1.0000        no
+parse_error                      N/A        N/A        N/A        no
+has_clarifying_questions         N/A        N/A        N/A        no
+explanation_length            1.0000     0.2270     0.8191        no
+code_length                   1.0000     1.0000     1.0000        no
+code_to_explanation_ratio     1.0000     1.0000     0.5576        no
+advanced_pattern_count        1.0000     1.0000     1.0000        no
+assumption_count              1.0000     1.0000     1.0000        no
+architectural_sophistication     0.3519     0.7230     1.0000        no
+defensive_coding              0.3890     0.2110     1.0000        no
+idiomatic_density             0.9820     1.0000     1.0000        no
+verbosity_ratio               1.0000     1.0000     0.5576        no
+strategy_score                1.0000     1.0000     1.0000        no
+
+KRUSKAL-WALLIS H-TEST
+--------------------------------------------------
+Metric                                H          p
+--------------------------------------------------
+cyclomatic_complexity             0.390     0.8229
+max_nesting_depth                 1.303     0.5214
+function_count                    1.736     0.4199
+class_count                       3.871     0.1443
+total_lines                       0.804     0.6691
+comment_lines                     3.448     0.1784
+comment_ratio                     0.787     0.6747
+docstring_count                   1.053     0.5907
+type_annotation_count             1.434     0.4881
+comprehension_count               0.260     0.8780
+try_except_count                  0.657     0.7199
+unique_imports                    0.298     0.8617
+avg_function_length               0.485     0.7847
+explanation_length                3.089     0.2134
+code_length                       0.227     0.8929
+code_to_explanation_ratio         1.365     0.5053
+advanced_pattern_count            0.262     0.8772
+assumption_count                    nan        nan
+architectural_sophistication      2.620     0.2699
+defensive_coding                  3.894     0.1427
+idiomatic_density                 1.166     0.5583
+verbosity_ratio                   1.365     0.5053
+strategy_score                      nan        nan
+
+========================================================================
+PER-TASK BREAKDOWN OF SIGNIFICANT EFFECTS
+========================================================================
+
+  Task: task1
+    - idiomatic_density (p=0.0017)
+
+  Task: task2
+    - comment_ratio (p=0.0258)
+
+  Task: task3
+    (no significant profile effects)
+
+  Task: task4
+    (no significant profile effects)
+
+  Task: task5
+    (no significant profile effects)
+
+========================================================================
+END OF REPORT
+========================================================================

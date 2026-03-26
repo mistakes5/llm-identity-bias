@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Luxury brand durability comes down to a few non-negotiable factors:\n\n## Brands That Hold Value\n\n**1. Narrative consistency over decades**\n- Herm\u00e8s, Rolex, Patek Philippe tell the same story for 50+ years: heritage, craftsmanship, exclusivity.\n- The brand *is* the story. Customers buy the mythology, not just the product.\n- Leadership doesn't chase trends; it deepens the mythology.\n\n**2. Artificial scarcity engineered into the product**\n- Rolex watches have 5-7 year waitlists. This *maintains* value because demand > supply.\n- Herm\u00e8s limits production. You can't just walk in and buy a Birkin.\n- Compare to brands that flooded the market: Louis Vuitton in the 2000s cheapened itself by being everywhere.\n\n**3. Quality that's actually defensible**\n- You can feel the difference in a Patek Philippe movement vs. a mass-market watch.\n- Chanel's tweeds, Herm\u00e8s leathers, Rolex cases \u2014 these are genuinely hard to replicate.\n- Fake scarcity alone (like some designer brands) collapses the moment someone exposes the manufacturing.\n\n**4. Distribution control**\n- Luxury brands sell *through* specific channels. They don't sell on Amazon.\n- The moment a brand appears in outlet malls or discount retailers, the prestige signal breaks. You've told the customer \"this isn't actually scarce.\"\n\n## Brands That Collapse\n\n**1. Over-licensing and mass-market expansion**\n- Burberry nearly died in the early 2000s when it became associated with chavs and fake counterfeit culture.\n- Recovery only came when they *withdrew* product, stopped selling at every store, and rebuilt scarcity.\n\n**2. Leadership vacuum**\n- Coach, Guess, etc. struggled when they lost creative vision and became \"safe\" or indistinguishable.\n- Lack of a north star\u2014are we heritage or innovation? Customers can't decide, so they don't care.\n\n**3. Chasing volume instead of margin**\n- Ralph Lauren temporarily diluted itself in the 90s/2000s by licensing aggressively.\n- Reclaimed value only by pulling back, raising prices, and narrowing distribution.\n\n**4. Failing to generational handoff**\n- Some brands die because leadership doesn't adapt *the narrative* for new generations.\n- Younger customers need different reasons to buy (sustainability, digital presence, cultural relevance) but the core story stays the same.\n\n## The Paradox\n\nLuxury is fragile because it's **entirely psychological**. The moment customers believe the brand is chasing their money instead of them chasing the brand, value evaporates. \n\nBrands that endure treat scarcity and storytelling like supply-chain constraints\u2014they engineer them, protect them obsessively, and never compromise. The irony: the healthiest luxury brands are often willing to walk away from sales.\n\n**What's the context?** Are you thinking about this for Rune (your clothing brand)?",
+  "stop_reason": "end_turn",
+  "input_tokens": 23,
+  "output_tokens": 697,
+  "system_chars": 0,
+  "prompt_chars": 93,
+  "elapsed_ms": 25399.0,
+  "timestamp": "2026-03-25T06:54:20.486269+00:00"
+}

@@ -1,0 +1,689 @@
+[
+  {
+    "metric": "response_length",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 100.0,
+        "p_value": 0.00018267179110955002,
+        "rank_biserial_r": -1.0,
+        "cohens_d": 2.2215,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 92.0,
+        "p_value": 0.0017062493689195964,
+        "rank_biserial_r": -0.84,
+        "cohens_d": 1.925,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 150.0,
+        "p_value": 0.22991409713052469,
+        "rank_biserial_r": 0.25,
+        "cohens_d": -0.5418,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 383.5,
+        "p_value": 7.406167724945811e-07,
+        "rank_biserial_r": -0.9175,
+        "cohens_d": 2.0907,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "estimated_tokens",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 100.0,
+        "p_value": 0.00018267179110955002,
+        "rank_biserial_r": -1.0,
+        "cohens_d": 2.2213,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 92.0,
+        "p_value": 0.0017062493689195964,
+        "rank_biserial_r": -0.84,
+        "cohens_d": 1.9263,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 150.0,
+        "p_value": 0.22991409713052469,
+        "rank_biserial_r": 0.25,
+        "cohens_d": -0.5421,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 383.5,
+        "p_value": 7.406167724945811e-07,
+        "rank_biserial_r": -0.9175,
+        "cohens_d": 2.0912,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "paragraph_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 84.0,
+        "p_value": 0.01013105915366645,
+        "rank_biserial_r": -0.68,
+        "cohens_d": 1.3897,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 63.0,
+        "p_value": 0.3419673933780252,
+        "rank_biserial_r": -0.26,
+        "cohens_d": 0.5929,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 169.0,
+        "p_value": 0.456910909265989,
+        "rank_biserial_r": 0.155,
+        "cohens_d": -0.3704,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 295.5,
+        "p_value": 0.00967332904276465,
+        "rank_biserial_r": -0.4775,
+        "cohens_d": 1.0238,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "question_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 60.0,
+        "p_value": 0.16748875557485465,
+        "rank_biserial_r": -0.2,
+        "cohens_d": 0.6708,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 61.5,
+        "p_value": 0.3346631206924193,
+        "rank_biserial_r": -0.23,
+        "cohens_d": 0.4992,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 169.5,
+        "p_value": 0.31187296478602233,
+        "rank_biserial_r": 0.1525,
+        "cohens_d": -0.3677,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 241.5,
+        "p_value": 0.14081482379936824,
+        "rank_biserial_r": -0.2075,
+        "cohens_d": 0.504,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  },
+  {
+    "metric": "hedge_density",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 64.0,
+        "p_value": 0.17985386512073864,
+        "rank_biserial_r": -0.28,
+        "cohens_d": 0.5228,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 67.5,
+        "p_value": 0.11311362643889993,
+        "rank_biserial_r": -0.35,
+        "cohens_d": 0.2778,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 145.0,
+        "p_value": 0.06825889944647034,
+        "rank_biserial_r": 0.275,
+        "cohens_d": -0.5615,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 263.0,
+        "p_value": 0.03166620823401859,
+        "rank_biserial_r": -0.315,
+        "cohens_d": 0.3777,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "unique_entity_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 63.0,
+        "p_value": 0.3432486410104163,
+        "rank_biserial_r": -0.26,
+        "cohens_d": 0.5861,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 66.5,
+        "p_value": 0.2245495266391816,
+        "rank_biserial_r": -0.33,
+        "cohens_d": 0.772,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 248.5,
+        "p_value": 0.24371981051463754,
+        "rank_biserial_r": -0.2425,
+        "cohens_d": 0.4012,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 263.0,
+        "p_value": 0.09019500893508255,
+        "rank_biserial_r": -0.315,
+        "cohens_d": 0.6789,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  },
+  {
+    "metric": "named_reference_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 60.0,
+        "p_value": 0.4650243654374635,
+        "rank_biserial_r": -0.2,
+        "cohens_d": 0.3769,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 70.0,
+        "p_value": 0.13446075594805448,
+        "rank_biserial_r": -0.4,
+        "cohens_d": 0.7902,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 151.0,
+        "p_value": 0.2332386794135225,
+        "rank_biserial_r": 0.245,
+        "cohens_d": -0.3552,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 263.5,
+        "p_value": 0.08361711962850411,
+        "rank_biserial_r": -0.3175,
+        "cohens_d": 0.601,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  },
+  {
+    "metric": "cross_domain_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 91.0,
+        "p_value": 0.0012038953528050195,
+        "rank_biserial_r": -0.82,
+        "cohens_d": 1.6971,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 97.0,
+        "p_value": 0.00026150889484774514,
+        "rank_biserial_r": -0.94,
+        "cohens_d": 2.5626,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 162.5,
+        "p_value": 0.34860474861941426,
+        "rank_biserial_r": 0.1875,
+        "cohens_d": -0.4209,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 377.5,
+        "p_value": 6.695221234970204e-07,
+        "rank_biserial_r": -0.8875,
+        "cohens_d": 2.1333,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "analytical_depth",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "challenge_level",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "register_level",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "specificity_score",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "analytical_sophistication",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "specificity_index",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "intellectual_engagement",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "skipped": true
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "skipped": true
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "skipped": true
+      }
+    ]
+  },
+  {
+    "metric": "norm_unique_entity_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 60.0,
+        "p_value": 0.46169384259971413,
+        "rank_biserial_r": -0.2,
+        "cohens_d": 0.3292,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 65.5,
+        "p_value": 0.2519685131029914,
+        "rank_biserial_r": -0.31,
+        "cohens_d": 0.6555,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 244.5,
+        "p_value": 0.27576987247514584,
+        "rank_biserial_r": -0.2225,
+        "cohens_d": 0.3772,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 257.0,
+        "p_value": 0.12067439303233851,
+        "rank_biserial_r": -0.285,
+        "cohens_d": 0.4922,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  },
+  {
+    "metric": "norm_named_reference_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 60.0,
+        "p_value": 0.4650243654374635,
+        "rank_biserial_r": -0.2,
+        "cohens_d": 0.3769,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 70.0,
+        "p_value": 0.13446075594805448,
+        "rank_biserial_r": -0.4,
+        "cohens_d": 0.7902,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 151.0,
+        "p_value": 0.2332386794135225,
+        "rank_biserial_r": 0.245,
+        "cohens_d": -0.3552,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 263.5,
+        "p_value": 0.08361711962850411,
+        "rank_biserial_r": -0.3175,
+        "cohens_d": 0.601,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  },
+  {
+    "metric": "norm_cross_domain_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 91.0,
+        "p_value": 0.0012038953528050195,
+        "rank_biserial_r": -0.82,
+        "cohens_d": 1.6971,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 97.0,
+        "p_value": 0.00026150889484774514,
+        "rank_biserial_r": -0.94,
+        "cohens_d": 2.5626,
+        "n1": 10,
+        "n2": 10,
+        "significant": "True"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 162.5,
+        "p_value": 0.34860474861941426,
+        "rank_biserial_r": 0.1875,
+        "cohens_d": -0.4209,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 377.5,
+        "p_value": 6.695221234970204e-07,
+        "rank_biserial_r": -0.8875,
+        "cohens_d": 2.1333,
+        "n1": 20,
+        "n2": 20,
+        "significant": "True"
+      }
+    ]
+  },
+  {
+    "metric": "norm_question_count",
+    "contrasts": [
+      {
+        "label": "A_vs_C (non-tech sophistication)",
+        "U_statistic": 60.0,
+        "p_value": 0.16748875557485465,
+        "rank_biserial_r": -0.2,
+        "cohens_d": 0.6708,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "D_vs_E (tech sophistication)",
+        "U_statistic": 61.5,
+        "p_value": 0.3346631206924193,
+        "rank_biserial_r": -0.23,
+        "cohens_d": 0.4992,
+        "n1": 10,
+        "n2": 10,
+        "significant": "False"
+      },
+      {
+        "label": "B_vs_ACDE (profile existence)",
+        "U_statistic": 169.5,
+        "p_value": 0.31187296478602233,
+        "rank_biserial_r": 0.1525,
+        "cohens_d": -0.3677,
+        "n1": 10,
+        "n2": 40,
+        "significant": "False"
+      },
+      {
+        "label": "AD_vs_CE (high vs low)",
+        "U_statistic": 241.5,
+        "p_value": 0.14081482379936824,
+        "rank_biserial_r": -0.2075,
+        "cohens_d": 0.504,
+        "n1": 20,
+        "n2": 20,
+        "significant": "False"
+      }
+    ]
+  }
+]
