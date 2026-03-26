@@ -166,10 +166,10 @@ else:
 - [ ] Randomized execution order within each run
 
 ### Models
-- `claude-sonnet-4-6-20260213`
-- `claude-haiku-4-5-20251001`
+- `claude-sonnet-4-6-20260213` — Full matrix (all 7 profiles)
+- `claude-opus-4-6-20260320` — Targeted subset (B, D, F, J only)
 
-(Use same model IDs as exp3. If exp3 used different IDs, match those exactly.)
+Sonnet model ID must match exp3 for baseline reuse. Verify via exp3 raw response metadata.
 
 ---
 
@@ -189,15 +189,30 @@ See `/exp3_memory_profiles/prompts/` for exact prompt text.
 
 ## Run Structure
 
-- 7 profiles × 5 tasks × 2 models × 5 runs = **350 completions**
-- Estimated tokens per completion: ~2000 output tokens
-- Total output token budget: ~700,000
+### Models
+
+**Sonnet 4.6** — Full matrix. All 7 profiles. Reuse exp3 Sonnet data for B+0 and D+0 (50 completions saved).
+
+**Opus 4.6** — Targeted subset. Profiles B, D, F, J only. Tests whether Opus responds to the same upward-push mechanisms. Opus is relevant because it's the model users report degrading over long sessions. But at ~5x Sonnet's cost, only the key contrasts are worth running.
+
+### Completions
+
+| Model | Profiles | New Runs | Reused from Exp3 | Total |
+|-------|----------|----------|------------------|-------|
+| Sonnet | 7 (all) | 5 new × 5 tasks × 5 runs = 125 | B, D from exp3 = 50 | 175 |
+| Opus | 4 (B, D, F, J) | 4 × 5 tasks × 5 runs = 100 | none | 100 |
+| **Total** | | **225 new** | **50 reused** | **275** |
+
+- Estimated output tokens per completion: ~2000
+- Sonnet output budget: ~250K tokens (~$3.75)
+- Opus output budget: ~200K tokens (~$15)
+- **Estimated total cost: ~$20**
 - Inter-call delay: 1 second (rate limit courtesy)
 - Execution order: Randomize within each run. Do not run all of one profile consecutively.
 
 ### Dry Run
 
-1 run per condition first (7 × 5 × 2 = 70 completions). Verify:
+1 run per condition first. Sonnet: 7 × 5 = 35. Opus: 4 × 5 = 20. Total: 55 completions. Verify:
 - All profiles produce valid code
 - No profile triggers refusals
 - Metrics pipeline works on new profile IDs

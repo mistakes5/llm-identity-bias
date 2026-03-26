@@ -126,15 +126,23 @@ Profile E (beginner)    E+0 [exp3]      E+1 [NEW]           E+2 [NEW]
 
 ## Token Budget
 
-### Reused from exp3 (zero cost)
-- 3 profiles × 5 tasks × 5 runs = 75 completions (Sonnet, already in exp3/runs/full_n5/)
+### Models
 
-### New runs
-- 3 profiles × 2 modifiers × 5 tasks × 5 runs = 150 completions
-- Estimated output tokens per completion: ~2000
-- Total new output tokens: ~300,000
-- Total new input tokens: ~150,000 (profiles + modifiers + task prompts)
-- **Estimated total cost: ~$4-6 at current Sonnet pricing**
+**Sonnet 4.6** — Full matrix. All 9 conditions. Reuses exp3 Sonnet data for column 0 (B+0, D+0, E+0).
+
+**Opus 4.6** — Targeted subset. The rescue conditions only: E+0, E+1, E+2, B+0. These are the conditions that matter for the headline finding ("can you rescue a degraded profile on Opus?"). Skip D conditions and B+1/B+2 on Opus (secondary questions, not worth 5x cost).
+
+### Completions
+
+| Model | Conditions | New Runs | Reused | Total |
+|-------|-----------|----------|--------|-------|
+| Sonnet | 9 (full matrix) | 6 new × 5 tasks × 5 runs = 150 | 3 from exp3 = 75 | 225 |
+| Opus | 4 (E+0, E+1, E+2, B+0) | 4 × 5 tasks × 5 runs = 100 | none | 100 |
+| **Total** | | **250 new** | **75 reused** | **325** |
+
+- Sonnet output budget: ~300K tokens (~$4.50)
+- Opus output budget: ~200K tokens (~$15)
+- **Estimated total cost: ~$20**
 
 ---
 
@@ -317,7 +325,7 @@ exp6_persona_override/
 
 2. **Reusing exp3 data introduces a timing gap.** If the model was updated between exp3 and exp6, the baseline is invalid. Mitigation: sanity check before full run. Re-run column 0 if needed.
 
-3. **Sonnet only limits generalizability.** Haiku might respond differently to persona overrides. But Billy's audience uses Sonnet, and the token savings are significant (halves the budget). Haiku can be added as a follow-up if results are interesting.
+3. **Opus subset limits full interaction analysis.** Opus only runs the rescue conditions (E+0/E+1/E+2/B+0), so we can't test whether Opus responds differently to stacking on D or pushing B upward. But the rescue question is the headline, and Opus at 5x Sonnet's cost means targeted allocation. Sonnet covers the full matrix.
 
 4. **The modifier is in the user message, which is more salient than the system prompt.** Models may weight user messages more heavily than system prompts by design. A positive result (override works) might just mean "user messages outrank system prompts," which is architecturally expected. The interesting finding would be the *degree* of recovery and whether it's complete or partial.
 
