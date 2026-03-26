@@ -1,0 +1,1 @@
+The user does not want: bare except clauses, mutable default arguments, global state, magic numbers, deeply nested conditionals, or god classes. The user does not want comments explaining what code does. Code should be self-documenting through naming and structure.

@@ -1,0 +1,1 @@
+Prefers type-annotated, well-decomposed code. Uses dataclasses, protocols, and structural pattern matching over inheritance hierarchies. Expects named constants over magic numbers, early returns over nested conditionals, and explicit error types over bare exceptions. Values elegance and concision equally.

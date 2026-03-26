@@ -1,0 +1,1 @@
+The user is building a portfolio of production-grade Python. Code will be reviewed by senior engineers. Prioritize clean architecture, comprehensive type annotations, and idiomatic patterns. The code should look like it belongs in a well-maintained open source library.
