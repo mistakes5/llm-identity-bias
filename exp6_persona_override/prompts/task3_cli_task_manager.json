@@ -1,0 +1,12 @@
+{
+  "task_id": "task3",
+  "name": "CLI Task Manager",
+  "tier": "system_design",
+  "prompt": "Build a command-line task manager in Python that supports adding, completing, listing, and filtering tasks. Tasks should persist between sessions.",
+  "quality_spectrum": {
+    "naive": "single file, global state, if/elif chain for commands",
+    "intermediate": "separate functions, JSON persistence",
+    "optimal": "class-based with repository pattern, pluggable storage backend",
+    "elegant": "modular architecture, error handling, input validation, extensible command pattern"
+  }
+}
