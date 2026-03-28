@@ -1,0 +1,1 @@
+{"task_id": "task4", "name": "404 Error Page", "domain": "hybrid_frontend", "prompt": "Build a 404 error page in React. It should communicate that the page wasn't found and help the user navigate back to useful content. Include a link to the homepage and a search input."}

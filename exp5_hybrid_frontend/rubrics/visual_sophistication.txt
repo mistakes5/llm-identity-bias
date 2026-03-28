@@ -1,0 +1,6 @@
+Rate the visual design quality of this React component code on a 1-5 scale:
+1 = Generic defaults. Looks like unstyled HTML or basic Bootstrap. No design decisions made.
+2 = Functional but bland. Adequate spacing and colors but nothing intentional or distinctive.
+3 = Competent design. Thoughtful spacing, reasonable color palette, clear visual hierarchy.
+4 = Polished design. Typography scale feels intentional. Color usage is restrained and purposeful. Whitespace used effectively. Feels like a real product.
+5 = Distinctive design. Has a point of view. Specific micro-interactions or visual details that show care. Could appear in a design showcase.

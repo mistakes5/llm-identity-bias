@@ -89,6 +89,7 @@ def run_pipeline(
     skip_analysis: bool = False,
     resume: bool = True,
     dry_run: bool = False,
+    max_calls: int | None = None,
 ) -> None:
     """
     Full Experiment 4 pipeline:
@@ -132,6 +133,7 @@ def run_pipeline(
         ensure_dirs(str(d))
 
     total_start = time.time()
+    remaining_budget = max_calls
 
     # Step 1: Run experiment
     if not skip_experiment:
@@ -150,9 +152,13 @@ def run_pipeline(
             seed=seed,
             resume=resume,
             logger=logger,
+            max_calls=remaining_budget,
         )
         logger.info(f"Step 1 completed in {time.time() - step_start:.1f}s")
         logger.info(f"  Usage: {usage}")
+        if remaining_budget is not None:
+            remaining_budget = max(0, remaining_budget - usage.get("calls_made", 0))
+            logger.info(f"  Remaining budget: {remaining_budget} calls")
     else:
         logger.info("Skipping step 1 (experiment)")
 
@@ -183,15 +189,19 @@ def run_pipeline(
             logger.info("-" * 40)
             logger.info(f"STEP 3/6: LLM-as-judge scoring (model={judge_model}, runs={judge_runs})")
             step_start = time.time()
-            judge_all(
+            judge_summary = judge_all(
                 raw_dir=str(dirs["raw"]),
                 rubrics_dir=str(dirs["rubrics"]),
                 judge_dir=str(dirs["judge"]),
                 model=judge_model,
                 n_runs=judge_runs,
                 log=logger,
+                max_calls=remaining_budget,
             )
             logger.info(f"Step 3 completed in {time.time() - step_start:.1f}s")
+            if remaining_budget is not None:
+                remaining_budget = max(0, remaining_budget - judge_summary.get("calls_made", 0))
+                logger.info(f"  Remaining budget: {remaining_budget} calls")
         else:
             logger.info("Skipping step 3 (judge)")
 
@@ -247,6 +257,7 @@ def main() -> None:
     parser.add_argument("--skip-analysis", action="store_true")
     parser.add_argument("--no-resume", action="store_true")
     parser.add_argument("--dry-run", action="store_true", help="N=1 for testing")
+    parser.add_argument("--max-calls", type=int, default=None, help="Max API calls per batch (for scheduled runs)")
     args = parser.parse_args()
 
     run_pipeline(
@@ -262,6 +273,7 @@ def main() -> None:
         skip_analysis=args.skip_analysis,
         resume=not args.no_resume,
         dry_run=args.dry_run,
+        max_calls=args.max_calls,
     )
 
 

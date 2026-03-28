@@ -252,6 +252,7 @@ def judge_all(
     model: str = "haiku",
     n_runs: int = 3,
     log: logging.Logger | None = None,
+    max_calls: int | None = None,
 ) -> dict:
     """Score every raw response JSON and save results incrementally.
 
@@ -292,6 +293,8 @@ def judge_all(
     scored = 0
     skipped = 0
     failed = 0
+    calls_made = 0
+    budget_exhausted = False
 
     for resp_path in response_files:
         stem = resp_path.stem
@@ -302,6 +305,12 @@ def judge_all(
             log.info("Skipping already scored: %s", stem)
             skipped += 1
             continue
+
+        # Budget check: scoring one response costs n_runs API calls.
+        if max_calls is not None and calls_made + n_runs > max_calls:
+            budget_exhausted = True
+            log.info("Judge batch limit reached (%d/%s calls). Pausing.", calls_made, max_calls)
+            break
 
         try:
             raw_data = load_json(resp_path)
@@ -330,6 +339,7 @@ def judge_all(
                 {k: scores[k] for k in RUBRIC_KEYS},
             )
             scored += 1
+            calls_made += n_runs
 
         except Exception as exc:
             log.error("Failed to judge %s: %s", stem, exc, exc_info=True)
@@ -340,9 +350,11 @@ def judge_all(
         "skipped": skipped,
         "failed": failed,
         "total": len(response_files),
+        "calls_made": calls_made,
+        "budget_exhausted": budget_exhausted,
         "usage": client.get_usage_summary(),
     }
-    log.info("Judge complete — %s", summary)
+    log.info("Judge %s — %s", "paused" if budget_exhausted else "complete", summary)
     return summary
 
 

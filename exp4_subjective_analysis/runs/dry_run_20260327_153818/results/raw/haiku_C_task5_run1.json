@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Luxury brands hold or lose value based on a few core dynamics:\n\n**Brands that hold value (Herm\u00e8s, Rolex, Patek Philippe):**\n\n1. **Scarcity control** \u2014 They limit production to keep demand high. A Rolex Submariner is harder to get than a Mercedes, which creates perceived value and resale demand.\n\n2. **Uncompromising quality** \u2014 They don't chase every trend or cut corners. Herm\u00e8s still hand-stitches leather goods. This consistency makes them reliable stores of value.\n\n3. **Heritage as moat** \u2014 A 100-year reputation is hard to fake. Customers buy the *story* as much as the product. This emotional premium persists across generations.\n\n4. **Strategic rarity** \u2014 Limited editions and classic designs (Herm\u00e8s Birkin, Patek Calatrava) become collectible because they're not constantly refreshed. Collectors know old versions will hold value.\n\n**Brands that collapse (Versace before Tom Ford, some 2000s \"status\" brands):**\n\n1. **Over-production** \u2014 They flood the market to maximize short-term revenue. Now anyone can buy the item, so it signals nothing. Resale value crashes.\n\n2. **Chasing trends** \u2014 Constant redesigns for fashion cycles alienate collectors. A Gucci bag from 2010 might look dated; a Chanel bag from 1990 still looks timeless.\n\n3. **Quality erosion** \u2014 They cut production costs to hit profit targets. Word spreads; brand perception shifts from \"premium\" to \"expensive.\"\n\n4. **Loss of creative direction** \u2014 Without a guiding vision, the brand becomes a logo on generic goods. Louis Vuitton stayed relevant through creative leadership; many competitors didn't.\n\n5. **Dilution through extensions** \u2014 Licensing the name to cheap categories (perfume, sunglasses, belts) trains consumers that the brand is accessible everywhere, killing exclusivity.\n\n**The paradox:** Luxury brands that stay valuable actually *limit* their own growth. They could 3x revenue by making 10x more units, but that would destroy the brand in 5 years. The smart ones optimize for 30-year value, not next quarter's sales.\n\nDoes this connect to a specific brand you're curious about?",
+  "stop_reason": "end_turn",
+  "input_tokens": 103,
+  "output_tokens": 518,
+  "system_chars": 321,
+  "prompt_chars": 93,
+  "elapsed_ms": 14206.4,
+  "timestamp": "2026-03-27T19:58:37.478510+00:00"
+}

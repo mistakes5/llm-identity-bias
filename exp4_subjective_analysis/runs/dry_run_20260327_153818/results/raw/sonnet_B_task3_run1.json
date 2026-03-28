@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "## New Topographics vs. Earlier Landscape Photography\n\nThe **New Topographics** movement (named for a 1975 exhibition curated by William Jenkins at the George Eastman House) represented a sharp conceptual break from the tradition it followed:\n\n### Earlier Landscape Photography (the tradition it rejected)\n- **Sublime and romanticized** \u2014 think Ansel Adams, Carleton Watkins, or Timothy O'Sullivan's 19th-century survey work. Nature was grand, awe-inspiring, and often pristine.\n- **Heroic framing** \u2014 dramatic light, epic vistas, careful composition designed to emphasize beauty and majesty.\n- **Nature as separate from human activity** \u2014 the ideal landscape was untouched wilderness.\n- **Emotional and aesthetic ambition** \u2014 photographs were meant to *move* the viewer.\n\n### New Topographics (the break)\n- **Deadpan neutrality** \u2014 Robert Adams, Lewis Baltz, Stephen Shore, Joe Deal, and others adopted a deliberately flat, affectless style. No dramatic light, no heroic angles.\n- **The man-altered landscape** \u2014 the subject was suburban sprawl, tract housing, parking lots, industrial sites, the ordinary built environment of the American West.\n- **Anti-picturesque** \u2014 beauty, if present, was incidental or ironic, not pursued.\n- **Typological approach** \u2014 images often felt like documents or inventories rather than expressions, influenced by Bernd and Hilla Becher's systematic serial photography of industrial structures.\n- **Ambiguity as a stance** \u2014 the work refused overt criticism *or* celebration of development, leaving the viewer to sit with the strangeness of the mundane.\n\n### Why It Mattered\nThe movement essentially said: *the real American landscape is strip malls and cul-de-sacs, not Yosemite* \u2014 and that photographing it straight, without judgment, was itself a radical act. It anticipated later concerns about sprawl, ecological change, and the aesthetics of the ordinary, and became enormously influential on documentary and conceptual photography through the 1980s and beyond.",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 500,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 17473.3,
+  "timestamp": "2026-03-27T19:51:49.323984+00:00"
+}

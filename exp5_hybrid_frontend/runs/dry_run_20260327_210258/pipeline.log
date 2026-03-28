@@ -1,0 +1,126 @@
+2026-03-27 21:02:58 | INFO     | pipeline | Experiment 5 -- Hybrid Frontend: Code + Design Profile Bias
+2026-03-27 21:02:58 | INFO     | pipeline | Run output directory: runs/dry_run_20260327_210258
+2026-03-27 21:02:58 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-27 21:02:58 | INFO     | pipeline | ============================================================
+2026-03-27 21:02:58 | INFO     | pipeline | STEP 1/7: Running experiment (50 API calls)
+2026-03-27 21:02:58 | INFO     | pipeline | ============================================================
+2026-03-27 21:02:58 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-27 21:02:58 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-27 21:02:58 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-27 21:02:58 | INFO     | pipeline | Profile F (frontend_engineer_design_sensibility): 428 chars
+2026-03-27 21:02:58 | INFO     | pipeline | Profile G (beginner_first_website): 366 chars
+2026-03-27 21:02:58 | INFO     | pipeline | Model sonnet: 25 calls (randomized, seed=42)
+2026-03-27 21:02:58 | INFO     | pipeline | [1/25] sonnet F(frontend_engineer_design_sensibility) task2 run1
+2026-03-27 21:17:28 | INFO     | pipeline |   -> sys=428 chars, prompt=228 chars, out=3004 est tokens, 869559.1ms
+2026-03-27 21:17:28 | INFO     | pipeline | [2/25] sonnet C(low_sophistication_nontechnical) task3 run1
+2026-03-27 21:19:17 | INFO     | pipeline |   -> sys=321 chars, prompt=291 chars, out=382 est tokens, 109385.5ms
+2026-03-27 21:19:17 | INFO     | pipeline | [3/25] sonnet B(control) task5 run1
+2026-03-27 21:21:18 | INFO     | pipeline |   -> sys=0 chars, prompt=223 chars, out=3054 est tokens, 120470.8ms
+2026-03-27 21:21:18 | INFO     | pipeline | [4/25] sonnet F(frontend_engineer_design_sensibility) task5 run1
+2026-03-27 21:24:28 | INFO     | pipeline |   -> sys=428 chars, prompt=223 chars, out=3810 est tokens, 190497.7ms
+2026-03-27 21:24:28 | INFO     | pipeline | [5/25] sonnet F(frontend_engineer_design_sensibility) task4 run1
+2026-03-27 21:26:59 | INFO     | pipeline |   -> sys=428 chars, prompt=200 chars, out=1293 est tokens, 150443.6ms
+2026-03-27 21:26:59 | INFO     | pipeline | [6/25] sonnet B(control) task2 run1
+2026-03-27 21:30:26 | INFO     | pipeline |   -> sys=0 chars, prompt=228 chars, out=4257 est tokens, 207149.1ms
+2026-03-27 21:30:26 | INFO     | pipeline | [7/25] sonnet B(control) task1 run1
+2026-03-27 21:32:12 | INFO     | pipeline |   -> sys=0 chars, prompt=251 chars, out=546 est tokens, 106280.8ms
+2026-03-27 21:32:12 | INFO     | pipeline | [8/25] sonnet C(low_sophistication_nontechnical) task1 run1
+2026-03-27 21:33:12 | INFO     | pipeline |   -> sys=321 chars, prompt=251 chars, out=1461 est tokens, 59653.0ms
+2026-03-27 21:33:12 | INFO     | pipeline | [9/25] sonnet F(frontend_engineer_design_sensibility) task1 run1
+2026-03-27 21:36:13 | INFO     | pipeline |   -> sys=428 chars, prompt=251 chars, out=2261 est tokens, 181062.4ms
+2026-03-27 21:36:13 | INFO     | pipeline | [10/25] sonnet G(beginner_first_website) task2 run1
+2026-03-27 21:40:47 | INFO     | pipeline |   -> sys=366 chars, prompt=228 chars, out=3258 est tokens, 274007.2ms
+2026-03-27 21:40:47 | INFO     | pipeline | [11/25] sonnet C(low_sophistication_nontechnical) task2 run1
+2026-03-27 21:45:11 | INFO     | pipeline |   -> sys=321 chars, prompt=228 chars, out=3029 est tokens, 264170.6ms
+2026-03-27 21:45:11 | INFO     | pipeline | [12/25] sonnet F(frontend_engineer_design_sensibility) task3 run1
+2026-03-27 21:48:58 | INFO     | pipeline |   -> sys=428 chars, prompt=291 chars, out=1955 est tokens, 226782.6ms
+2026-03-27 21:48:58 | INFO     | pipeline | [13/25] sonnet A(high_sophistication_nontechnical) task2 run1
+2026-03-27 21:53:39 | INFO     | pipeline |   -> sys=499 chars, prompt=228 chars, out=3999 est tokens, 280751.0ms
+2026-03-27 21:53:39 | INFO     | pipeline | [14/25] sonnet C(low_sophistication_nontechnical) task5 run1
+2026-03-27 21:55:37 | INFO     | pipeline |   -> sys=321 chars, prompt=223 chars, out=2411 est tokens, 118675.0ms
+2026-03-27 21:55:37 | INFO     | pipeline | [15/25] sonnet G(beginner_first_website) task3 run1
+2026-03-27 21:58:01 | INFO     | pipeline |   -> sys=366 chars, prompt=291 chars, out=1531 est tokens, 143622.6ms
+2026-03-27 21:58:01 | INFO     | pipeline | [16/25] sonnet C(low_sophistication_nontechnical) task4 run1
+2026-03-27 21:59:11 | INFO     | pipeline |   -> sys=321 chars, prompt=200 chars, out=1078 est tokens, 70048.8ms
+2026-03-27 21:59:11 | INFO     | pipeline | [17/25] sonnet A(high_sophistication_nontechnical) task3 run1
+2026-03-27 22:27:10 | INFO     | pipeline | Experiment 5 -- Hybrid Frontend: Code + Design Profile Bias
+2026-03-27 22:27:10 | INFO     | pipeline | Run output directory: runs/dry_run_20260327_210258
+2026-03-27 22:27:10 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-27 22:27:10 | INFO     | pipeline | ============================================================
+2026-03-27 22:27:10 | INFO     | pipeline | STEP 1/7: Running experiment (50 API calls)
+2026-03-27 22:27:10 | INFO     | pipeline | ============================================================
+2026-03-27 22:27:10 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-27 22:27:10 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-27 22:27:10 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-27 22:27:10 | INFO     | pipeline | Profile F (frontend_engineer_design_sensibility): 428 chars
+2026-03-27 22:27:10 | INFO     | pipeline | Profile G (beginner_first_website): 366 chars
+2026-03-27 22:27:10 | INFO     | pipeline | Model sonnet: 25 calls (randomized, seed=42)
+2026-03-27 22:27:10 | INFO     | pipeline | [17/25] sonnet A(high_sophistication_nontechnical) task3 run1
+2026-03-27 22:30:56 | INFO     | pipeline |   -> sys=499 chars, prompt=291 chars, out=2975 est tokens, 225741.0ms
+2026-03-27 22:30:56 | INFO     | pipeline | [18/25] sonnet G(beginner_first_website) task4 run1
+2026-03-27 22:33:40 | INFO     | pipeline |   -> sys=366 chars, prompt=200 chars, out=1306 est tokens, 164342.5ms
+2026-03-27 22:33:40 | INFO     | pipeline | [19/25] sonnet A(high_sophistication_nontechnical) task5 run1
+2026-03-27 22:37:15 | INFO     | pipeline |   -> sys=499 chars, prompt=223 chars, out=4289 est tokens, 215121.5ms
+2026-03-27 22:37:15 | INFO     | pipeline | [20/25] sonnet G(beginner_first_website) task5 run1
+2026-03-27 22:39:01 | INFO     | pipeline |   -> sys=366 chars, prompt=223 chars, out=543 est tokens, 106179.6ms
+2026-03-27 22:39:01 | INFO     | pipeline | [21/25] sonnet B(control) task3 run1
+2026-03-27 22:42:08 | INFO     | pipeline |   -> sys=0 chars, prompt=291 chars, out=2472 est tokens, 186625.2ms
+2026-03-27 22:42:08 | INFO     | pipeline | [22/25] sonnet B(control) task4 run1
+2026-03-27 22:44:10 | INFO     | pipeline |   -> sys=0 chars, prompt=200 chars, out=1577 est tokens, 122596.1ms
+2026-03-27 22:44:10 | INFO     | pipeline | [23/25] sonnet A(high_sophistication_nontechnical) task1 run1
+2026-03-27 22:46:35 | INFO     | pipeline |   -> sys=499 chars, prompt=251 chars, out=1726 est tokens, 144508.4ms
+2026-03-27 22:46:35 | INFO     | pipeline | [24/25] sonnet A(high_sophistication_nontechnical) task4 run1
+2026-03-27 22:48:27 | INFO     | pipeline |   -> sys=499 chars, prompt=200 chars, out=362 est tokens, 112115.9ms
+2026-03-27 22:48:27 | INFO     | pipeline | [25/25] sonnet G(beginner_first_website) task1 run1
+2026-03-27 22:50:45 | INFO     | pipeline |   -> sys=366 chars, prompt=251 chars, out=2095 est tokens, 137765.0ms
+2026-03-27 22:50:45 | INFO     | pipeline | Model sonnet done: 9 calls, 16 skipped
+2026-03-27 22:50:45 | INFO     | pipeline | Model haiku: 25 calls (randomized, seed=42)
+2026-03-27 22:50:45 | INFO     | pipeline | [1/25] haiku F(frontend_engineer_design_sensibility) task2 run1
+2026-03-27 22:51:31 | INFO     | pipeline |   -> sys=428 chars, prompt=228 chars, out=396 est tokens, 45815.0ms
+2026-03-27 22:51:31 | INFO     | pipeline | [2/25] haiku C(low_sophistication_nontechnical) task3 run1
+2026-03-27 22:52:33 | INFO     | pipeline |   -> sys=321 chars, prompt=291 chars, out=644 est tokens, 62189.8ms
+2026-03-27 22:52:33 | INFO     | pipeline | [3/25] haiku B(control) task5 run1
+2026-03-27 23:00:36 | INFO     | pipeline |   -> sys=0 chars, prompt=223 chars, out=484 est tokens, 483244.8ms
+2026-03-27 23:00:36 | INFO     | pipeline | [4/25] haiku F(frontend_engineer_design_sensibility) task5 run1
+2026-03-27 23:01:17 | INFO     | pipeline |   -> sys=428 chars, prompt=223 chars, out=2607 est tokens, 41299.6ms
+2026-03-27 23:01:17 | INFO     | pipeline | [5/25] haiku F(frontend_engineer_design_sensibility) task4 run1
+2026-03-27 23:01:58 | INFO     | pipeline |   -> sys=428 chars, prompt=200 chars, out=1525 est tokens, 40450.3ms
+2026-03-27 23:01:58 | INFO     | pipeline | [6/25] haiku B(control) task2 run1
+2026-03-27 23:07:46 | INFO     | pipeline |   -> sys=0 chars, prompt=228 chars, out=3012 est tokens, 348498.6ms
+2026-03-27 23:07:46 | INFO     | pipeline | [7/25] haiku B(control) task1 run1
+2026-03-27 23:08:21 | INFO     | pipeline |   -> sys=0 chars, prompt=251 chars, out=1689 est tokens, 34515.2ms
+2026-03-27 23:08:21 | INFO     | pipeline | [8/25] haiku C(low_sophistication_nontechnical) task1 run1
+2026-03-27 23:09:03 | INFO     | pipeline |   -> sys=321 chars, prompt=251 chars, out=2039 est tokens, 41984.6ms
+2026-03-27 23:09:03 | INFO     | pipeline | [9/25] haiku F(frontend_engineer_design_sensibility) task1 run1
+2026-03-27 23:10:08 | INFO     | pipeline |   -> sys=428 chars, prompt=251 chars, out=1950 est tokens, 65537.7ms
+2026-03-27 23:10:08 | INFO     | pipeline | [10/25] haiku G(beginner_first_website) task2 run1
+2026-03-27 23:10:57 | INFO     | pipeline |   -> sys=366 chars, prompt=228 chars, out=1609 est tokens, 48756.1ms
+2026-03-27 23:10:57 | INFO     | pipeline | [11/25] haiku C(low_sophistication_nontechnical) task2 run1
+2026-03-27 23:13:42 | INFO     | pipeline |   -> sys=321 chars, prompt=228 chars, out=2263 est tokens, 164537.7ms
+2026-03-27 23:13:42 | INFO     | pipeline | [12/25] haiku F(frontend_engineer_design_sensibility) task3 run1
+2026-03-27 23:19:14 | INFO     | pipeline |   -> sys=428 chars, prompt=291 chars, out=343 est tokens, 332208.1ms
+2026-03-27 23:19:14 | INFO     | pipeline | [13/25] haiku A(high_sophistication_nontechnical) task2 run1
+2026-03-27 23:20:25 | INFO     | pipeline |   -> sys=499 chars, prompt=228 chars, out=2366 est tokens, 71087.7ms
+2026-03-27 23:20:25 | INFO     | pipeline | [14/25] haiku C(low_sophistication_nontechnical) task5 run1
+2026-03-27 23:23:21 | INFO     | pipeline |   -> sys=321 chars, prompt=223 chars, out=229 est tokens, 175837.6ms
+2026-03-27 23:23:21 | INFO     | pipeline | [15/25] haiku G(beginner_first_website) task3 run1
+2026-03-27 23:25:10 | INFO     | pipeline |   -> sys=366 chars, prompt=291 chars, out=203 est tokens, 109465.6ms
+2026-03-27 23:25:10 | INFO     | pipeline | [16/25] haiku C(low_sophistication_nontechnical) task4 run1
+2026-03-27 23:25:56 | INFO     | pipeline |   -> sys=321 chars, prompt=200 chars, out=1457 est tokens, 45479.0ms
+2026-03-27 23:25:56 | INFO     | pipeline | [17/25] haiku A(high_sophistication_nontechnical) task3 run1
+2026-03-27 23:26:42 | INFO     | pipeline |   -> sys=499 chars, prompt=291 chars, out=1898 est tokens, 46265.2ms
+2026-03-27 23:26:42 | INFO     | pipeline | [18/25] haiku G(beginner_first_website) task4 run1
+2026-03-27 23:27:06 | INFO     | pipeline |   -> sys=366 chars, prompt=200 chars, out=871 est tokens, 24054.1ms
+2026-03-27 23:27:06 | INFO     | pipeline | [19/25] haiku A(high_sophistication_nontechnical) task5 run1
+2026-03-27 23:28:13 | INFO     | pipeline |   -> sys=499 chars, prompt=223 chars, out=3126 est tokens, 66553.6ms
+2026-03-27 23:28:13 | INFO     | pipeline | [20/25] haiku G(beginner_first_website) task5 run1
+2026-03-27 23:29:21 | INFO     | pipeline |   -> sys=366 chars, prompt=223 chars, out=2687 est tokens, 67885.0ms
+2026-03-27 23:29:21 | INFO     | pipeline | [21/25] haiku B(control) task3 run1
+2026-03-27 23:30:24 | INFO     | pipeline |   -> sys=0 chars, prompt=291 chars, out=1806 est tokens, 63306.9ms
+2026-03-27 23:30:24 | INFO     | pipeline | [22/25] haiku B(control) task4 run1
+2026-03-27 23:31:24 | INFO     | pipeline |   -> sys=0 chars, prompt=200 chars, out=1374 est tokens, 60458.7ms
+2026-03-27 23:31:24 | INFO     | pipeline | [23/25] haiku A(high_sophistication_nontechnical) task1 run1
+2026-03-27 23:32:24 | INFO     | pipeline |   -> sys=499 chars, prompt=251 chars, out=1760 est tokens, 59191.3ms
+2026-03-27 23:32:24 | INFO     | pipeline | [24/25] haiku A(high_sophistication_nontechnical) task4 run1
+2026-03-27 23:32:40 | INFO     | pipeline |   -> sys=499 chars, prompt=200 chars, out=274 est tokens, 16174.1ms
+2026-03-27 23:32:40 | INFO     | pipeline | [25/25] haiku G(beginner_first_website) task1 run1

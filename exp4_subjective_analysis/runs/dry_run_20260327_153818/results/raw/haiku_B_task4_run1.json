@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task4",
+  "task_name": "Premium Design",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What makes a well-designed physical product feel \"premium\" without visible branding?",
+  "response_text": "A well-designed physical product feels premium through these core principles:\n\n## **Materials & Finish**\n- **Quality over novelty**: solid, substantial materials (aluminum, stainless steel, dense ceramics) feel more premium than plastics, even expensive-looking ones\n- **Authentic surfaces**: real finishes (anodized, brushed, powder-coated) instead of painted-on effects; no glossy plastic mimicking metal\n- **Tactile precision**: edges are sharp or smoothly radiused\u2014never rough or inconsistent\n- **Minimal surface defects**: zero scratches, seams, or loose parts from production\n\n## **Weight & Density**\n- **Appropriate heft**: objects feel deliberately engineered, not hollow or overbuilt\n- **Mass distribution**: weight is low and centered (not top-heavy), giving a grounded, stable feel\n- **Resistance during interaction**: buttons require deliberate pressure, knobs have smooth resistance\u2014nothing feels flimsy\n\n## **Proportion & Geometry**\n- **Thoughtful ratios**: dimensions follow golden-mean or 16:9 patterns; nothing arbitrary-looking\n- **Restrained ornamentation**: clean lines, minimal curves, negative space used intentionally\n- **Intentional gaps**: spaces between components feel measured, not haphazard\n- **No visual clutter**: every visible element serves a function\n\n## **Details & Tolerance**\n- **Tight manufacturing**: gaps between parts are uniform to the millimeter; panel lines are consistent\n- **Hidden fasteners**: screws concealed or integrated into the design language\n- **Seamless assembly**: parts fit together with zero rattle or play\n- **Refined mechanical feedback**: satisfying clicks, smooth motion, audible quality in interactions\n\n## **Functional Honesty**\n- **Form follows function**: shape suggests how to use it; no vestigial elements\n- **Design intent visible**: cooling vents, structural ribbing, cable routing are purposeful, not disguised\n- **Performance reflected in design**: a tool that delivers looks engineered for that job\n\n## **Restraint**\n- **Monochromatic or paired colorways**: one, maybe two colors; no rainbow finishes\n- **Single material expression**: doesn't try to be \"three different products\" visually\n- **Quiet branding**: embossed text, understated badges, or none at all\n- **Consistency across views**: looks intentional from every angle, including the back\n\n## **The \"Unboxing\"**\n- **Packaging design**: even the unboxing experience signals care (protective layers, thoughtful placement, quality cardstock)\n- **First interaction**: initial touch should feel solid, not plasticky or light\n\n**The core principle**: premium products feel like they were designed by someone solving a real problem with constraints, not by committee chasing \"cool factor.\" The confidence to leave things *out* is what separates intentional design from decorated commodity.\n\nIs there a specific product category you're designing for?",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 718,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 14595.5,
+  "timestamp": "2026-03-27T20:00:35.678196+00:00"
+}

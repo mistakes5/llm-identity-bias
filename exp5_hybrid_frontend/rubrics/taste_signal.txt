@@ -1,0 +1,6 @@
+Rate whether this component demonstrates aesthetic taste beyond competent execution on a 1-5 scale:
+1 = No taste signal. Looks like any generic template.
+2 = Aware of current conventions but doesn't go beyond them.
+3 = Makes some choices that reflect awareness of contemporary design trends.
+4 = Shows restraint and specificity. Knows what NOT to include. Typography and spacing feel considered rather than defaulted.
+5 = Has a distinct aesthetic voice. The design choices suggest awareness of design culture beyond the immediate task.

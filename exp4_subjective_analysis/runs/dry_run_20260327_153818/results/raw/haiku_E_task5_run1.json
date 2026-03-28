@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "E",
+  "profile_type": "low_sophistication_domain_relevant",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user is casually interested in art and design. Enjoys visiting museums and galleries occasionally but doesn't know much about art history or movements. Appreciates when things are explained in simple, relatable terms without jargon. Prefers to hear what's interesting or beautiful about something rather than technical analysis. Currently trying to develop their own taste and figure out what they like.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Great question! There's something really interesting about how luxury brands survive (or don't). Here's what actually seems to matter:\n\n## The ones that last tend to:\n\n**Have a clear visual identity that doesn't chase trends**\nHerm\u00e8s, Chanel, Louis Vuitton\u2014you can spot them instantly. They change slowly and carefully. Brands that constantly rebrand or follow every fashion cycle look desperate and feel disposable by comparison.\n\n**Actually be good at their craft**\nThis is the unsexy but crucial part. A luxury handbag that holds up beautifully for 20 years means something. People notice the leather, the stitching, the hardware. If it falls apart in three years, word gets out. Heritage brands invested decades in being genuinely excellent before they could charge luxury prices.\n\n**Keep their exclusivity**\nWhen you can suddenly buy a \"luxury\" brand at every mall, it stops feeling special. The best ones stay somewhat hard to get. You have to seek them out, or sometimes even get on a waiting list. That scarcity matters psychologically\u2014we value what feels rare.\n\n**Tell a story that feels authentic**\nBrands like Patagonia or certain watchmakers succeed because their story is real\u2014the founder genuinely cared about something. People can smell inauthenticity. If it seems like a brand just decided to slap a high price tag on something ordinary, it collapses.\n\n## The ones that collapse usually:\n\n- Got too big and lost what made them special\n- Let go of quality to boost profit margins\n- Tried to be everything to everyone\n- Lost their founders' original vision and became just a logo\n- Bet their image on a celebrity who fell out of favor\n\nThe really interesting part? **Taste is learnable.** By spending time looking at beautiful, well-made things\u2014even just in museums or online\u2014you start recognizing what's actually well-designed versus what's just expensive-looking. That's how you develop an eye for what lasts versus what's just trendy.\n\nWhat draws you to certain brands or designs when you come across them?",
+  "stop_reason": "end_turn",
+  "input_tokens": 125,
+  "output_tokens": 505,
+  "system_chars": 407,
+  "prompt_chars": 93,
+  "elapsed_ms": 14235.0,
+  "timestamp": "2026-03-27T20:00:08.777493+00:00"
+}

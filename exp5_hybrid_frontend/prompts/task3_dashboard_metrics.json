@@ -1,0 +1,1 @@
+{"task_id": "task3", "name": "Dashboard Metric Cards", "domain": "hybrid_frontend", "prompt": "Build a dashboard component in React that displays 4 key metrics: revenue, users, conversion rate, and average order value. Each metric should show the current value, the change from the previous period (up or down with percentage), and a small sparkline or trend indicator."}

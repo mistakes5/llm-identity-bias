@@ -103,6 +103,7 @@ def run_experiment(
     resume: bool = True,
     seed: int = 42,
     logger: logging.Logger | None = None,
+    max_calls: int | None = None,
 ) -> dict[str, Any]:
     """Run the full experiment with randomized execution order."""
     if logger is None:
@@ -124,7 +125,12 @@ def run_experiment(
         else:
             logger.info(f"Profile {p} ({PROFILE_TYPES[p]}): no system prompt (control)")
 
+    calls_made = 0
+    budget_exhausted = False
+
     for model in models:
+        if budget_exhausted:
+            break
         short = MODEL_SHORT[model]
 
         # Build all cells and shuffle for this model
@@ -146,6 +152,12 @@ def run_experiment(
                 skipped += 1
                 continue
 
+            if max_calls is not None and calls_made >= max_calls:
+                budget_exhausted = True
+                logger.info(f"Batch limit reached ({max_calls} calls). Pausing for next batch.")
+                break
+
+            calls_made += 1
             completed += 1
             logger.info(
                 f"[{completed + skipped}/{total}] {short} {profile}({PROFILE_TYPES[profile]}) "
@@ -166,7 +178,9 @@ def run_experiment(
         logger.info(f"Model {short} done: {completed} calls, {skipped} skipped")
 
     usage = client.get_usage_summary()
-    logger.info(f"Experiment complete. {usage}")
+    usage["calls_made"] = calls_made
+    usage["budget_exhausted"] = budget_exhausted
+    logger.info(f"Experiment {'paused' if budget_exhausted else 'complete'}. {usage}")
     return usage
 
 

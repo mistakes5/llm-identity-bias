@@ -1,0 +1,1 @@
+{"task_id": "task2", "name": "Developer Documentation Sidebar", "domain": "hybrid_frontend", "prompt": "Build a collapsible sidebar navigation component in React for a documentation site. It should support nested sections (up to 2 levels deep), show the currently active page, and allow sections to expand/collapse."}

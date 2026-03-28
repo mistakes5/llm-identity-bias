@@ -1,0 +1,29 @@
+{
+  "analytical_depth": 3,
+  "specificity": 2,
+  "challenge_level": 2,
+  "register_level": 2,
+  "raw_scores": [
+    [
+      3,
+      2,
+      1,
+      2
+    ],
+    [
+      3,
+      3,
+      3,
+      2
+    ],
+    [
+      3,
+      2,
+      2,
+      3
+    ]
+  ],
+  "source_file": "haiku_B_task5_run1.json",
+  "judge_model": "haiku",
+  "n_runs": 3
+}

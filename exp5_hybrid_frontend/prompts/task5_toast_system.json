@@ -1,0 +1,1 @@
+{"task_id": "task5", "name": "Notification Toast System", "domain": "hybrid_frontend", "prompt": "Build a toast notification system in React. It should support showing multiple notifications, auto-dismiss after a configurable duration, manual dismiss, and different types (success, error, warning, info)."}

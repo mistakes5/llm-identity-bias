@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "The **New Topographics** movement, which emerged in the 1970s, represented a radical departure from traditional landscape photography in several key ways:\n\n## Subject Matter\n**Earlier landscape photography** celebrated pristine, untouched nature\u2014dramatic mountains, vast vistas, waterfalls, and wilderness. **New Topographics** deliberately photographed the human-altered landscape: suburban sprawl, parking lots, strip malls, roads, industrial sites, mines, and other everyday developments.\n\n## Aesthetic Philosophy\n- **Traditional**: Aimed to capture the \"sublime\"\u2014evoking awe and wonder at nature's grandeur\n- **New Topographics**: Adopted a detached, objective documentary approach\u2014presenting the built environment without romantic idealization or moral judgment\n\n## Visual Style\n- **Traditional**: Often dramatic composition, heroic angles, seeking the beautiful or majestic\n- **New Topographics**: Deadpan, frontal compositions; matter-of-fact, sometimes grid-like; flattening the hierarchy between foreground and background\n\n## Emotional Tone\n- **Traditional**: Inspired reverence and contemplation of nature\n- **New Topographics**: Ironic and critical\u2014inviting viewers to contemplate development, environmental change, and human impact through understated presentation\n\n## Technical Innovation\nNew Topographics photographers like **William Eggleston** pioneered color photography as a serious artistic medium, while traditional landscape photography had favored black and white.\n\n## Historical Context\nEmerging during the environmental movement of the 1970s, New Topographics implicitly critiqued suburban sprawl and development\u2014asking viewers to reconsider what landscape means when it's dominated by human infrastructure.\n\n**Key photographers**: Robert Adams, Stephen Shore, Lewis Baltz, William Eggleston, and Bernd and Hilla Becher.",
+  "stop_reason": "end_turn",
+  "input_tokens": 105,
+  "output_tokens": 461,
+  "system_chars": 321,
+  "prompt_chars": 101,
+  "elapsed_ms": 13189.9,
+  "timestamp": "2026-03-27T19:54:59.811366+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "model_short": "haiku",
+  "profile": "C",
+  "task_id": "task3",
+  "run_id": "run1",
+  "model": "claude-haiku-4",
+  "response_length": 1844,
+  "estimated_tokens": 461,
+  "paragraph_count": 8,
+  "question_count": 0,
+  "hedge_density": 0.0,
+  "unique_entity_count": 26,
+  "named_reference_count": 3,
+  "cross_domain_count": 0,
+  "composites": {
+    "analytical_sophistication": null,
+    "specificity_index": null,
+    "intellectual_engagement": null,
+    "norm_unique_entity_count": 5.0,
+    "norm_named_reference_count": 1.5,
+    "norm_cross_domain_count": 0.0,
+    "norm_question_count": 0.0
+  }
+}

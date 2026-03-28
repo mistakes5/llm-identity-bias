@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task3",
+  "task_name": "New Topographics",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What distinguishes the New Topographics movement from earlier landscape photography?",
+  "response_text": "# New Topographics vs. Earlier Landscape Photography\n\nThe **New Topographics movement** (emerging in the 1970s) fundamentally shifted how photographers approached landscapes:\n\n## Key Distinctions\n\n**Subject Matter**\n- **Earlier tradition**: Pristine, untouched nature; sublime wilderness; the picturesque\n- **New Topographics**: Human-altered landscapes\u2014suburbs, industrial areas, strip malls, highways, tract housing, and quotidian urban environments\n\n**Aesthetic & Tone**\n- **Earlier tradition**: Romantic, emotionally evocative, often dramatically lit; celebrating or mourning nature\n- **New Topographics**: Deadpan, objective, non-hierarchical; deliberately \"ugly\" or mundane subjects treated with the same formal rigor as traditional landscapes\n\n**Photographer's Stance**\n- **Earlier tradition**: Interpretive, judgmental (lamenting loss or celebrating beauty)\n- **New Topographics**: Apparent neutrality; documentary without moral commentary; \"just showing what's there\"\n\n**Technical Approach**\n- **Earlier tradition**: Often emphasized dramatic composition, chiaroscuro, seasonal variation\n- **New Topographics**: Frontal, even compositions; clear light; straightforward documentation; often color film (breaking from B&W tradition)\n\n## Philosophical Shift\n\nEarlier landscape photography was rooted in **Romantic ideals**\u2014the landscape as a repository of spiritual or aesthetic value. New Topographics reflected a **postmodern skepticism**: they questioned whether \"pristine nature\" still existed and examined how humans reshape environments at scale. Rather than judging this transformation, they documented it with apparent detachment.\n\n**Key figures**: Robert Adams, Lewis Baltz, Bernd and Hilla Becher, Frank Gohlke\u2014photographers interested in the landscape as a record of contemporary life, not escape from it.",
+  "stop_reason": "end_turn",
+  "input_tokens": 25,
+  "output_tokens": 455,
+  "system_chars": 0,
+  "prompt_chars": 101,
+  "elapsed_ms": 12302.0,
+  "timestamp": "2026-03-27T20:00:21.080089+00:00"
+}

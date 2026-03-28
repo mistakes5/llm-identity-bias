@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "This is a fascinating question about brand equity and luxury positioning. Here are the key factors that separate enduring luxury brands from those that collapse:\n\n## **Value Preservation Strategies**\n\n**1. Scarcity and Exclusivity**\n- Successful brands (Herm\u00e8s, Rolex) maintain strict production limits\n- They create waitlists rather than warehouses\n- Collapsing brands often flood the market, destroying exclusivity\n\n**2. Consistent Quality and Craftsmanship**\n- Brands like Louis Vuitton obsess over production standards\n- Quality becomes synonymous with the name\n- Cutting corners to increase margins erodes the value proposition\n\n**3. Heritage Storytelling**\n- Enduring luxury brands have 50-200+ year narratives\n- They connect products to founder vision, cultural moments, craftsmanship traditions\n- This creates emotional value beyond the material good\n\n**4. Strategic Gatekeeping**\n- Limited distribution channels preserve prestige\n- Selective about retail partners and collaborations\n- Brands that license excessively or appear everywhere lose cachet\n\n**5. Brand Protection and Creative Vision**\n- Strong creative direction prevents dilution (think LVMH under Marc Jacobs vs. questionable collaborations)\n- Leaders willing to say \"no\" to lucrative deals that damage positioning\n- Consistent aesthetic language across decades\n\n## **Why Brands Collapse**\n\n**1. Overexpansion**\n- New categories done poorly water down the brand\n- Line extensions create confusion about what the brand stands for\n\n**2. Ownership Changes**\n- When financial investors optimize for short-term profit over brand health\n- Cost-cutting becomes visible in products\n\n**3. Loss of Cultural Relevance**\n- Failing to evolve *without* compromising identity\n- Becoming dated or worse\u2014becoming \"accessible\" instead of aspirational\n\n**4. Founder Departure**\n- When the visionary leaves and no successor maintains their standard\n- See: many fashion houses post-founder\n\n**5. Counterfeit Vulnerability**\n- Brands easy to copy deteriorate faster\n- Premium positioning becomes indefensible\n\n## **The Paradox**\n\nThe strongest luxury brands are willing to *sacrifice short-term revenue* to protect long-term equity. A Herm\u00e8s bag waiting 2+ years maintains mystique. Excessive discounting destroys it permanently.\n\nBrands that collapse typically prioritize quarterly earnings over the 20-year brand narrative.\n\nIs there a specific brand category (watches, fashion, cars) you're curious about?",
+  "stop_reason": "end_turn",
+  "input_tokens": 23,
+  "output_tokens": 614,
+  "system_chars": 0,
+  "prompt_chars": 93,
+  "elapsed_ms": 14291.5,
+  "timestamp": "2026-03-27T19:55:14.106295+00:00"
+}

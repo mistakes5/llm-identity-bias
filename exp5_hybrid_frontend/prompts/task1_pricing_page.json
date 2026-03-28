@@ -1,0 +1,1 @@
+{"task_id": "task1", "name": "SaaS Pricing Page", "domain": "hybrid_frontend", "prompt": "Build a pricing page component in React with three tiers (Free, Pro, Enterprise). Each tier should show the plan name, price, a list of features, and a CTA button. The Pro tier should be visually highlighted as the recommended option."}

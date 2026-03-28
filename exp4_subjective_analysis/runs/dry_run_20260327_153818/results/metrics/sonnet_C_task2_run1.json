@@ -1,0 +1,24 @@
+{
+  "model_short": "sonnet",
+  "profile": "C",
+  "task_id": "task2",
+  "run_id": "run1",
+  "model": "claude-sonnet-4",
+  "response_length": 1907,
+  "estimated_tokens": 476,
+  "paragraph_count": 11,
+  "question_count": 0,
+  "hedge_density": 0.0,
+  "unique_entity_count": 9,
+  "named_reference_count": 4,
+  "cross_domain_count": 1,
+  "composites": {
+    "analytical_sophistication": null,
+    "specificity_index": null,
+    "intellectual_engagement": null,
+    "norm_unique_entity_count": 2.25,
+    "norm_named_reference_count": 2.0,
+    "norm_cross_domain_count": 1.0,
+    "norm_question_count": 0.0
+  }
+}

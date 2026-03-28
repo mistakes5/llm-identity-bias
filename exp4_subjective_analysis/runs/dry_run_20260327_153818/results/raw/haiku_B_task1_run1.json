@@ -1,0 +1,20 @@
+{
+  "model": "claude-haiku-4",
+  "model_short": "haiku",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task1",
+  "task_name": "Monet Rouen Cathedral",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "What makes Monet's Rouen Cathedral series significant?",
+  "response_text": "# Monet's Rouen Cathedral Series \u2014 Significance\n\nClaude Monet's **Rouen Cathedral series** (1892-1894) is a landmark work in art history for several key reasons:\n\n## **Systematic Study of Light and Color**\nMonet painted the same cathedral fa\u00e7ade **30+ times** under varying conditions\u2014different times of day, seasons, and weather. This was revolutionary because he treated light itself as the primary subject, not the architecture. The cathedral became a vehicle for exploring how perception changes with atmospheric conditions.\n\n## **Birth of Serial Painting**\nThis work essentially invented the concept of the \"series\" in modern art. Rather than painting one definitive view, Monet demonstrated that the same subject could yield infinitely different interpretations depending on light. This influenced generations of artists and is foundational to 20th-century practice (think Warhol's repetitions, minimalism, and conceptual art).\n\n## **Pure Impressionism at Its Peak**\nBy the 1890s, Impressionism was under attack. This series was Monet's statement that the movement's core mission\u2014capturing fleeting optical effects\u2014was serious, rigorous work, not mere sketching. Each painting is densely layered and laboriously crafted.\n\n## **Color Over Form**\nThe cathedral's stonework nearly dissolves into the patterns of light and shadow. Monet prioritizes the *experience of seeing* over depicting an object's inherent properties. This shifted painting toward abstraction.\n\n## **Modernist Precursor**\nThe series presaged abstract art by showing that non-representational color relationships could carry aesthetic weight independent of recognizable subjects. Works became more about the artist's perceptual apparatus than documentary description.\n\nThe Rouen Cathedral paintings remain central to understanding how Impressionism evolved toward modernism.",
+  "stop_reason": "end_turn",
+  "input_tokens": 17,
+  "output_tokens": 461,
+  "system_chars": 0,
+  "prompt_chars": 71,
+  "elapsed_ms": 9924.5,
+  "timestamp": "2026-03-27T19:56:47.131536+00:00"
+}

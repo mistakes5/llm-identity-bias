@@ -1,0 +1,110 @@
+[
+  {
+    "metric": "response_length",
+    "profile_F": 16.167173797269506,
+    "profile_p": 5.896132251159291e-08,
+    "model_F": 9.59198082804136,
+    "model_p": 0.0035649273598215474,
+    "interaction_F": 3.09117533271494,
+    "interaction_p": 0.026182765190335203
+  },
+  {
+    "metric": "estimated_tokens",
+    "profile_F": 16.170686432937277,
+    "profile_p": 5.880776447866695e-08,
+    "model_F": 9.604368068913,
+    "model_p": 0.0035456405654033098,
+    "interaction_F": 3.0930888774956897,
+    "interaction_p": 0.026116525583071405
+  },
+  {
+    "metric": "paragraph_count",
+    "profile_F": 3.0447923461622084,
+    "profile_p": 0.027842140940203514,
+    "model_F": 4.09175907806044,
+    "model_p": 0.04981294755842605,
+    "interaction_F": 0.5268536638399655,
+    "interaction_p": 0.7165871878611558
+  },
+  {
+    "metric": "question_count",
+    "profile_F": 0.7875000000000014,
+    "profile_p": 0.5401607504579966,
+    "model_F": 4.225000000000002,
+    "model_p": 0.046401374422481934,
+    "interaction_F": 1.0374999999999996,
+    "interaction_p": 0.3999183435245234
+  },
+  {
+    "metric": "hedge_density",
+    "profile_F": 2.5493134165646154,
+    "profile_p": 0.05395077999403817,
+    "model_F": 1.756951703951485,
+    "model_p": 0.19252625033537338,
+    "interaction_F": 1.5194569307965722,
+    "interaction_p": 0.2148973176416543
+  },
+  {
+    "metric": "unique_entity_count",
+    "profile_F": 3.6308435145219082,
+    "profile_p": 0.012905362843713594,
+    "model_F": 5.282025020118514,
+    "model_p": 0.026852875341064418,
+    "interaction_F": 1.6153339673714249,
+    "interaction_p": 0.1892415569699239
+  },
+  {
+    "metric": "named_reference_count",
+    "profile_F": 1.2028218694885364,
+    "profile_p": 0.32463634729754504,
+    "model_F": 0.5961199294532615,
+    "model_p": 0.4446002221079983,
+    "interaction_F": 1.6719576719576759,
+    "interaction_p": 0.17549540167816544
+  },
+  {
+    "metric": "cross_domain_count",
+    "profile_F": 4.999999999999994,
+    "profile_p": 0.0023055863919665197,
+    "model_F": 0.28571428571428537,
+    "model_p": 0.5959389090850991,
+    "interaction_F": 0.5535714285714292,
+    "interaction_p": 0.6975375389922671
+  },
+  {
+    "metric": "norm_unique_entity_count",
+    "profile_F": 3.0745292887029243,
+    "profile_p": 0.026766302661076675,
+    "model_F": 1.6992677824267806,
+    "model_p": 0.1998368640526243,
+    "interaction_F": 1.0964958158995801,
+    "interaction_p": 0.37149970027849766
+  },
+  {
+    "metric": "norm_named_reference_count",
+    "profile_F": 1.2028218694885364,
+    "profile_p": 0.32463634729754504,
+    "model_F": 0.5961199294532615,
+    "model_p": 0.4446002221079983,
+    "interaction_F": 1.6719576719576759,
+    "interaction_p": 0.17549540167816544
+  },
+  {
+    "metric": "norm_cross_domain_count",
+    "profile_F": 4.999999999999994,
+    "profile_p": 0.0023055863919665197,
+    "model_F": 0.28571428571428537,
+    "model_p": 0.5959389090850991,
+    "interaction_F": 0.5535714285714292,
+    "interaction_p": 0.6975375389922671
+  },
+  {
+    "metric": "norm_question_count",
+    "profile_F": 0.7966101694915267,
+    "profile_p": 0.5344952464239796,
+    "model_F": 4.881355932203389,
+    "model_p": 0.03293671609312158,
+    "interaction_F": 1.067796610169491,
+    "interaction_p": 0.3851043250022004
+  }
+]

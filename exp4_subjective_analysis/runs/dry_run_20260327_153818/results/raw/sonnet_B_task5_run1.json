@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "B",
+  "profile_type": "control",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Great question. The answer comes down to a few interlocking forces:\n\n## What Makes Luxury Value Durable\n\n**1. Scarcity as a discipline, not a strategy**\nEnduring brands (Herm\u00e8s, Rolex, Patek Philippe) treat scarcity as a *constraint they impose on themselves*, not a marketing trick. Herm\u00e8s famously limits Birkin production even when demand is vastly higher. This creates genuine waiting lists and secondary markets where prices *exceed* retail \u2014 a powerful signal of desirability.\n\n**2. Craft heritage as a moat**\nThe best brands have a specific, verifiable *reason* they can't be easily copied: a proprietary technique (Jaeger-LeCoultre's in-house movements), a singular material supply chain (Herm\u00e8s saddle stitching, raw leather sourcing), or a founder mythology that's genuinely unrepeatable. This isn't just storytelling \u2014 it's structural.\n\n**3. Price as identity, not just revenue**\nLuxury goods are Veblen goods \u2014 demand *rises* with price for their core customer. Discounting is existential poison. When brands start offering sales (Coach, Michael Kors in the 2010s), they signal that the price was never real, destroying the psychological contract with buyers.\n\n**4. Distribution control**\nBrands that allow too many doors (department stores, outlets, wholesale) dilute exclusivity. LVMH and Kering have systematically pulled brands back to mono-brand boutiques. Direct distribution lets the brand control *every sensory detail* of the experience.\n\n---\n\n## Why Brands Collapse\n\n**The accessible luxury trap** \u2014 growing revenue by trading down to aspirational buyers works short-term but poisons long-term brand equity. Your core luxury customer leaves when they start seeing their bag on everyone. This happened to Burberry (c. 2000s), Coach, and is an ongoing tension at Gucci.\n\n**Logo dependency** \u2014 brands that monetize a logo rather than craftsmanship become vulnerable to trend cycles. Logo-heavy periods (late 2000s, early 2020s) are always followed by backlash.\n\n**Private equity / growth pressure** \u2014 luxury requires *patience*. Quarterly earnings pressure pushes toward volume, licensing, and wholesale \u2014 exactly the wrong moves. Herm\u00e8s being family-controlled for 6 generations is not incidental to its success.\n\n**Creative discontinuity** \u2014 for fashion-adjacent luxury, the creative director *is* the brand at a given moment. Bad succession (post-Tom Ford Gucci, multiple Celine transitions) can erase decades of equity in a few seasons.\n\n---\n\n## The Core Asymmetry\n\nLuxury value takes **decades to build** (craft reputation, waitlist culture, aspirational mystique) and can be **destroyed in years** through over-distribution, discounting, or brand dilution. The brands that survive understand that *saying no to revenue* is the product \u2014 restraint is the luxury itself.",
+  "stop_reason": "end_turn",
+  "input_tokens": 23,
+  "output_tokens": 698,
+  "system_chars": 0,
+  "prompt_chars": 93,
+  "elapsed_ms": 23899.0,
+  "timestamp": "2026-03-27T19:40:21.324243+00:00"
+}

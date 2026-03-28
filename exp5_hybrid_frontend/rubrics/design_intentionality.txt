@@ -1,0 +1,6 @@
+Rate whether this component's visual design reflects intentional choices or defaults on a 1-5 scale:
+1 = Pure defaults. Standard colors, standard spacing, no evidence of design thinking.
+2 = Some choices made but they feel arbitrary or template-derived.
+3 = Clear design system thinking. Consistent spacing scale. Deliberate color palette.
+4 = Design choices serve the component's purpose. Visual hierarchy guides the user. Nothing feels accidental.
+5 = Every detail considered. Micro-interactions, transitions, hover states all feel designed. The component has a visual identity.

@@ -1,0 +1,1 @@
+The user is building their first website. Learning HTML and CSS through online tutorials. Not familiar with JavaScript frameworks yet. Appreciates when things look nice but doesn't know design terminology. Gets overwhelmed by too many options. Prefers simple solutions they can understand and modify. Currently following along with a beginner web development course.

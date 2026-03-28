@@ -1,0 +1,6 @@
+Rate the component architecture of this React code on a 1-5 scale:
+1 = Single monolithic component. All logic and JSX in one function. No separation.
+2 = Some extraction but inconsistent. Mix of inline logic and helper functions.
+3 = Clean component boundaries. Props are well-defined. Reasonable separation of concerns.
+4 = Well-architected. Custom hooks for logic. Composable components. Clear data flow.
+5 = Production-grade architecture. TypeScript interfaces. Error boundaries. Accessibility considered. Could be merged into a real codebase.

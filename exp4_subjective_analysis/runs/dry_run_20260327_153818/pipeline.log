@@ -1,0 +1,396 @@
+2026-03-27 15:38:18 | INFO     | pipeline | Experiment 4 — Subjective / Aesthetics Profile Bias
+2026-03-27 15:38:18 | INFO     | pipeline | Run output directory: runs/dry_run_20260327_153818
+2026-03-27 15:38:18 | INFO     | pipeline | DRY RUN mode: n_runs=1
+2026-03-27 15:38:18 | INFO     | pipeline | ============================================================
+2026-03-27 15:38:18 | INFO     | pipeline | STEP 1/6: Running experiment (50 API calls)
+2026-03-27 15:38:18 | INFO     | pipeline | ============================================================
+2026-03-27 15:38:18 | INFO     | pipeline | Profile A (high_sophistication_nontechnical): 499 chars
+2026-03-27 15:38:18 | INFO     | pipeline | Profile B (control): no system prompt (control)
+2026-03-27 15:38:18 | INFO     | pipeline | Profile C (low_sophistication_nontechnical): 321 chars
+2026-03-27 15:38:18 | INFO     | pipeline | Profile D (high_sophistication_domain_relevant): 476 chars
+2026-03-27 15:38:18 | INFO     | pipeline | Profile E (low_sophistication_domain_relevant): 407 chars
+2026-03-27 15:38:18 | INFO     | pipeline | Model sonnet: 25 calls (randomized, seed=42)
+2026-03-27 15:38:18 | INFO     | pipeline | [1/25] sonnet D(high_sophistication_domain_relevant) task2 run1
+2026-03-27 15:39:40 | INFO     | pipeline |   -> sys=476 chars, prompt=83 chars, out=1705 est tokens, 82154.3ms
+2026-03-27 15:39:40 | INFO     | pipeline | [2/25] sonnet C(low_sophistication_nontechnical) task3 run1
+2026-03-27 15:39:57 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=416 est tokens, 16570.2ms
+2026-03-27 15:39:57 | INFO     | pipeline | [3/25] sonnet B(control) task5 run1
+2026-03-27 15:40:21 | INFO     | pipeline |   -> sys=0 chars, prompt=93 chars, out=698 est tokens, 23899.0ms
+2026-03-27 15:40:21 | INFO     | pipeline | [4/25] sonnet D(high_sophistication_domain_relevant) task5 run1
+2026-03-27 15:41:50 | INFO     | pipeline |   -> sys=476 chars, prompt=93 chars, out=1832 est tokens, 89177.6ms
+2026-03-27 15:41:50 | INFO     | pipeline | [5/25] sonnet D(high_sophistication_domain_relevant) task4 run1
+2026-03-27 15:42:51 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=1242 est tokens, 61297.3ms
+2026-03-27 15:42:51 | INFO     | pipeline | [6/25] sonnet B(control) task2 run1
+2026-03-27 15:43:22 | INFO     | pipeline |   -> sys=0 chars, prompt=83 chars, out=949 est tokens, 31029.5ms
+2026-03-27 15:43:22 | INFO     | pipeline | [7/25] sonnet B(control) task1 run1
+2026-03-27 15:43:38 | INFO     | pipeline |   -> sys=0 chars, prompt=71 chars, out=444 est tokens, 15978.7ms
+2026-03-27 15:43:38 | INFO     | pipeline | [8/25] sonnet C(low_sophistication_nontechnical) task1 run1
+2026-03-27 15:43:52 | INFO     | pipeline |   -> sys=321 chars, prompt=71 chars, out=362 est tokens, 14057.5ms
+2026-03-27 15:43:52 | INFO     | pipeline | [9/25] sonnet D(high_sophistication_domain_relevant) task1 run1
+2026-03-27 15:44:45 | INFO     | pipeline |   -> sys=476 chars, prompt=71 chars, out=917 est tokens, 52139.5ms
+2026-03-27 15:44:45 | INFO     | pipeline | [10/25] sonnet E(low_sophistication_domain_relevant) task2 run1
+2026-03-27 15:45:08 | INFO     | pipeline |   -> sys=407 chars, prompt=83 chars, out=580 est tokens, 23070.5ms
+2026-03-27 15:45:08 | INFO     | pipeline | [11/25] sonnet C(low_sophistication_nontechnical) task2 run1
+2026-03-27 15:45:27 | INFO     | pipeline |   -> sys=321 chars, prompt=83 chars, out=476 est tokens, 19569.4ms
+2026-03-27 15:45:27 | INFO     | pipeline | [12/25] sonnet D(high_sophistication_domain_relevant) task3 run1
+2026-03-27 15:46:20 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=862 est tokens, 52898.6ms
+2026-03-27 15:46:20 | INFO     | pipeline | [13/25] sonnet A(high_sophistication_nontechnical) task2 run1
+2026-03-27 15:47:34 | INFO     | pipeline |   -> sys=499 chars, prompt=83 chars, out=1763 est tokens, 73632.3ms
+2026-03-27 15:47:34 | INFO     | pipeline | [14/25] sonnet C(low_sophistication_nontechnical) task5 run1
+2026-03-27 15:47:52 | INFO     | pipeline |   -> sys=321 chars, prompt=93 chars, out=445 est tokens, 17941.6ms
+2026-03-27 15:47:52 | INFO     | pipeline | [15/25] sonnet E(low_sophistication_domain_relevant) task3 run1
+2026-03-27 15:48:18 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=509 est tokens, 26077.3ms
+2026-03-27 15:48:18 | INFO     | pipeline | [16/25] sonnet C(low_sophistication_nontechnical) task4 run1
+2026-03-27 15:48:35 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=428 est tokens, 17034.0ms
+2026-03-27 15:48:35 | INFO     | pipeline | [17/25] sonnet A(high_sophistication_nontechnical) task3 run1
+2026-03-27 15:49:24 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=1111 est tokens, 49115.0ms
+2026-03-27 15:49:24 | INFO     | pipeline | [18/25] sonnet E(low_sophistication_domain_relevant) task4 run1
+2026-03-27 15:49:47 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=581 est tokens, 23139.9ms
+2026-03-27 15:49:47 | INFO     | pipeline | [19/25] sonnet A(high_sophistication_nontechnical) task5 run1
+2026-03-27 15:51:10 | INFO     | pipeline |   -> sys=499 chars, prompt=93 chars, out=1808 est tokens, 83260.3ms
+2026-03-27 15:51:10 | INFO     | pipeline | [20/25] sonnet E(low_sophistication_domain_relevant) task5 run1
+2026-03-27 15:51:31 | INFO     | pipeline |   -> sys=407 chars, prompt=93 chars, out=508 est tokens, 21070.6ms
+2026-03-27 15:51:31 | INFO     | pipeline | [21/25] sonnet B(control) task3 run1
+2026-03-27 15:51:49 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=500 est tokens, 17473.3ms
+2026-03-27 15:51:49 | INFO     | pipeline | [22/25] sonnet B(control) task4 run1
+2026-03-27 15:52:18 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=869 est tokens, 28740.7ms
+2026-03-27 15:52:18 | INFO     | pipeline | [23/25] sonnet A(high_sophistication_nontechnical) task1 run1
+2026-03-27 15:53:03 | INFO     | pipeline |   -> sys=499 chars, prompt=71 chars, out=844 est tokens, 45354.0ms
+2026-03-27 15:53:03 | INFO     | pipeline | [24/25] sonnet A(high_sophistication_nontechnical) task4 run1
+2026-03-27 15:54:06 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=1350 est tokens, 63185.4ms
+2026-03-27 15:54:06 | INFO     | pipeline | [25/25] sonnet E(low_sophistication_domain_relevant) task1 run1
+2026-03-27 15:54:24 | INFO     | pipeline |   -> sys=407 chars, prompt=71 chars, out=445 est tokens, 18205.0ms
+2026-03-27 15:54:24 | INFO     | pipeline | Model sonnet done: 25 calls, 0 skipped
+2026-03-27 15:54:24 | INFO     | pipeline | Model haiku: 25 calls (randomized, seed=42)
+2026-03-27 15:54:24 | INFO     | pipeline | [1/25] haiku D(high_sophistication_domain_relevant) task2 run1
+2026-03-27 15:54:46 | INFO     | pipeline |   -> sys=476 chars, prompt=83 chars, out=1235 est tokens, 21789.5ms
+2026-03-27 15:54:46 | INFO     | pipeline | [2/25] haiku C(low_sophistication_nontechnical) task3 run1
+2026-03-27 15:54:59 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=461 est tokens, 13189.9ms
+2026-03-27 15:54:59 | INFO     | pipeline | [3/25] haiku B(control) task5 run1
+2026-03-27 15:55:14 | INFO     | pipeline |   -> sys=0 chars, prompt=93 chars, out=614 est tokens, 14291.5ms
+2026-03-27 15:55:14 | INFO     | pipeline | [4/25] haiku D(high_sophistication_domain_relevant) task5 run1
+2026-03-27 15:55:58 | INFO     | pipeline |   -> sys=476 chars, prompt=93 chars, out=794 est tokens, 44683.8ms
+2026-03-27 15:55:58 | INFO     | pipeline | [5/25] haiku D(high_sophistication_domain_relevant) task4 run1
+2026-03-27 15:56:20 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=724 est tokens, 21341.4ms
+2026-03-27 15:56:20 | INFO     | pipeline | [6/25] haiku B(control) task2 run1
+2026-03-27 15:56:37 | INFO     | pipeline |   -> sys=0 chars, prompt=83 chars, out=799 est tokens, 17066.2ms
+2026-03-27 15:56:37 | INFO     | pipeline | [7/25] haiku B(control) task1 run1
+2026-03-27 15:56:47 | INFO     | pipeline |   -> sys=0 chars, prompt=71 chars, out=461 est tokens, 9924.5ms
+2026-03-27 15:56:47 | INFO     | pipeline | [8/25] haiku C(low_sophistication_nontechnical) task1 run1
+2026-03-27 15:56:58 | INFO     | pipeline |   -> sys=321 chars, prompt=71 chars, out=429 est tokens, 10873.6ms
+2026-03-27 15:56:58 | INFO     | pipeline | [9/25] haiku D(high_sophistication_domain_relevant) task1 run1
+2026-03-27 15:57:13 | INFO     | pipeline |   -> sys=476 chars, prompt=71 chars, out=618 est tokens, 15706.7ms
+2026-03-27 15:57:13 | INFO     | pipeline | [10/25] haiku E(low_sophistication_domain_relevant) task2 run1
+2026-03-27 15:57:28 | INFO     | pipeline |   -> sys=407 chars, prompt=83 chars, out=632 est tokens, 15233.5ms
+2026-03-27 15:57:28 | INFO     | pipeline | [11/25] haiku C(low_sophistication_nontechnical) task2 run1
+2026-03-27 15:57:44 | INFO     | pipeline |   -> sys=321 chars, prompt=83 chars, out=574 est tokens, 15255.8ms
+2026-03-27 15:57:44 | INFO     | pipeline | [12/25] haiku D(high_sophistication_domain_relevant) task3 run1
+2026-03-27 15:58:02 | INFO     | pipeline |   -> sys=476 chars, prompt=101 chars, out=658 est tokens, 18755.9ms
+2026-03-27 15:58:02 | INFO     | pipeline | [13/25] haiku A(high_sophistication_nontechnical) task2 run1
+2026-03-27 15:58:23 | INFO     | pipeline |   -> sys=499 chars, prompt=83 chars, out=1093 est tokens, 20296.4ms
+2026-03-27 15:58:23 | INFO     | pipeline | [14/25] haiku C(low_sophistication_nontechnical) task5 run1
+2026-03-27 15:58:37 | INFO     | pipeline |   -> sys=321 chars, prompt=93 chars, out=518 est tokens, 14206.4ms
+2026-03-27 15:58:37 | INFO     | pipeline | [15/25] haiku E(low_sophistication_domain_relevant) task3 run1
+2026-03-27 15:58:49 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=424 est tokens, 12434.9ms
+2026-03-27 15:58:49 | INFO     | pipeline | [16/25] haiku C(low_sophistication_nontechnical) task4 run1
+2026-03-27 15:59:01 | INFO     | pipeline |   -> sys=321 chars, prompt=101 chars, out=506 est tokens, 12074.1ms
+2026-03-27 15:59:01 | INFO     | pipeline | [17/25] haiku A(high_sophistication_nontechnical) task3 run1
+2026-03-27 15:59:20 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=571 est tokens, 18810.7ms
+2026-03-27 15:59:20 | INFO     | pipeline | [18/25] haiku E(low_sophistication_domain_relevant) task4 run1
+2026-03-27 15:59:33 | INFO     | pipeline |   -> sys=407 chars, prompt=101 chars, out=403 est tokens, 12944.4ms
+2026-03-27 15:59:33 | INFO     | pipeline | [19/25] haiku A(high_sophistication_nontechnical) task5 run1
+2026-03-27 15:59:54 | INFO     | pipeline |   -> sys=499 chars, prompt=93 chars, out=905 est tokens, 20784.9ms
+2026-03-27 15:59:54 | INFO     | pipeline | [20/25] haiku E(low_sophistication_domain_relevant) task5 run1
+2026-03-27 16:00:08 | INFO     | pipeline |   -> sys=407 chars, prompt=93 chars, out=505 est tokens, 14235.0ms
+2026-03-27 16:00:08 | INFO     | pipeline | [21/25] haiku B(control) task3 run1
+2026-03-27 16:00:21 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=455 est tokens, 12302.0ms
+2026-03-27 16:00:21 | INFO     | pipeline | [22/25] haiku B(control) task4 run1
+2026-03-27 16:00:35 | INFO     | pipeline |   -> sys=0 chars, prompt=101 chars, out=718 est tokens, 14595.5ms
+2026-03-27 16:00:35 | INFO     | pipeline | [23/25] haiku A(high_sophistication_nontechnical) task1 run1
+2026-03-27 16:00:47 | INFO     | pipeline |   -> sys=499 chars, prompt=71 chars, out=587 est tokens, 11996.2ms
+2026-03-27 16:00:47 | INFO     | pipeline | [24/25] haiku A(high_sophistication_nontechnical) task4 run1
+2026-03-27 16:01:09 | INFO     | pipeline |   -> sys=499 chars, prompt=101 chars, out=1181 est tokens, 21436.2ms
+2026-03-27 16:01:09 | INFO     | pipeline | [25/25] haiku E(low_sophistication_domain_relevant) task1 run1
+2026-03-27 16:01:19 | INFO     | pipeline |   -> sys=407 chars, prompt=71 chars, out=407 est tokens, 10486.4ms
+2026-03-27 16:01:19 | INFO     | pipeline | Model haiku done: 25 calls, 0 skipped
+2026-03-27 16:01:19 | INFO     | pipeline | Experiment complete. {'call_count': 50, 'total_input_tokens': 5364, 'total_output_tokens': 37916, 'estimated_cost_usd': 0.5848, 'calls_made': 50, 'budget_exhausted': False}
+2026-03-27 16:01:19 | INFO     | pipeline | Step 1 completed in 1380.9s
+2026-03-27 16:01:19 | INFO     | pipeline |   Usage: {'call_count': 50, 'total_input_tokens': 5364, 'total_output_tokens': 37916, 'estimated_cost_usd': 0.5848, 'calls_made': 50, 'budget_exhausted': False}
+2026-03-27 16:01:19 | INFO     | pipeline | ============================================================
+2026-03-27 16:01:19 | INFO     | pipeline | STEPS 2-6: Analysis pipeline
+2026-03-27 16:01:19 | INFO     | pipeline | ============================================================
+2026-03-27 16:01:19 | INFO     | pipeline | ----------------------------------------
+2026-03-27 16:01:19 | INFO     | pipeline | STEP 2/6: Computing text metrics
+2026-03-27 16:01:19 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260327_153818/results/metrics/metrics_table.csv
+2026-03-27 16:01:19 | INFO     | pipeline | Step 2 completed in 0.1s
+2026-03-27 16:01:19 | INFO     | pipeline | Variance gate — per-metric std across profiles: {'response_length': 1246.89905445469, 'unique_entity_count': 7.044856279584417, 'cross_domain_count': 0.7483314773547882}
+2026-03-27 16:01:19 | INFO     | pipeline |   max std = 1246.8991  (threshold = 0.5)
+2026-03-27 16:01:19 | INFO     | pipeline | ----------------------------------------
+2026-03-27 16:01:19 | INFO     | pipeline | STEP 3/6: LLM-as-judge scoring (model=haiku, runs=3)
+2026-03-27 16:01:19 | INFO     | pipeline | Judging: haiku_A_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:01:40 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:01:56 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:02:20 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:02:20 | INFO     | pipeline | Saved judge scores for haiku_A_task1_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:02:20 | INFO     | pipeline | Judging: haiku_A_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:02:44 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:03:04 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:03:24 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:03:24 | INFO     | pipeline | Saved judge scores for haiku_A_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:03:24 | INFO     | pipeline | Judging: haiku_A_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:03:49 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:04:09 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:04:24 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:04:24 | INFO     | pipeline | Saved judge scores for haiku_A_task3_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:04:24 | INFO     | pipeline | Judging: haiku_A_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:04:43 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:05:10 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:05:31 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:05:31 | INFO     | pipeline | Saved judge scores for haiku_A_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:05:31 | INFO     | pipeline | Judging: haiku_A_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:05:51 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:06:11 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:06:35 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:06:35 | INFO     | pipeline | Saved judge scores for haiku_A_task5_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:06:35 | INFO     | pipeline | Judging: haiku_B_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:06:55 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 3}
+2026-03-27 16:07:14 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:07:33 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:07:33 | INFO     | pipeline | Saved judge scores for haiku_B_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:07:33 | INFO     | pipeline | Judging: haiku_B_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:07:53 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:08:11 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:08:32 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:08:32 | INFO     | pipeline | Saved judge scores for haiku_B_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:08:32 | INFO     | pipeline | Judging: haiku_B_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:08:50 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:09:06 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:09:20 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:09:20 | INFO     | pipeline | Saved judge scores for haiku_B_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:09:20 | INFO     | pipeline | Judging: haiku_B_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:09:40 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 1, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:09:58 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 3}
+2026-03-27 16:10:13 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 2, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:10:13 | INFO     | pipeline | Saved judge scores for haiku_B_task4_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 3}
+2026-03-27 16:10:13 | INFO     | pipeline | Judging: haiku_B_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:10:32 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:10:48 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:11:11 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:11:11 | INFO     | pipeline | Saved judge scores for haiku_B_task5_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:11:11 | INFO     | pipeline | Judging: haiku_C_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:11:27 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:11:42 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:12:00 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:12:00 | INFO     | pipeline | Saved judge scores for haiku_C_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:12:00 | INFO     | pipeline | Judging: haiku_C_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:12:29 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:12:52 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:13:11 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:13:11 | INFO     | pipeline | Saved judge scores for haiku_C_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:13:11 | INFO     | pipeline | Judging: haiku_C_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:13:27 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:13:43 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:14:04 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:14:04 | INFO     | pipeline | Saved judge scores for haiku_C_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:14:04 | INFO     | pipeline | Judging: haiku_C_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:14:21 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:14:36 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:14:57 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:14:57 | INFO     | pipeline | Saved judge scores for haiku_C_task4_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:14:57 | INFO     | pipeline | Judging: haiku_C_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:15:13 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:15:31 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:15:52 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:15:52 | INFO     | pipeline | Saved judge scores for haiku_C_task5_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:15:52 | INFO     | pipeline | Judging: haiku_D_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:16:20 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:16:36 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:16:54 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:16:54 | INFO     | pipeline | Saved judge scores for haiku_D_task1_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:16:54 | INFO     | pipeline | Judging: haiku_D_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:17:16 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 5, 'register_level': 4}
+2026-03-27 16:17:34 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:17:51 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 5, 'register_level': 4}
+2026-03-27 16:17:51 | INFO     | pipeline | Saved judge scores for haiku_D_task2_run1: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 5, 'register_level': 4}
+2026-03-27 16:17:51 | INFO     | pipeline | Judging: haiku_D_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:18:14 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:18:34 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:18:59 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:18:59 | INFO     | pipeline | Saved judge scores for haiku_D_task3_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:18:59 | INFO     | pipeline | Judging: haiku_D_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:19:24 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:19:51 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:20:11 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:20:11 | INFO     | pipeline | Saved judge scores for haiku_D_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:20:11 | INFO     | pipeline | Judging: haiku_D_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:20:31 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:21:03 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:21:27 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:21:27 | INFO     | pipeline | Saved judge scores for haiku_D_task5_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:21:27 | INFO     | pipeline | Judging: haiku_E_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:21:41 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:22:03 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:22:15 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:22:15 | INFO     | pipeline | Saved judge scores for haiku_E_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:22:15 | INFO     | pipeline | Judging: haiku_E_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:22:33 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:22:57 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:23:13 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:23:13 | INFO     | pipeline | Saved judge scores for haiku_E_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:23:13 | INFO     | pipeline | Judging: haiku_E_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:23:29 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 16:23:46 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:24:03 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:24:03 | INFO     | pipeline | Saved judge scores for haiku_E_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 16:24:03 | INFO     | pipeline | Judging: haiku_E_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:24:19 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:24:33 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:24:45 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 2, 'specificity': 1, 'challenge_level': 1, 'register_level': 1}
+2026-03-27 16:24:45 | INFO     | pipeline | Saved judge scores for haiku_E_task4_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:24:45 | INFO     | pipeline | Judging: haiku_E_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:25:00 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:25:15 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:25:32 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:25:32 | INFO     | pipeline | Saved judge scores for haiku_E_task5_run1: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 16:25:32 | INFO     | pipeline | Judging: sonnet_A_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:26:08 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 5, 'register_level': 5}
+2026-03-27 16:26:33 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:27:02 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:27:02 | INFO     | pipeline | Saved judge scores for sonnet_A_task1_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:27:02 | INFO     | pipeline | Judging: sonnet_A_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:27:22 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:27:44 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:28:10 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:28:10 | INFO     | pipeline | Saved judge scores for sonnet_A_task2_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:28:10 | INFO     | pipeline | Judging: sonnet_A_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:28:37 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:29:06 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:29:26 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:29:26 | INFO     | pipeline | Saved judge scores for sonnet_A_task3_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:29:26 | INFO     | pipeline | Judging: sonnet_A_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:29:52 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:30:21 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:30:39 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:30:39 | INFO     | pipeline | Saved judge scores for sonnet_A_task4_run1: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:30:39 | INFO     | pipeline | Judging: sonnet_A_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:31:04 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 5, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:31:33 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:32:04 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:32:04 | INFO     | pipeline | Saved judge scores for sonnet_A_task5_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:32:04 | INFO     | pipeline | Judging: sonnet_B_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 16:32:18 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:32:33 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:32:52 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:32:52 | INFO     | pipeline | Saved judge scores for sonnet_B_task1_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 16:32:52 | INFO     | pipeline | Judging: sonnet_B_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 16:33:15 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 16:33:44 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:34:03 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:34:03 | INFO     | pipeline | Saved judge scores for sonnet_B_task2_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:34:03 | INFO     | pipeline | Judging: sonnet_B_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 16:34:21 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:34:37 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:34:50 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:34:50 | INFO     | pipeline | Saved judge scores for sonnet_B_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 16:34:50 | INFO     | pipeline | Judging: sonnet_B_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 16:35:15 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:35:34 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:36:02 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:36:02 | INFO     | pipeline | Saved judge scores for sonnet_B_task4_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 16:36:02 | INFO     | pipeline | Judging: sonnet_B_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 16:36:20 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:16:52 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:17:10 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:17:10 | INFO     | pipeline | Saved judge scores for sonnet_B_task5_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:17:10 | INFO     | pipeline | Judging: sonnet_C_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 17:17:27 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 17:17:41 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:18:02 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 17:18:02 | INFO     | pipeline | Saved judge scores for sonnet_C_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:18:02 | INFO     | pipeline | Judging: sonnet_C_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 17:18:26 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:18:40 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 17:18:57 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 17:18:57 | INFO     | pipeline | Saved judge scores for sonnet_C_task2_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 17:18:57 | INFO     | pipeline | Judging: sonnet_C_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 17:19:20 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:19:36 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:19:52 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:19:52 | INFO     | pipeline | Saved judge scores for sonnet_C_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:19:52 | INFO     | pipeline | Judging: sonnet_C_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 17:20:07 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 17:20:25 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 17:20:43 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 17:20:43 | INFO     | pipeline | Saved judge scores for sonnet_C_task4_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 1, 'register_level': 2}
+2026-03-27 17:20:43 | INFO     | pipeline | Judging: sonnet_C_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 17:20:59 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:21:18 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 17:21:35 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 17:21:35 | INFO     | pipeline | Saved judge scores for sonnet_C_task5_run1: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 17:21:35 | INFO     | pipeline | Judging: sonnet_D_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 17:21:56 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:22:14 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:22:42 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 5, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:22:42 | INFO     | pipeline | Saved judge scores for sonnet_D_task1_run1: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:22:42 | INFO     | pipeline | Judging: sonnet_D_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 17:23:04 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:23:27 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:23:44 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:23:44 | INFO     | pipeline | Saved judge scores for sonnet_D_task2_run1: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:23:44 | INFO     | pipeline | Judging: sonnet_D_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 17:24:02 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:24:26 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 3}
+2026-03-27 17:24:46 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:24:46 | INFO     | pipeline | Saved judge scores for sonnet_D_task3_run1: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:24:46 | INFO     | pipeline | Judging: sonnet_D_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 17:25:05 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 5, 'challenge_level': 5, 'register_level': 4}
+2026-03-27 17:25:25 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 5, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:25:48 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:25:48 | INFO     | pipeline | Saved judge scores for sonnet_D_task4_run1: {'analytical_depth': 5, 'specificity': 5, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 17:25:48 | INFO     | pipeline | Judging: sonnet_D_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 17:26:19 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 19:47:25 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 5, 'specificity': 5, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 19:53:29 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 19:53:29 | INFO     | pipeline | Saved judge scores for sonnet_D_task5_run1: {'analytical_depth': 5, 'specificity': 4, 'challenge_level': 4, 'register_level': 4}
+2026-03-27 19:53:29 | INFO     | pipeline | Judging: sonnet_E_task1_run1 (model=haiku, n_runs=3)
+2026-03-27 19:53:44 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:54:04 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 19:54:20 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:54:20 | INFO     | pipeline | Saved judge scores for sonnet_E_task1_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:54:20 | INFO     | pipeline | Judging: sonnet_E_task2_run1 (model=haiku, n_runs=3)
+2026-03-27 19:54:41 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:54:58 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 2, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:55:19 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:55:19 | INFO     | pipeline | Saved judge scores for sonnet_E_task2_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:55:19 | INFO     | pipeline | Judging: sonnet_E_task3_run1 (model=haiku, n_runs=3)
+2026-03-27 19:55:36 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 19:55:54 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:56:10 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 19:56:10 | INFO     | pipeline | Saved judge scores for sonnet_E_task3_run1: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 19:56:10 | INFO     | pipeline | Judging: sonnet_E_task4_run1 (model=haiku, n_runs=3)
+2026-03-27 19:56:25 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 2, 'register_level': 2}
+2026-03-27 19:56:48 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 19:57:06 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 4, 'challenge_level': 3, 'register_level': 3}
+2026-03-27 19:57:06 | INFO     | pipeline | Saved judge scores for sonnet_E_task4_run1: {'analytical_depth': 3, 'specificity': 4, 'challenge_level': 2, 'register_level': 3}
+2026-03-27 19:57:06 | INFO     | pipeline | Judging: sonnet_E_task5_run1 (model=haiku, n_runs=3)
+2026-03-27 19:57:25 | DEBUG    | pipeline | Judge run 1/3 — scores: {'analytical_depth': 3, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:57:44 | DEBUG    | pipeline | Judge run 2/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:58:09 | DEBUG    | pipeline | Judge run 3/3 — scores: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 4, 'register_level': 2}
+2026-03-27 19:58:09 | INFO     | pipeline | Saved judge scores for sonnet_E_task5_run1: {'analytical_depth': 4, 'specificity': 3, 'challenge_level': 3, 'register_level': 2}
+2026-03-27 19:58:09 | INFO     | pipeline | Judge complete — {'scored': 50, 'skipped': 0, 'failed': 0, 'total': 50, 'calls_made': 150, 'budget_exhausted': False, 'usage': {'call_count': 150, 'total_input_tokens': 223062, 'total_output_tokens': 2543, 'estimated_cost_usd': 0.7073}}
+2026-03-27 19:58:09 | INFO     | pipeline | Step 3 completed in 14209.7s
+2026-03-27 19:58:09 | INFO     | pipeline | ----------------------------------------
+2026-03-27 19:58:09 | INFO     | pipeline | STEP 4/6: Re-computing text metrics (merging judge scores)
+2026-03-27 19:58:09 | INFO     | pipeline | Analysis complete — 50 files processed, 0 skipped. CSV → runs/dry_run_20260327_153818/results/metrics/metrics_table.csv
+2026-03-27 19:58:09 | INFO     | pipeline | Step 4 completed in 0.1s
+2026-03-27 19:58:09 | INFO     | pipeline | ----------------------------------------
+2026-03-27 19:58:09 | INFO     | pipeline | STEP 5/6: Running statistical analysis
+2026-03-27 19:58:10 | INFO     | pipeline | Step 5 completed in 0.6s
+2026-03-27 19:58:10 | INFO     | pipeline | ----------------------------------------
+2026-03-27 19:58:10 | INFO     | pipeline | STEP 6/6: Generating plots
+2026-03-27 19:58:14 | INFO     | pipeline | Step 6 completed in 4.7s
+2026-03-27 19:58:14 | INFO     | pipeline |   Generated 83 plots
+2026-03-27 19:58:14 | INFO     | pipeline | ============================================================
+2026-03-27 19:58:14 | INFO     | pipeline | PIPELINE COMPLETE in 15596.1s (259.9 minutes)
+2026-03-27 19:58:14 | INFO     | pipeline |   Run: runs/dry_run_20260327_153818
+2026-03-27 19:58:14 | INFO     | pipeline | ============================================================

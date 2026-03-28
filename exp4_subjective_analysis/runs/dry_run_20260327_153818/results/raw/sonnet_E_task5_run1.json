@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "E",
+  "profile_type": "low_sophistication_domain_relevant",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user is casually interested in art and design. Enjoys visiting museums and galleries occasionally but doesn't know much about art history or movements. Appreciates when things are explained in simple, relatable terms without jargon. Prefers to hear what's interesting or beautiful about something rather than technical analysis. Currently trying to develop their own taste and figure out what they like.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Great question \u2014 and it's actually more about *storytelling and scarcity* than product quality alone.\n\n## The brands that last all share a few things:\n\n**They sell a feeling, not just an object.**\nThink of Herm\u00e8s. A Birkin bag isn't really about carrying your stuff \u2014 it's about belonging to a world most people can't access. The brand has carefully *protected that feeling* for over 180 years. When you buy it, you're buying into the story.\n\n**They treat scarcity like a sacred rule.**\nBrands that survive never let demand fully catch up to supply. Herm\u00e8s literally makes customers wait years. Rolex doesn't sell you a watch \u2014 you earn the right to buy one. The moment a luxury brand floods the market (looking at you, Coach in the 2000s), the magic evaporates almost overnight.\n\n**They have a craft anchor.**\nThe brands with staying power can always point to *something real* \u2014 a 200-year-old workshop, a single family of artisans, a technique that takes decades to master. Even if you never see it, knowing it exists makes the object feel different. It's the difference between a painting and a print.\n\n## Why some collapse:\n\n- **Over-licensing** \u2014 selling your logo to make perfume, sunglasses, and keychains trains people to associate your name with \"affordable.\" Pierre Cardin did this aggressively in the '70s and essentially destroyed the brand.\n- **Chasing trends too hard** \u2014 luxury brands that constantly reinvent themselves to stay \"relevant\" lose the timelessness that made them special.\n- **Going public too fast** \u2014 shareholder pressure to grow revenue quarter by quarter is almost incompatible with the patience luxury requires.\n\n## The interesting paradox:\n\nThe best luxury brands almost seem *indifferent to you*. They don't advertise aggressively, they don't chase you. That aloofness is the point \u2014 it signals they don't *need* you, which makes you want them more.\n\nIt's less like a business strategy and more like a long performance of confidence. The brands that survive are the ones that never break character.",
+  "stop_reason": "end_turn",
+  "input_tokens": 125,
+  "output_tokens": 508,
+  "system_chars": 407,
+  "prompt_chars": 93,
+  "elapsed_ms": 21070.6,
+  "timestamp": "2026-03-27T19:51:31.849034+00:00"
+}

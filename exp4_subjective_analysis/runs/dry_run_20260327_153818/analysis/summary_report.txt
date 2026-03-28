@@ -1,0 +1,266 @@
+========================================================================
+PROFILE BIAS EXPERIMENT — STATISTICAL ANALYSIS REPORT
+========================================================================
+
+DATA OVERVIEW
+----------------------------------------
+  Total observations: 50
+  Profile A: 10
+  Profile B: 10
+  Profile C: 10
+  Profile D: 10
+  Profile E: 10
+  Model haiku: 25
+  Model sonnet: 25
+
+========================================================================
+KEY FINDINGS
+========================================================================
+
+  * 6 metric(s) show SIGNIFICANT profile effects (one-way ANOVA, p < 0.05):
+    - response_length: F=15.658, p=0.0000
+    - estimated_tokens: F=15.654, p=0.0000
+    - cross_domain_count: F=4.208, p=0.0257
+    - norm_cross_domain_count: F=4.208, p=0.0257
+    - paragraph_count: F=4.069, p=0.0285
+    - unique_entity_count: F=3.504, p=0.0444
+
+  * Largest effect sizes (Cohen's d):
+    - response_length (A_vs_C): |d|=2.157 (large)
+    - estimated_tokens (A_vs_C): |d|=2.157 (large)
+    - response_length (A_vs_B): |d|=1.427 (large)
+    - estimated_tokens (A_vs_B): |d|=1.427 (large)
+    - hedge_density (A_vs_B): |d|=1.414 (large)
+    - response_length (B_vs_C): |d|=1.380 (large)
+    - estimated_tokens (B_vs_C): |d|=1.379 (large)
+    - cross_domain_count (A_vs_C): |d|=1.315 (large)
+    - norm_cross_domain_count (A_vs_C): |d|=1.315 (large)
+    - unique_entity_count (B_vs_C): |d|=1.242 (large)
+
+  * Model sensitivity to profile priming:
+    - haiku: 2/19 metrics show significant profile effect
+    - sonnet: 7/19 metrics show significant profile effect
+
+  * 2 metric(s) show significant profile x model INTERACTION:
+    - estimated_tokens: F=3.093, p=0.0261
+    - response_length: F=3.091, p=0.0262
+
+  * PELT change-point detection found 4 shift(s) near profile boundaries:
+    - hedge_density: change at index 5 (near profile A boundary at 10)
+    - hedge_density: change at index 10 (near profile A boundary at 10)
+    - hedge_density: change at index 25 (near profile B boundary at 20)
+    - hedge_density: change at index 25 (near profile C boundary at 30)
+
+========================================================================
+PLANNED CONTRASTS (Experiment 3)
+========================================================================
+
+Metric                    Contrast                              U          p     r_rb        d   Sig?
+----------------------------------------------------------------------------------------------------
+response_length           A_vs_C (non-tech sophistication)     99.0     0.0002   -0.980    2.157      *
+response_length           D_vs_E (tech sophistication)       99.0     0.0002   -0.980    1.802      *
+response_length           B_vs_ACDE (profile existence)     190.0     0.8178    0.050   -0.341       
+response_length           AD_vs_CE (high vs low)            394.0     0.0000   -0.970    2.025      *
+estimated_tokens          A_vs_C (non-tech sophistication)     99.0     0.0002   -0.980    2.157      *
+estimated_tokens          D_vs_E (tech sophistication)       99.0     0.0002   -0.980    1.802      *
+estimated_tokens          B_vs_ACDE (profile existence)     189.5     0.8084    0.052   -0.341       
+estimated_tokens          AD_vs_CE (high vs low)            394.0     0.0000   -0.970    2.025      *
+paragraph_count           A_vs_C (non-tech sophistication)     72.0     0.1023   -0.440    1.205       
+paragraph_count           D_vs_E (tech sophistication)       69.5     0.1475   -0.390    0.852       
+paragraph_count           B_vs_ACDE (profile existence)     219.0     0.6526   -0.095   -0.040       
+paragraph_count           AD_vs_CE (high vs low)            287.0     0.0188   -0.435    1.056      *
+question_count            A_vs_C (non-tech sophistication)     45.0     0.5828    0.100   -0.268       
+question_count            D_vs_E (tech sophistication)       62.5     0.2783   -0.250   -0.144       
+question_count            B_vs_ACDE (profile existence)     189.0     0.7314    0.055   -0.189       
+question_count            AD_vs_CE (high vs low)            217.0     0.5534   -0.085   -0.148       
+hedge_density             A_vs_C (non-tech sophistication)     65.0     0.2160   -0.300    0.454       
+hedge_density             D_vs_E (tech sophistication)       73.0     0.0459   -0.460    0.738      *
+hedge_density             B_vs_ACDE (profile existence)     125.0     0.0258    0.375   -0.745      *
+hedge_density             AD_vs_CE (high vs low)            276.0     0.0188   -0.380    0.579      *
+unique_entity_count       A_vs_C (non-tech sophistication)     74.5     0.0694   -0.490    1.027       
+unique_entity_count       D_vs_E (tech sophistication)       76.5     0.0491   -0.530    0.865      *
+unique_entity_count       B_vs_ACDE (profile existence)     281.5     0.0493   -0.407    0.492      *
+unique_entity_count       AD_vs_CE (high vs low)            299.0     0.0077   -0.495    0.953      *
+named_reference_count     A_vs_C (non-tech sophistication)     62.0     0.3803   -0.240    0.516       
+named_reference_count     D_vs_E (tech sophistication)       58.5     0.5403   -0.170    0.463       
+named_reference_count     B_vs_ACDE (profile existence)     161.5     0.3515    0.193   -0.419       
+named_reference_count     AD_vs_CE (high vs low)            242.0     0.2568   -0.210    0.500       
+cross_domain_count        A_vs_C (non-tech sophistication)     81.5     0.0151   -0.630    1.315      *
+cross_domain_count        D_vs_E (tech sophistication)       84.0     0.0089   -0.680    1.457      *
+cross_domain_count        B_vs_ACDE (profile existence)     196.5     0.9400    0.018   -0.104       
+cross_domain_count        AD_vs_CE (high vs low)            332.0     0.0002   -0.660    1.400      *
+analytical_depth          A_vs_C (non-tech sophistication)  skipped
+analytical_depth          D_vs_E (tech sophistication)    skipped
+analytical_depth          B_vs_ACDE (profile existence)   skipped
+analytical_depth          AD_vs_CE (high vs low)          skipped
+challenge_level           A_vs_C (non-tech sophistication)  skipped
+challenge_level           D_vs_E (tech sophistication)    skipped
+challenge_level           B_vs_ACDE (profile existence)   skipped
+challenge_level           AD_vs_CE (high vs low)          skipped
+register_level            A_vs_C (non-tech sophistication)  skipped
+register_level            D_vs_E (tech sophistication)    skipped
+register_level            B_vs_ACDE (profile existence)   skipped
+register_level            AD_vs_CE (high vs low)          skipped
+specificity_score         A_vs_C (non-tech sophistication)  skipped
+specificity_score         D_vs_E (tech sophistication)    skipped
+specificity_score         B_vs_ACDE (profile existence)   skipped
+specificity_score         AD_vs_CE (high vs low)          skipped
+analytical_sophistication A_vs_C (non-tech sophistication)  skipped
+analytical_sophistication D_vs_E (tech sophistication)    skipped
+analytical_sophistication B_vs_ACDE (profile existence)   skipped
+analytical_sophistication AD_vs_CE (high vs low)          skipped
+specificity_index         A_vs_C (non-tech sophistication)  skipped
+specificity_index         D_vs_E (tech sophistication)    skipped
+specificity_index         B_vs_ACDE (profile existence)   skipped
+specificity_index         AD_vs_CE (high vs low)          skipped
+intellectual_engagement   A_vs_C (non-tech sophistication)  skipped
+intellectual_engagement   D_vs_E (tech sophistication)    skipped
+intellectual_engagement   B_vs_ACDE (profile existence)   skipped
+intellectual_engagement   AD_vs_CE (high vs low)          skipped
+norm_unique_entity_count  A_vs_C (non-tech sophistication)     71.5     0.1045   -0.430    0.754       
+norm_unique_entity_count  D_vs_E (tech sophistication)       75.5     0.0566   -0.510    0.817       
+norm_unique_entity_count  B_vs_ACDE (profile existence)     294.5     0.0184   -0.472    0.661      *
+norm_unique_entity_count  AD_vs_CE (high vs low)            291.5     0.0125   -0.458    0.787      *
+norm_named_reference_count A_vs_C (non-tech sophistication)     62.0     0.3803   -0.240    0.516       
+norm_named_reference_count D_vs_E (tech sophistication)       58.5     0.5403   -0.170    0.463       
+norm_named_reference_count B_vs_ACDE (profile existence)     161.5     0.3515    0.193   -0.419       
+norm_named_reference_count AD_vs_CE (high vs low)            242.0     0.2568   -0.210    0.500       
+norm_cross_domain_count   A_vs_C (non-tech sophistication)     81.5     0.0151   -0.630    1.315      *
+norm_cross_domain_count   D_vs_E (tech sophistication)       84.0     0.0089   -0.680    1.457      *
+norm_cross_domain_count   B_vs_ACDE (profile existence)     196.5     0.9400    0.018   -0.104       
+norm_cross_domain_count   AD_vs_CE (high vs low)            332.0     0.0002   -0.660    1.400      *
+norm_question_count       A_vs_C (non-tech sophistication)     45.0     0.5828    0.100   -0.268       
+norm_question_count       D_vs_E (tech sophistication)       62.5     0.2783   -0.250   -0.085       
+norm_question_count       B_vs_ACDE (profile existence)     189.0     0.7314    0.055   -0.188       
+norm_question_count       AD_vs_CE (high vs low)            217.0     0.5534   -0.085   -0.115       
+
+========================================================================
+DETAILED RESULTS
+========================================================================
+
+ONE-WAY ANOVA (by Profile)
+------------------------------------------------------------------------
+Metric                                F          p   Sig?    Mean_A   Mean_B   Mean_C
+------------------------------------------------------------------------
+response_length                  15.658     0.0000    ***  4486.700 2604.200 1847.100
+estimated_tokens                 15.654     0.0000    ***  1121.300  650.700  461.500
+paragraph_count                   4.069     0.0285      *    18.600   13.700    9.700
+question_count                    0.220     0.8043            0.100    0.200    0.200
+hedge_density                     3.341     0.0505            0.090    0.000    0.047
+unique_entity_count               3.504     0.0444      *    25.900   24.500   13.500
+named_reference_count             1.709     0.2000            5.000    3.000    3.600
+cross_domain_count                4.208     0.0257      *     1.900    1.300    0.700
+norm_unique_entity_count          2.405     0.1093            4.175    4.425    3.125
+norm_named_reference_count        1.709     0.2000            2.500    1.500    1.800
+norm_cross_domain_count           4.208     0.0257      *     1.900    1.300    0.700
+norm_question_count               0.220     0.8043            0.100    0.200    0.200
+
+TWO-WAY ANOVA (Profile x Model)
+------------------------------------------------------------------------------------------
+Metric                      Prof_F    Prof_p  Model_F   Model_p  Inter_F   Inter_p
+------------------------------------------------------------------------------------------
+response_length             16.167    0.0000    9.592    0.0036    3.091    0.0262
+estimated_tokens            16.171    0.0000    9.604    0.0035    3.093    0.0261
+paragraph_count              3.045    0.0278    4.092    0.0498    0.527    0.7166
+question_count               0.788    0.5402    4.225    0.0464    1.037    0.3999
+hedge_density                2.549    0.0540    1.757    0.1925    1.519    0.2149
+unique_entity_count          3.631    0.0129    5.282    0.0269    1.615    0.1892
+named_reference_count        1.203    0.3246    0.596    0.4446    1.672    0.1755
+cross_domain_count           5.000    0.0023    0.286    0.5959    0.554    0.6975
+norm_unique_entity_count     3.075    0.0268    1.699    0.1998    1.096    0.3715
+norm_named_reference_count    1.203    0.3246    0.596    0.4446    1.672    0.1755
+norm_cross_domain_count      5.000    0.0023    0.286    0.5959    0.554    0.6975
+norm_question_count          0.797    0.5345    4.881    0.0329    1.068    0.3851
+
+EFFECT SIZES (Cohen's d)
+--------------------------------------------------------------------------------
+Metric                        A_vs_B     A_vs_C     B_vs_C  Largest Pair    Interp      
+--------------------------------------------------------------------------------
+response_length                1.427      2.157      1.380  A_vs_C          large       
+estimated_tokens               1.427      2.157      1.379  A_vs_C          large       
+paragraph_count                0.585      1.205      0.859  A_vs_C          large       
+question_count                -0.268     -0.268      0.000  A_vs_B          small       
+hedge_density                  1.414      0.454     -0.658  A_vs_B          large       
+unique_entity_count            0.107      1.027      1.242  B_vs_C          large       
+named_reference_count          0.775      0.516     -0.284  A_vs_B          medium      
+cross_domain_count             0.617      1.315      0.675  A_vs_C          large       
+analytical_depth               0.000      0.000      0.000  A_vs_B          negligible  
+challenge_level                0.000      0.000      0.000  A_vs_B          negligible  
+register_level                 0.000      0.000      0.000  A_vs_B          negligible  
+specificity_score              0.000      0.000      0.000  A_vs_B          negligible  
+analytical_sophistication      0.000      0.000      0.000  A_vs_B          negligible  
+specificity_index              0.000      0.000      0.000  A_vs_B          negligible  
+intellectual_engagement        0.000      0.000      0.000  A_vs_B          negligible  
+norm_unique_entity_count      -0.178      0.754      0.912  B_vs_C          large       
+norm_named_reference_count      0.775      0.516     -0.284  A_vs_B          medium      
+norm_cross_domain_count        0.617      1.315      0.675  A_vs_C          large       
+norm_question_count           -0.268     -0.268      0.000  A_vs_B          small       
+
+MANN-WHITNEY U (Bonferroni-corrected)
+--------------------------------------------------------------------------------
+Metric                      A_vs_B p   A_vs_C p   B_vs_C p  Any Sig?
+--------------------------------------------------------------------------------
+response_length               0.0273     0.0007     0.0518       YES
+estimated_tokens              0.0273     0.0007     0.0572       YES
+paragraph_count               1.0000     0.3069     0.3076        no
+question_count                1.0000     1.0000     1.0000        no
+hedge_density                 0.0179     0.6481     0.5042       YES
+unique_entity_count           1.0000     0.2083     0.0459       YES
+named_reference_count         0.5825     1.0000     1.0000        no
+cross_domain_count            0.5417     0.0452     0.4901       YES
+analytical_depth                 N/A        N/A        N/A        no
+challenge_level                  N/A        N/A        N/A        no
+register_level                   N/A        N/A        N/A        no
+specificity_score                N/A        N/A        N/A        no
+analytical_sophistication        N/A        N/A        N/A        no
+specificity_index                N/A        N/A        N/A        no
+intellectual_engagement          N/A        N/A        N/A        no
+norm_unique_entity_count      0.9231     0.3136     0.0572        no
+norm_named_reference_count     0.5825     1.0000     1.0000        no
+norm_cross_domain_count       0.5417     0.0452     0.4901       YES
+norm_question_count           1.0000     1.0000     1.0000        no
+
+KRUSKAL-WALLIS H-TEST
+--------------------------------------------------
+Metric                                H          p
+--------------------------------------------------
+response_length                  17.582     0.0002
+estimated_tokens                 17.486     0.0002
+paragraph_count                   4.142     0.1261
+question_count                    0.464     0.7929
+hedge_density                     7.772     0.0205
+unique_entity_count               6.393     0.0409
+named_reference_count             1.997     0.3684
+cross_domain_count                6.762     0.0340
+norm_unique_entity_count          6.510     0.0386
+norm_named_reference_count        1.997     0.3684
+norm_cross_domain_count           6.762     0.0340
+norm_question_count               0.464     0.7929
+
+========================================================================
+PER-TASK BREAKDOWN OF SIGNIFICANT EFFECTS
+========================================================================
+
+  Task: task1
+    (no significant profile effects)
+
+  Task: task2
+    - paragraph_count (p=0.0142)
+    - norm_unique_entity_count (p=0.0442)
+
+  Task: task3
+    - cross_domain_count (p=0.0000)
+    - norm_cross_domain_count (p=0.0000)
+
+  Task: task4
+    - response_length (p=0.0087)
+    - estimated_tokens (p=0.0088)
+    - named_reference_count (p=0.0394)
+    - norm_named_reference_count (p=0.0394)
+
+  Task: task5
+    - norm_unique_entity_count (p=0.0442)
+
+========================================================================
+END OF REPORT
+========================================================================

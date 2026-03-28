@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -26,19 +27,105 @@ from .utils import save_json, setup_logging, ensure_dirs
 # Lazy import of PhaseTransitionDetector to avoid pulling in Flask
 _PhaseTransitionDetector = None
 
+
+def _build_fallback_regimes(values: np.ndarray, change_points: list[int]) -> list[dict[str, Any]]:
+    regimes: list[dict[str, Any]] = []
+    start = 0
+    for end in [*change_points, len(values)]:
+        segment = values[start:end]
+        if len(segment) == 0:
+            continue
+        regimes.append(
+            {
+                "start": int(start),
+                "end": int(end),
+                "n": int(len(segment)),
+                "mean": float(np.nanmean(segment)),
+                "std": float(np.nanstd(segment)),
+            }
+        )
+        start = end
+    return regimes
+
+
+class _FallbackPhaseTransitionDetector:
+    """Small in-repo fallback when no external detector path is configured."""
+
+    def __init__(self, min_segment_length: int = 3, penalty_multiplier: float = 1.0):
+        self.min_segment_length = min_segment_length
+        self.penalty_multiplier = penalty_multiplier
+
+    def detect_transitions(self, values: list[float]) -> dict[str, Any]:
+        arr = np.asarray(values, dtype=float)
+        n_vals = len(arr)
+
+        if n_vals == 0:
+            return {"change_points": [], "n_regimes": 0, "regimes": [], "phase": "empty"}
+
+        if n_vals < self.min_segment_length * 2:
+            return {
+                "change_points": [],
+                "n_regimes": 1,
+                "regimes": _build_fallback_regimes(arr, []),
+                "phase": "insufficient_data",
+            }
+
+        spread = float(np.nanstd(arr))
+        if spread == 0.0:
+            return {
+                "change_points": [],
+                "n_regimes": 1,
+                "regimes": _build_fallback_regimes(arr, []),
+                "phase": "stable",
+            }
+
+        best_cp = None
+        best_delta = 0.0
+        for cp in range(self.min_segment_length, n_vals - self.min_segment_length + 1):
+            left = arr[:cp]
+            right = arr[cp:]
+            delta = abs(float(np.nanmean(left)) - float(np.nanmean(right)))
+            if delta > best_delta:
+                best_delta = delta
+                best_cp = cp
+
+        threshold = spread * self.penalty_multiplier
+        change_points = [best_cp] if best_cp is not None and best_delta >= threshold else []
+        return {
+            "change_points": change_points,
+            "n_regimes": len(change_points) + 1,
+            "regimes": _build_fallback_regimes(arr, change_points),
+            "phase": "shift_detected" if change_points else "stable",
+        }
+
+
+def _load_external_pelt_detector():
+    import importlib.util
+
+    candidates: list[Path] = []
+    env_path = os.environ.get("STATISTICAL_DETECTORS_PATH")
+    if env_path:
+        candidates.append(Path(env_path).expanduser())
+    candidates.append(Path(__file__).with_name("statistical_detectors.py"))
+
+    for candidate in candidates:
+        if not candidate.exists():
+            continue
+        spec = importlib.util.spec_from_file_location("statistical_detectors", candidate)
+        if spec is None or spec.loader is None:
+            continue
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.PhaseTransitionDetector
+
+    return None
+
+
 def _get_pelt_detector():
     global _PhaseTransitionDetector
     if _PhaseTransitionDetector is None:
-        import importlib.util
-        spec = importlib.util.spec_from_file_location(
-            "statistical_detectors",
-            "/Users/admin/miroshark/backend/app/services/statistical_detectors.py",
-        )
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        _PhaseTransitionDetector = mod.PhaseTransitionDetector
+        _PhaseTransitionDetector = _load_external_pelt_detector() or _FallbackPhaseTransitionDetector
     return _PhaseTransitionDetector
-
 # ---------------------------------------------------------------------------
 # Metadata columns excluded from metric analysis
 # ---------------------------------------------------------------------------

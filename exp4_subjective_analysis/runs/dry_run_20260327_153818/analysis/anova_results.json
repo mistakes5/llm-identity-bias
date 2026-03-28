@@ -1,0 +1,306 @@
+{
+  "one_way": [
+    {
+      "metric": "response_length",
+      "F_statistic": 15.657896029820376,
+      "p_value": 3.0570138316572734e-05,
+      "significant": "True",
+      "group_means": {
+        "A": 4486.7,
+        "B": 2604.2,
+        "C": 1847.1
+      },
+      "group_stds": {
+        "A": 1713.8405896309803,
+        "B": 737.997109298765,
+        "C": 240.20197519772583
+      }
+    },
+    {
+      "metric": "estimated_tokens",
+      "F_statistic": 15.653697368693985,
+      "p_value": 3.0629627678293206e-05,
+      "significant": "True",
+      "group_means": {
+        "A": 1121.3,
+        "B": 650.7,
+        "C": 461.5
+      },
+      "group_stds": {
+        "A": 428.44656090994073,
+        "B": 184.53066592484475,
+        "C": 60.05599239228523
+      }
+    },
+    {
+      "metric": "paragraph_count",
+      "F_statistic": 4.068633399059609,
+      "p_value": 0.028545860333241753,
+      "significant": "True",
+      "group_means": {
+        "A": 18.6,
+        "B": 13.7,
+        "C": 9.7
+      },
+      "group_stds": {
+        "A": 10.156552345927016,
+        "B": 6.111010100175292,
+        "C": 2.4517567397911058
+      }
+    },
+    {
+      "metric": "question_count",
+      "F_statistic": 0.21951219512195128,
+      "p_value": 0.804329187787323,
+      "significant": "False",
+      "group_means": {
+        "A": 0.1,
+        "B": 0.2,
+        "C": 0.2
+      },
+      "group_stds": {
+        "A": 0.31622776601683794,
+        "B": 0.42163702135578396,
+        "C": 0.42163702135578396
+      }
+    },
+    {
+      "metric": "hedge_density",
+      "F_statistic": 3.3408563923048447,
+      "p_value": 0.05053468302755466,
+      "significant": "False",
+      "group_means": {
+        "A": 0.0903,
+        "B": 0.0,
+        "C": 0.046900000000000004
+      },
+      "group_stds": {
+        "A": 0.09030940642529377,
+        "B": 0.0,
+        "C": 0.10079070724360788
+      }
+    },
+    {
+      "metric": "unique_entity_count",
+      "F_statistic": 3.503868988998002,
+      "p_value": 0.044372229180955916,
+      "significant": "True",
+      "group_means": {
+        "A": 25.9,
+        "B": 24.5,
+        "C": 13.5
+      },
+      "group_stds": {
+        "A": 15.430489298787645,
+        "B": 10.168032695113096,
+        "C": 7.306770072260991
+      }
+    },
+    {
+      "metric": "named_reference_count",
+      "F_statistic": 1.709134615384615,
+      "p_value": 0.20002997144097345,
+      "significant": "False",
+      "group_means": {
+        "A": 5.0,
+        "B": 3.0,
+        "C": 3.6
+      },
+      "group_stds": {
+        "A": 3.0912061651652345,
+        "B": 1.9436506316151,
+        "C": 2.2705848487901865
+      }
+    },
+    {
+      "metric": "cross_domain_count",
+      "F_statistic": 4.207792207792208,
+      "p_value": 0.025661748466851934,
+      "significant": "True",
+      "group_means": {
+        "A": 1.9,
+        "B": 1.3,
+        "C": 0.7
+      },
+      "group_stds": {
+        "A": 0.9944289260117533,
+        "B": 0.9486832980505139,
+        "C": 0.8232726023485646
+      }
+    },
+    {
+      "metric": "norm_unique_entity_count",
+      "F_statistic": 2.4050544050544045,
+      "p_value": 0.10934054346809004,
+      "significant": "False",
+      "group_means": {
+        "A": 4.175,
+        "B": 4.425,
+        "C": 3.125
+      },
+      "group_stds": {
+        "A": 1.3695599455461758,
+        "B": 1.4339630399699987,
+        "C": 1.4154406459552524
+      }
+    },
+    {
+      "metric": "norm_named_reference_count",
+      "F_statistic": 1.709134615384615,
+      "p_value": 0.20002997144097345,
+      "significant": "False",
+      "group_means": {
+        "A": 2.5,
+        "B": 1.5,
+        "C": 1.8
+      },
+      "group_stds": {
+        "A": 1.5456030825826172,
+        "B": 0.97182531580755,
+        "C": 1.1352924243950933
+      }
+    },
+    {
+      "metric": "norm_cross_domain_count",
+      "F_statistic": 4.207792207792208,
+      "p_value": 0.025661748466851934,
+      "significant": "True",
+      "group_means": {
+        "A": 1.9,
+        "B": 1.3,
+        "C": 0.7
+      },
+      "group_stds": {
+        "A": 0.9944289260117533,
+        "B": 0.9486832980505139,
+        "C": 0.8232726023485646
+      }
+    },
+    {
+      "metric": "norm_question_count",
+      "F_statistic": 0.21951219512195128,
+      "p_value": 0.804329187787323,
+      "significant": "False",
+      "group_means": {
+        "A": 0.1,
+        "B": 0.2,
+        "C": 0.2
+      },
+      "group_stds": {
+        "A": 0.31622776601683794,
+        "B": 0.42163702135578396,
+        "C": 0.42163702135578396
+      }
+    }
+  ],
+  "two_way": [
+    {
+      "metric": "response_length",
+      "profile_F": 16.167173797269506,
+      "profile_p": 5.896132251159291e-08,
+      "model_F": 9.59198082804136,
+      "model_p": 0.0035649273598215474,
+      "interaction_F": 3.09117533271494,
+      "interaction_p": 0.026182765190335203
+    },
+    {
+      "metric": "estimated_tokens",
+      "profile_F": 16.170686432937277,
+      "profile_p": 5.880776447866695e-08,
+      "model_F": 9.604368068913,
+      "model_p": 0.0035456405654033098,
+      "interaction_F": 3.0930888774956897,
+      "interaction_p": 0.026116525583071405
+    },
+    {
+      "metric": "paragraph_count",
+      "profile_F": 3.0447923461622084,
+      "profile_p": 0.027842140940203514,
+      "model_F": 4.09175907806044,
+      "model_p": 0.04981294755842605,
+      "interaction_F": 0.5268536638399655,
+      "interaction_p": 0.7165871878611558
+    },
+    {
+      "metric": "question_count",
+      "profile_F": 0.7875000000000014,
+      "profile_p": 0.5401607504579966,
+      "model_F": 4.225000000000002,
+      "model_p": 0.046401374422481934,
+      "interaction_F": 1.0374999999999996,
+      "interaction_p": 0.3999183435245234
+    },
+    {
+      "metric": "hedge_density",
+      "profile_F": 2.5493134165646154,
+      "profile_p": 0.05395077999403817,
+      "model_F": 1.756951703951485,
+      "model_p": 0.19252625033537338,
+      "interaction_F": 1.5194569307965722,
+      "interaction_p": 0.2148973176416543
+    },
+    {
+      "metric": "unique_entity_count",
+      "profile_F": 3.6308435145219082,
+      "profile_p": 0.012905362843713594,
+      "model_F": 5.282025020118514,
+      "model_p": 0.026852875341064418,
+      "interaction_F": 1.6153339673714249,
+      "interaction_p": 0.1892415569699239
+    },
+    {
+      "metric": "named_reference_count",
+      "profile_F": 1.2028218694885364,
+      "profile_p": 0.32463634729754504,
+      "model_F": 0.5961199294532615,
+      "model_p": 0.4446002221079983,
+      "interaction_F": 1.6719576719576759,
+      "interaction_p": 0.17549540167816544
+    },
+    {
+      "metric": "cross_domain_count",
+      "profile_F": 4.999999999999994,
+      "profile_p": 0.0023055863919665197,
+      "model_F": 0.28571428571428537,
+      "model_p": 0.5959389090850991,
+      "interaction_F": 0.5535714285714292,
+      "interaction_p": 0.6975375389922671
+    },
+    {
+      "metric": "norm_unique_entity_count",
+      "profile_F": 3.0745292887029243,
+      "profile_p": 0.026766302661076675,
+      "model_F": 1.6992677824267806,
+      "model_p": 0.1998368640526243,
+      "interaction_F": 1.0964958158995801,
+      "interaction_p": 0.37149970027849766
+    },
+    {
+      "metric": "norm_named_reference_count",
+      "profile_F": 1.2028218694885364,
+      "profile_p": 0.32463634729754504,
+      "model_F": 0.5961199294532615,
+      "model_p": 0.4446002221079983,
+      "interaction_F": 1.6719576719576759,
+      "interaction_p": 0.17549540167816544
+    },
+    {
+      "metric": "norm_cross_domain_count",
+      "profile_F": 4.999999999999994,
+      "profile_p": 0.0023055863919665197,
+      "model_F": 0.28571428571428537,
+      "model_p": 0.5959389090850991,
+      "interaction_F": 0.5535714285714292,
+      "interaction_p": 0.6975375389922671
+    },
+    {
+      "metric": "norm_question_count",
+      "profile_F": 0.7966101694915267,
+      "profile_p": 0.5344952464239796,
+      "model_F": 4.881355932203389,
+      "model_p": 0.03293671609312158,
+      "interaction_F": 1.067796610169491,
+      "interaction_p": 0.3851043250022004
+    }
+  ]
+}

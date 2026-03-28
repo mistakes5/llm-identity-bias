@@ -1,0 +1,382 @@
+[
+  {
+    "metric": "response_length",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 1.4267,
+        "abs_d": 1.4267,
+        "interpretation": "large"
+      },
+      "A_vs_C": {
+        "cohens_d": 2.157,
+        "abs_d": 2.157,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 1.3796,
+        "abs_d": 1.3796,
+        "interpretation": "large"
+      }
+    }
+  },
+  {
+    "metric": "estimated_tokens",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 1.4267,
+        "abs_d": 1.4267,
+        "interpretation": "large"
+      },
+      "A_vs_C": {
+        "cohens_d": 2.1568,
+        "abs_d": 2.1568,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 1.3788,
+        "abs_d": 1.3788,
+        "interpretation": "large"
+      }
+    }
+  },
+  {
+    "metric": "paragraph_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.5846,
+        "abs_d": 0.5846,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 1.2046,
+        "abs_d": 1.2046,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.8591,
+        "abs_d": 0.8591,
+        "interpretation": "large"
+      }
+    }
+  },
+  {
+    "metric": "question_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.2683,
+        "abs_d": 0.2683,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.2683,
+        "abs_d": 0.2683,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "hedge_density",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 1.4141,
+        "abs_d": 1.4141,
+        "interpretation": "large"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.4535,
+        "abs_d": 0.4535,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.6581,
+        "abs_d": 0.6581,
+        "interpretation": "medium"
+      }
+    }
+  },
+  {
+    "metric": "unique_entity_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.1071,
+        "abs_d": 0.1071,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 1.0271,
+        "abs_d": 1.0271,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 1.2424,
+        "abs_d": 1.2424,
+        "interpretation": "large"
+      }
+    }
+  },
+  {
+    "metric": "named_reference_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.7746,
+        "abs_d": 0.7746,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.5162,
+        "abs_d": 0.5162,
+        "interpretation": "medium"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.2839,
+        "abs_d": 0.2839,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "cross_domain_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.6174,
+        "abs_d": 0.6174,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 1.3145,
+        "abs_d": 1.3145,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.6755,
+        "abs_d": 0.6755,
+        "interpretation": "medium"
+      }
+    }
+  },
+  {
+    "metric": "analytical_depth",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "challenge_level",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "register_level",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "specificity_score",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "analytical_sophistication",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "specificity_index",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "intellectual_engagement",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  },
+  {
+    "metric": "norm_unique_entity_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.1783,
+        "abs_d": 0.1783,
+        "interpretation": "negligible"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.7539,
+        "abs_d": 0.7539,
+        "interpretation": "medium"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.9125,
+        "abs_d": 0.9125,
+        "interpretation": "large"
+      }
+    }
+  },
+  {
+    "metric": "norm_named_reference_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.7746,
+        "abs_d": 0.7746,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 0.5162,
+        "abs_d": 0.5162,
+        "interpretation": "medium"
+      },
+      "B_vs_C": {
+        "cohens_d": -0.2839,
+        "abs_d": 0.2839,
+        "interpretation": "small"
+      }
+    }
+  },
+  {
+    "metric": "norm_cross_domain_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": 0.6174,
+        "abs_d": 0.6174,
+        "interpretation": "medium"
+      },
+      "A_vs_C": {
+        "cohens_d": 1.3145,
+        "abs_d": 1.3145,
+        "interpretation": "large"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.6755,
+        "abs_d": 0.6755,
+        "interpretation": "medium"
+      }
+    }
+  },
+  {
+    "metric": "norm_question_count",
+    "pairs": {
+      "A_vs_B": {
+        "cohens_d": -0.2683,
+        "abs_d": 0.2683,
+        "interpretation": "small"
+      },
+      "A_vs_C": {
+        "cohens_d": -0.2683,
+        "abs_d": 0.2683,
+        "interpretation": "small"
+      },
+      "B_vs_C": {
+        "cohens_d": 0.0,
+        "abs_d": 0.0,
+        "interpretation": "negligible"
+      }
+    }
+  }
+]

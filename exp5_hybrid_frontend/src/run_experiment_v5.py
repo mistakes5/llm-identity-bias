@@ -1,0 +1,209 @@
+"""Experiment 5 runner: profile bias in hybrid code + design tasks.
+
+Profiles are injected as system prompt content. Execution order is
+randomized within each model. Resume support skips completed cells.
+"""
+
+from __future__ import annotations
+
+import argparse
+import itertools
+import logging
+import random
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+from .utils import AnthropicClient, save_json, load_json, setup_logging, ensure_dirs
+
+MODELS: list[str] = ["claude-sonnet-4", "claude-haiku-4"]
+MODEL_SHORT: dict[str, str] = {"claude-sonnet-4": "sonnet", "claude-haiku-4": "haiku"}
+
+PROFILES: list[str] = ["A", "B", "C", "F", "G"]
+PROFILE_TYPES: dict[str, str] = {
+    "A": "high_sophistication_nontechnical",
+    "B": "control",
+    "C": "low_sophistication_nontechnical",
+    "F": "frontend_engineer_design_sensibility",
+    "G": "beginner_first_website",
+}
+
+TEMPERATURE: float = 0.3
+MAX_TOKENS: int = 8192  # React components with styling can be lengthy
+
+
+def load_profile(profiles_dir: str | Path, profile: str) -> str:
+    """Load profile text. Returns empty string for Profile B (control)."""
+    if profile == "B":
+        return ""
+    path = Path(profiles_dir) / f"profile_{profile.lower()}.txt"
+    return path.read_text().strip()
+
+
+def load_tasks(prompts_dir: str | Path) -> list[dict[str, Any]]:
+    """Load all task JSON files, sorted by task_id."""
+    tasks = []
+    for f in sorted(Path(prompts_dir).glob("task*.json")):
+        tasks.append(load_json(str(f)))
+    return tasks
+
+
+def run_single(
+    client: AnthropicClient,
+    model: str,
+    profile: str,
+    profile_text: str | None,
+    task: dict[str, Any],
+    run_id: int,
+    temperature: float = TEMPERATURE,
+) -> dict[str, Any]:
+    """Run a single completion with profile as system prompt."""
+    start = time.time()
+    response = client.send_for_profile(
+        model=model,
+        profile_text=profile_text,
+        coding_prompt=task["prompt"],
+        max_tokens=MAX_TOKENS,
+    )
+    elapsed_ms = (time.time() - start) * 1000
+
+    return {
+        "model": model,
+        "model_short": MODEL_SHORT[model],
+        "profile": profile,
+        "profile_type": PROFILE_TYPES[profile],
+        "task_id": task["task_id"],
+        "task_name": task["name"],
+        "run_id": run_id,
+        "temperature": temperature,
+        "system_prompt": profile_text or "",
+        "user_prompt": task["prompt"],
+        "response_text": response["text"],
+        "stop_reason": response["stop_reason"],
+        "input_tokens": response["input_tokens"],
+        "output_tokens": response["output_tokens"],
+        "system_chars": response.get("system_chars", 0),
+        "prompt_chars": response.get("prompt_chars", 0),
+        "elapsed_ms": round(elapsed_ms, 1),
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def run_experiment(
+    profiles_dir: str,
+    prompts_dir: str,
+    output_dir: str,
+    models: list[str] | None = None,
+    n_runs: int = 5,
+    temperature: float = TEMPERATURE,
+    resume: bool = True,
+    seed: int = 42,
+    logger: logging.Logger | None = None,
+    max_calls: int | None = None,
+) -> dict[str, Any]:
+    """Run the full experiment with randomized execution order."""
+    if logger is None:
+        logger = logging.getLogger("experiment")
+    if models is None:
+        models = MODELS
+
+    client = AnthropicClient(default_temperature=temperature, default_max_tokens=MAX_TOKENS)
+    tasks = load_tasks(prompts_dir)
+    raw_dir = Path(output_dir) / "raw"
+    ensure_dirs(str(raw_dir))
+
+    profile_texts: dict[str, str | None] = {}
+    for p in PROFILES:
+        profile_texts[p] = load_profile(profiles_dir, p)
+        if profile_texts[p]:
+            logger.info(f"Profile {p} ({PROFILE_TYPES[p]}): {len(profile_texts[p])} chars")
+        else:
+            logger.info(f"Profile {p} ({PROFILE_TYPES[p]}): no system prompt (control)")
+
+    calls_made = 0
+    budget_exhausted = False
+
+    for model in models:
+        if budget_exhausted:
+            break
+        short = MODEL_SHORT[model]
+
+        cells = list(itertools.product(PROFILES, tasks, range(1, n_runs + 1)))
+        rng = random.Random(seed)
+        rng.shuffle(cells)
+
+        total = len(cells)
+        completed = 0
+        skipped = 0
+
+        logger.info(f"Model {short}: {total} calls (randomized, seed={seed})")
+
+        for profile, task, run in cells:
+            filename = f"{short}_{profile}_{task['task_id']}_run{run}.json"
+            out_path = raw_dir / filename
+
+            if resume and out_path.exists():
+                skipped += 1
+                continue
+
+            if max_calls is not None and calls_made >= max_calls:
+                budget_exhausted = True
+                logger.info(f"Batch limit reached ({max_calls} calls). Pausing for next batch.")
+                break
+
+            calls_made += 1
+            completed += 1
+            logger.info(
+                f"[{completed + skipped}/{total}] {short} {profile}({PROFILE_TYPES[profile]}) "
+                f"{task['task_id']} run{run}"
+            )
+
+            try:
+                result = run_single(
+                    client, model, profile, profile_texts[profile],
+                    task, run, temperature,
+                )
+            except Exception as exc:
+                logger.error(f"  FAILED: {exc} -- skipping cell")
+                continue
+
+            save_json(result, str(out_path))
+
+            logger.info(
+                f"  -> sys={result['system_chars']} chars, prompt={result['prompt_chars']} chars, "
+                f"out={result['output_tokens']} est tokens, {result['elapsed_ms']}ms"
+            )
+
+        logger.info(f"Model {short} done: {completed} calls, {skipped} skipped")
+
+    usage = client.get_usage_summary()
+    usage["calls_made"] = calls_made
+    usage["budget_exhausted"] = budget_exhausted
+    logger.info(f"Experiment {'paused' if budget_exhausted else 'complete'}. {usage}")
+    return usage
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Run Experiment 5: hybrid frontend profile bias")
+    parser.add_argument("--profiles-dir", default="profiles")
+    parser.add_argument("--prompts-dir", default="prompts")
+    parser.add_argument("--output-dir", default="results")
+    parser.add_argument("--n-runs", type=int, default=5)
+    parser.add_argument("--temperature", type=float, default=0.3)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--no-resume", action="store_true")
+    parser.add_argument("--max-calls", type=int, default=None)
+    args = parser.parse_args()
+
+    logger = setup_logging(args.output_dir, "run_experiment")
+    run_experiment(
+        args.profiles_dir, args.prompts_dir, args.output_dir,
+        n_runs=args.n_runs, temperature=args.temperature,
+        seed=args.seed, resume=not args.no_resume,
+        max_calls=args.max_calls, logger=logger,
+    )
+
+
+if __name__ == "__main__":
+    main()

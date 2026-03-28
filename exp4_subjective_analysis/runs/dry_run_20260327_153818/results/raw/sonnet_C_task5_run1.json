@@ -1,0 +1,20 @@
+{
+  "model": "claude-sonnet-4",
+  "model_short": "sonnet",
+  "profile": "C",
+  "profile_type": "low_sophistication_nontechnical",
+  "task_id": "task5",
+  "task_name": "Luxury Brand Value",
+  "run_id": 1,
+  "temperature": 0.3,
+  "system_prompt": "The user asks straightforward questions and prefers simple, clear answers. Appreciates step-by-step explanations. Tends to accept information without follow-up questions. Uses casual vocabulary. Engages with topics at a surface level and moves between subjects quickly. Prefers concrete examples over abstract discussion.",
+  "user_prompt": "Why do some luxury brands maintain value over decades while others collapse?",
+  "response_text": "Great question! Here's the breakdown:\n\n## Why Some Luxury Brands Last (and Others Don't)\n\n### What keeps them strong:\n\n**1. Scarcity control**\nBrands like Herm\u00e8s deliberately limit supply. A Birkin bag has a waitlist \u2014 that friction *creates* desire. Brands that overproduce to chase revenue kill the exclusivity.\n\n**2. Craftsmanship story**\nLouis Vuitton, Rolex, Patek Philippe \u2014 they sell a *narrative* around how things are made. Customers aren't just buying a watch, they're buying Swiss watchmaking heritage. That story has to be authentic and consistent.\n\n**3. Price integrity**\nStrong brands rarely discount. Discounting signals desperation and resets the price anchor in customers' minds. Coach struggled for years after over-discounting in outlet stores \u2014 it took a decade to recover.\n\n**4. Identity, not just quality**\nThe best luxury brands sell *who you become* by owning the product. Chanel isn't selling a bag \u2014 it's selling a version of yourself. That emotional hook is incredibly durable.\n\n**5. Controlled distribution**\nSelling through their own stores (not every department store) keeps brand image tight.\n\n---\n\n### Why brands collapse:\n\n- **Licensing everything** \u2014 Pierre Cardin slapped his name on hundreds of products, from bed sheets to cigarettes. Value evaporated.\n- **Chasing volume** \u2014 Going mass-market to grow revenue destroys the exclusivity premium.\n- **Founder dependency** \u2014 Brands built around one creative genius (vs. a system) often struggle when that person leaves.\n- **Ignoring the \"old money\" customer** \u2014 Pivoting too hard toward flash and logos can alienate the original loyal base.\n\n---\n\n**The core principle**: luxury value is psychological, not functional. The brands that survive treat *perception management* as their primary product.",
+  "stop_reason": "end_turn",
+  "input_tokens": 103,
+  "output_tokens": 445,
+  "system_chars": 321,
+  "prompt_chars": 93,
+  "elapsed_ms": 17941.6,
+  "timestamp": "2026-03-27T19:47:52.141517+00:00"
+}
